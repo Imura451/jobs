@@ -1,0 +1,68 @@
+{
+  "id": "sample-02",
+  "sample": true,
+  "published": true,
+  "status": "募集終了",
+  "postedAt": "2026-08-01",
+  "updatedAt": "2026-09-20",
+  "deadline": "2026-09-30",
+
+  "company": {
+    "name": { "ja": "（サンプル）みどり建設{けんせつ}", "en": "(Sample) Midori Construction" },
+    "business": { "ja": "家{いえ}や 店{みせ}の 内装{ないそう}を つくる 会社{かいしゃ}です。", "en": "A company that builds the interiors of houses and shops." },
+    "employees": 20,
+    "foreignStaff": { "count": 3, "countries": { "ja": "ネパール 2人{にん}、ウズベキスタン 1人{にん}", "en": "Nepal 2, Uzbekistan 1" } },
+    "website": "",
+    "photos": []
+  },
+
+  "location": {
+    "prefecture": "三重県",
+    "city": { "ja": "津市{つし}", "en": "Tsu City" },
+    "station": { "ja": "近鉄{きんてつ} 津駅{つえき}から 車{くるま}で 15分{ふん}", "en": "15 minutes by car from Kintetsu Tsu Station" },
+    "mapQuery": "三重県津市"
+  },
+
+  "job": {
+    "field": "建設",
+    "title": { "ja": "内装{ないそう}の 仕事{しごと}（石{せっ}こうボード）", "en": "Interior finishing (plasterboard)" },
+    "description": { "ja": "家{いえ}や 店{みせ}の 壁{かべ}と 天井{てんじょう}に 石{せっ}こうボードを はります。", "en": "You install plasterboard on walls and ceilings of houses and shops." }
+  },
+
+  "visas": ["特定技能1号"],
+  "accept": { "inJapan": true, "overseas": false },
+  "fromStatus": [
+    { "status": "特定技能1号", "field": "建設", "noExam": true },
+    { "status": "技能実習2号修了", "field": "建設", "noExam": true }
+  ],
+  "noExamNote": { "ja": "建設{けんせつ}の 特定技能{とくていぎのう}を 持{も}っている 人{ひと}は、試験{しけん}なしで 移{うつ}れます。", "en": "If you have the Specified Skilled Worker visa in construction, you can move without an exam." },
+  "leadTime": { "inJapan": { "ja": "1か月{げつ}〜2か月{げつ}", "en": "1 to 2 months" }, "overseas": { "ja": "", "en": "" } },
+  "interview": { "methods": ["対面"], "weekendNight": false, "travelCost": { "ja": "自分{じぶん}で 払{はら}います", "en": "You pay" } },
+
+  "video": "",
+  "imuraComment": { "ja": "（サンプルの 文章{ぶんしょう}です）", "en": "(Sample text)" },
+
+  "terms": {
+    "openings": 1,
+    "employment": { "ja": "正社員{せいしゃいん}", "en": "Full-time employee" },
+    "contract": { "ja": "期間{きかん}の 定{さだ}めなし", "en": "No fixed term" },
+    "salaryType": "時給",
+    "salaryMin": 1300,
+    "salaryMax": 1500,
+    "takeHome": { "ja": "", "en": "" },
+    "bonus": { "ja": "なし", "en": "None" },
+    "hours": { "ja": "8:00〜17:00", "en": "8:00-17:00" },
+    "holidays": { "ja": "日曜日{にちようび}と 会社{かいしゃ}の カレンダー", "en": "Sundays and company calendar" },
+    "annualHolidays": 100,
+    "overtime": { "ja": "月{つき} 20時間{じかん}くらい", "en": "About 20 hours a month" },
+    "housing": { "available": false, "detail": { "ja": "", "en": "" }, "rent": { "ja": "", "en": "" }, "initialCost": { "ja": "", "en": "" }, "commute": { "ja": "車{くるま}（会社{かいしゃ}の 車{くるま}で 現場{げんば}に 行{い}きます）", "en": "By company car to the site" } },
+    "moving": { "ja": "", "en": "" },
+    "japanese": "N3",
+    "japaneseText": { "ja": "N3 くらい", "en": "About N3" },
+    "requirements": { "ja": "建設{けんせつ}の 経験{けいけん}が 1年{ねん}以上{いじょう}", "en": "At least 1 year of construction experience" },
+    "support": { "ja": "", "en": "" },
+    "consultLanguages": { "ja": "日本語{にほんご}", "en": "Japanese" },
+    "visaSupport": { "ja": "支援機関{しえんきかん}が 手伝{てつだ}います", "en": "The support organization helps you" },
+    "changeScope": { "ja": "働{はたら}く 場所{ばしょ}：会社{かいしゃ}が 決{き}めた 現場{げんば}／仕事{しごと}：内装{ないそう}の 仕事{しごと}", "en": "Workplace: sites decided by the company / Duties: interior work" }
+  }
+}

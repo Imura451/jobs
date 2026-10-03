@@ -1,0 +1,37 @@
+{
+  "siteUrl": "https://imura451.github.io/jobs/",
+  "searchEngines": false,
+  "searchEnginesNote": "検索エンジン（Googleしごと検索を含む）に載せるなら true。サンプル企業を消し、職業紹介の扱いを労働局に確認してから true にしてください",
+  "showSamples": true,
+  "showSamplesNote": "サンプル企業を一覧に出すなら true。本番の企業を載せたら false にします",
+  "operator": {
+    "corp": "株式会社Minobordo",
+    "brand": "ガイコクジンコネクト",
+    "brandEn": "Gaikokujin Connect",
+    "ceo": "井村 稔",
+    "ceoEn": "Minoru Imura",
+    "zip": "〒474-0073",
+    "address": "愛知県大府市東新町三丁目68番地",
+    "addressEn": "3-68 Higashishin-machi, Obu, Aichi 474-0073, Japan",
+    "tel": "090-1728-4593",
+    "telIntl": "+81-90-1728-4593",
+    "mail": "gaikokujin18@gmail.com",
+    "site": "https://gaikokujinconnect.jp/"
+  },
+  "license": {
+    "text": "",
+    "note": "職業紹介の許可番号などを、労働局に確認したうえで入れてください（例：有料職業紹介事業 許可番号 23-ユ-XXXXXX）。空のあいだは表示しません"
+  },
+  "messengers": {
+    "line": "https://line.me/ti/p/-yHHVfak1D",
+    "messenger": "",
+    "zalo": "",
+    "whatsapp": "",
+    "note": "URLが空のボタンは表示しません。messenger は https://m.me/ページ名、zalo は https://zalo.me/電話番号、whatsapp は https://wa.me/81で始まる番号 の形です"
+  },
+  "candidatesUrl": "https://imura451.github.io/candidates/",
+  "candidatesContactUrl": "https://imura451.github.io/candidates/#contact",
+  "form": {
+    "endpoint": "https://gaikokujinconnect.d4station-info.workers.dev/api/contact"
+  }
+}

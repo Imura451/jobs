@@ -1,0 +1,99 @@
+{
+  "id": "sample-01",
+  "sample": true,
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-10-01",
+  "updatedAt": "2026-10-03",
+  "deadline": "2026-12-31",
+
+  "company": {
+    "name": { "ja": "（サンプル）さくら介護{かいご}ホーム", "en": "(Sample) Sakura Care Home" },
+    "business": {
+      "ja": "お年寄{としよ}りが 住{す}む 施設{しせつ}です。60人{にん}が 住{す}んでいます。",
+      "en": "A residential care home for elderly people. 60 residents live here."
+    },
+    "employees": 45,
+    "foreignStaff": {
+      "count": 6,
+      "countries": { "ja": "ベトナム 4人{にん}、インドネシア 2人{にん}", "en": "Vietnam 4, Indonesia 2" }
+    },
+    "website": "",
+    "photos": []
+  },
+
+  "location": {
+    "prefecture": "愛知県",
+    "city": { "ja": "大府市{おおぶし}", "en": "Obu City" },
+    "station": { "ja": "JR 大府駅{おおぶえき}から バスで 10分{ぷん}", "en": "10 minutes by bus from JR Obu Station" },
+    "mapQuery": "愛知県大府市"
+  },
+
+  "job": {
+    "field": "介護",
+    "title": { "ja": "介護{かいご}スタッフ", "en": "Care worker" },
+    "description": {
+      "ja": "お年寄{としよ}りの 食事{しょくじ}、お風呂{ふろ}、トイレを 手伝{てつだ}います。\nはじめは 先輩{せんぱい}と いっしょに 働{はたら}きます。",
+      "en": "You help elderly residents with meals, bathing and using the toilet.\nAt first you work together with a senior staff member."
+    }
+  },
+
+  "visas": ["特定技能1号", "育成就労・技能実習"],
+  "accept": { "inJapan": true, "overseas": true },
+
+  "fromStatus": [
+    { "status": "特定技能1号", "field": "介護", "noExam": true },
+    { "status": "技能実習2号修了", "field": "介護", "noExam": true },
+    { "status": "留学", "field": "", "noExam": false,
+      "note": { "ja": "介護{かいご}の 試験{しけん}と 日本語{にほんご}の 試験{しけん}に 合格{ごうかく}している 人{ひと}", "en": "If you passed the nursing care skills test and the Japanese test" } }
+  ],
+  "noExamNote": {
+    "ja": "介護{かいご}の 特定技能{とくていぎのう}を 持{も}っている 人{ひと}は、試験{しけん}なしで 移{うつ}れます。",
+    "en": "If you already have the Specified Skilled Worker visa in nursing care, you can move without an exam."
+  },
+  "leadTime": {
+    "inJapan": { "ja": "1か月{げつ}〜3か月{げつ}", "en": "1 to 3 months" },
+    "overseas": { "ja": "4か月{げつ}〜6か月{げつ}", "en": "4 to 6 months" }
+  },
+  "interview": {
+    "methods": ["対面", "オンライン"],
+    "weekendNight": true,
+    "travelCost": { "ja": "会社{かいしゃ}が 払{はら}います", "en": "Paid by the company" }
+  },
+
+  "video": "",
+  "imuraComment": {
+    "ja": "（サンプルの 文章{ぶんしょう}です）施設{しせつ}の 中{なか}が 明{あか}るく、外国人{がいこくじん}スタッフが 笑顔{えがお}で 働{はたら}いていました。",
+    "en": "(Sample text) The facility was bright, and the foreign staff were working with smiles."
+  },
+
+  "terms": {
+    "openings": 2,
+    "employment": { "ja": "正社員{せいしゃいん}", "en": "Full-time employee" },
+    "contract": { "ja": "期間{きかん}の 定{さだ}めなし", "en": "No fixed term" },
+    "salaryType": "月給",
+    "salaryMin": 220000,
+    "salaryMax": 250000,
+    "takeHome": { "ja": "約{やく} 17万円{まんえん}〜19万円{まんえん}（税金{ぜいきん}・保険{ほけん}・寮費{りょうひ}を 引{ひ}いたあと）", "en": "About 170,000 to 190,000 yen (after tax, insurance and dormitory fee)" },
+    "bonus": { "ja": "ボーナス 年{ねん}2回{かい}、昇給{しょうきゅう} 年{ねん}1回{かい}", "en": "Bonus twice a year, pay raise once a year" },
+    "hours": { "ja": "シフト制{せい}（早番{はやばん} 7:00〜16:00／日勤{にっきん} 9:00〜18:00／夜勤{やきん}あり）", "en": "Shifts (7:00-16:00 / 9:00-18:00 / night shifts)" },
+    "holidays": { "ja": "4週{しゅう}で 8日{にち}休{やす}み", "en": "8 days off every 4 weeks" },
+    "annualHolidays": 110,
+    "overtime": { "ja": "月{つき} 10時間{じかん}くらい", "en": "About 10 hours a month" },
+    "housing": {
+      "available": true,
+      "detail": { "ja": "寮{りょう}あり（一人{ひとり}1部屋{へや}）。すぐに 入{はい}れます", "en": "Dormitory (one room per person). You can move in right away" },
+      "rent": { "ja": "月{つき} 25,000円{えん}", "en": "25,000 yen a month" },
+      "initialCost": { "ja": "なし", "en": "None" },
+      "commute": { "ja": "寮{りょう}から 歩{ある}いて 5分{ふん}", "en": "5-minute walk from the dormitory" }
+    },
+    "moving": { "ja": "引{ひ}っ越{こ}しの お金{かね}を 5万円{まんえん}まで 会社{かいしゃ}が 払{はら}います", "en": "The company pays moving costs up to 50,000 yen" },
+    "japanese": "N4",
+    "japaneseText": { "ja": "N4 か JFT-Basic と、介護{かいご}日本語{にほんご}評価試験{ひょうかしけん}", "en": "N4 or JFT-Basic, and the Nursing Care Japanese Language Evaluation Test" },
+    "requirements": { "ja": "介護{かいご}の 経験{けいけん}が なくても 大丈夫{だいじょうぶ}です", "en": "No care experience needed" },
+    "support": { "ja": "日本語{にほんご}の オンライン授業{じゅぎょう}（無料{むりょう}）。役所{やくしょ}や 病院{びょういん}に いっしょに 行{い}きます", "en": "Free online Japanese lessons. Staff go with you to the city office and hospital" },
+    "consultLanguages": { "ja": "日本語{にほんご}、ベトナム語{ご}、英語{えいご}", "en": "Japanese, Vietnamese, English" },
+    "visaSupport": { "ja": "会社{かいしゃ}と 支援機関{しえんきかん}が 手伝{てつだ}います", "en": "The company and the support organization help you" },
+    "changeScope": { "ja": "働{はたら}く 場所{ばしょ}：会社{かいしゃ}が 決{き}めた 場所{ばしょ}／仕事{しごと}：介護{かいご}の 仕事{しごと}", "en": "Workplace: places decided by the company / Duties: care work" }
+  }
+}

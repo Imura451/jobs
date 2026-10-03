@@ -246,10 +246,20 @@
     "外食業": "Food service", "林業": "Forestry", "木材産業": "Wood industry"
   },
   "visas": {
-    "特定技能1号": "Specified Skilled Worker (i)",
-    "特定技能2号": "Specified Skilled Worker (ii)",
-    "育成就労・技能実習": "Employment for Skill Development / Technical Intern Training",
-    "技人国": "Engineer / Specialist in Humanities / International Services"
+      "技能実習": "Technical Intern Training",
+      "育成就労": "Employment for Skill Development",
+      "特定技能1号": "Specified Skilled Worker (i)",
+      "特定技能2号": "Specified Skilled Worker (ii)",
+      "技人国": "Engineer / Specialist in Humanities / International Services (work visa)"
+  },
+  "cats": {
+      "title": "Search by visa type",
+      "all": "All visa types",
+      "jinou": "Technical Intern Training",
+      "ikusei": "Employment for Skill Development",
+      "tokutei": "Specified Skilled Worker",
+      "gijinkoku": "Work visa",
+      "gijinkokuSub": "Engineer / Specialist in Humanities / International Services"
   },
   "statuses": {
     "特定技能1号": "Specified Skilled Worker (i)",

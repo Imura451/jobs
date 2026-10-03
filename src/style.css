@@ -120,6 +120,19 @@ html.no-ruby rt{display:none}
 .whobtn.is-on span{color:#fff}
 .who__all{margin:8px 0 0;font-size:14px}
 
+/* 在留資格の4つの区分 */
+.cats{padding:20px 0 8px}
+.cats__btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(min-width:800px){.cats__btns{grid-template-columns:repeat(4,1fr)}}
+.catbtn{font:inherit;text-align:left;background:#fff;border:2px solid var(--line);border-top:5px solid var(--red);border-radius:10px;padding:10px 12px;cursor:pointer;color:var(--ink);display:flex;flex-direction:column;gap:2px}
+.catbtn b{font-size:17px;line-height:1.5}
+.catbtn small{font-size:11px;color:var(--muted);line-height:1.5}
+.catbtn__n{margin-top:auto;font-size:13px;font-weight:700}
+.catbtn.is-on{background:var(--ink);border-color:var(--ink);border-top-color:var(--red);color:#fff}
+.catbtn.is-on small{color:#ddd}
+.catbtn:disabled{opacity:.45;cursor:default}
+.tag--cat{border-color:var(--red);background:#fff;font-weight:700}
+
 /* ---------- 絞り込み ---------- */
 .filters{border:1px solid var(--line);border-radius:10px;margin-bottom:16px;background:#fff}
 .filters summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;font-weight:700}

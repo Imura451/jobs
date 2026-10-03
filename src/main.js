@@ -50,7 +50,7 @@
     }
     cards.forEach(function (c) { box.appendChild(c); });
 
-    var sel = { who: '', region: '', field: '', visa: '', pref: '', status: '', myfield: '', jp: '' };
+    var sel = { who: '', cat: '', region: '', field: '', visa: '', pref: '', status: '', myfield: '', jp: '' };
     var REG = window.PREF_REGION || {};
     var hits = document.getElementById('hits');
     var empty = document.getElementById('empty');
@@ -60,6 +60,7 @@
       var d = c.dataset;
       if (sel.who === 'japan' && d.injapan !== '1') return false;
       if (sel.who === 'overseas' && d.overseas !== '1') return false;
+      if (sel.cat && (',' + d.cats + ',').indexOf(',' + sel.cat + ',') < 0) return false;
       if (sel.region && d.region !== sel.region) return false;
       if (sel.field && d.field !== sel.field) return false;
       if (sel.visa && (',' + d.visas + ',').indexOf(',' + sel.visa + ',') < 0) return false;
@@ -111,14 +112,26 @@
     };
     each('[data-who]', function (b) { b.addEventListener('click', function () { setWho(b.getAttribute('data-who'), true); }); });
 
+    /* 在留資格の4つの区分（技能実習・育成就労・特定技能・就労ビザ） */
+    var setCat = function (k, scroll) {
+      sel.cat = k;
+      each('.catbtn', function (b) { b.classList.toggle('is-on', b.getAttribute('data-cat') === k); });
+      apply();
+      if (scroll) document.getElementById('list').scrollIntoView({ behavior: 'smooth' });
+    };
+    each('[data-cat]', function (b) { b.addEventListener('click', function () { setCat(b.getAttribute('data-cat'), true); }); });
+
     var reset = document.querySelector('[data-reset]');
     if (reset) reset.addEventListener('click', function () {
       Object.keys(sel).forEach(function (k) { if (k !== 'who') sel[k] = ''; });
+      each('.catbtn', function (b) { b.classList.remove('is-on'); });
       each('.frow', function (row) { each('.pill', function (x, i) { x.classList.toggle('is-on', x.getAttribute('data-v') === ''); }, row); });
       each('[data-sel]', function (s) { s.value = ''; });
       apply();
     });
 
+    var c0 = (location.search.match(/[?&]visa=(jinou|ikusei|tokutei|gijinkoku)/) || [])[1];
+    if (c0) sel.cat = c0, each('.catbtn', function (b) { b.classList.toggle('is-on', b.getAttribute('data-cat') === c0); });
     var w0 = (location.search.match(/[?&]who=(japan|overseas)/) || [])[1];
     if (w0) setWho(w0, false); else apply();
   }

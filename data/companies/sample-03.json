@@ -1,0 +1,79 @@
+{
+  "id": "sample-03",
+  "sample": true,
+  "published": true,
+  "status": "選考中",
+  "postedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "deadline": "",
+
+  "company": {
+    "name": { "ja": "（サンプル）ひかり観光{かんこう}ホテル", "en": "(Sample) Hikari Tourist Hotel" },
+    "business": { "ja": "海外{かいがい}からの お客{きゃく}さんが 多{おお}い ホテルです。", "en": "A hotel with many guests from overseas." },
+    "employees": 80,
+    "foreignStaff": { "count": 5, "countries": { "ja": "ベトナム 2人{にん}、中国{ちゅうごく} 2人{にん}、フィリピン 1人{にん}", "en": "Vietnam 2, China 2, Philippines 1" } },
+    "website": "",
+    "photos": []
+  },
+
+  "location": {
+    "prefecture": "岐阜県",
+    "city": { "ja": "高山市{たかやまし}", "en": "Takayama City" },
+    "station": { "ja": "JR 高山駅{たかやまえき}から 歩{ある}いて 10分{ぷん}", "en": "10-minute walk from JR Takayama Station" },
+    "mapQuery": "岐阜県高山市"
+  },
+
+  "job": {
+    "field": "",
+    "title": { "ja": "フロント・通訳{つうやく}", "en": "Front desk and interpreting" },
+    "description": {
+      "ja": "ホテルの フロントで、海外{かいがい}からの お客{きゃく}さんの 受付{うけつけ}と 案内{あんない}を します。\n英語{えいご}か 中国語{ちゅうごくご}を 使{つか}います。",
+      "en": "You check in guests from overseas and guide them at the front desk.\nYou use English or Chinese."
+    }
+  },
+
+  "visas": ["技人国"],
+  "accept": { "inJapan": true, "overseas": true },
+  "fromStatus": [
+    { "status": "技人国", "field": "", "noExam": true,
+      "note": { "ja": "今{いま}の 仕事{しごと}と 内容{ないよう}が 近{ちか}い 人{ひと}", "en": "If your current job is similar" } },
+    { "status": "留学", "field": "", "noExam": true,
+      "note": { "ja": "大学{だいがく}か 専門学校{せんもんがっこう}を 卒業{そつぎょう}する 人{ひと}", "en": "If you graduate from a university or vocational school" } }
+  ],
+  "noExamNote": {
+    "ja": "試験{しけん}は ありません。学校{がっこう}で 勉強{べんきょう}したことと 仕事{しごと}の 内容{ないよう}が 合{あ}っているかを 見{み}ます。",
+    "en": "There is no exam. What you studied must match the job."
+  },
+  "leadTime": {
+    "inJapan": { "ja": "2か月{げつ}〜3か月{げつ}", "en": "2 to 3 months" },
+    "overseas": { "ja": "4か月{げつ}〜6か月{げつ}", "en": "4 to 6 months" }
+  },
+  "interview": { "methods": ["対面", "オンライン"], "weekendNight": true, "travelCost": { "ja": "オンラインなら かかりません", "en": "None if online" } },
+
+  "video": "",
+  "imuraComment": { "ja": "（サンプルの 文章{ぶんしょう}です）", "en": "(Sample text)" },
+
+  "terms": {
+    "openings": 1,
+    "employment": { "ja": "正社員{せいしゃいん}", "en": "Full-time employee" },
+    "contract": { "ja": "期間{きかん}の 定{さだ}めなし", "en": "No fixed term" },
+    "salaryType": "月給",
+    "salaryMin": 240000,
+    "salaryMax": 240000,
+    "takeHome": { "ja": "", "en": "" },
+    "bonus": { "ja": "ボーナス 年{ねん}2回{かい}", "en": "Bonus twice a year" },
+    "hours": { "ja": "シフト制{せい}（1日{にち} 8時間{じかん}）", "en": "Shifts (8 hours a day)" },
+    "holidays": { "ja": "月{つき} 9日{にち}", "en": "9 days a month" },
+    "annualHolidays": 108,
+    "overtime": { "ja": "月{つき} 15時間{じかん}くらい", "en": "About 15 hours a month" },
+    "housing": { "available": true, "detail": { "ja": "社宅{しゃたく}あり", "en": "Company housing available" }, "rent": { "ja": "月{つき} 20,000円{えん}", "en": "20,000 yen a month" }, "initialCost": { "ja": "", "en": "" }, "commute": { "ja": "歩{ある}いて 10分{ぷん}", "en": "10-minute walk" } },
+    "moving": { "ja": "", "en": "" },
+    "japanese": "N2",
+    "japaneseText": { "ja": "N2 以上{いじょう}", "en": "N2 or higher" },
+    "requirements": { "ja": "大学{だいがく}か 専門学校{せんもんがっこう}を 卒業{そつぎょう}していること。英語{えいご}か 中国語{ちゅうごくご}が 話{はな}せること", "en": "Graduated from a university or vocational school. Can speak English or Chinese" },
+    "support": { "ja": "", "en": "" },
+    "consultLanguages": { "ja": "日本語{にほんご}、英語{えいご}、中国語{ちゅうごくご}", "en": "Japanese, English, Chinese" },
+    "visaSupport": { "ja": "会社{かいしゃ}が 手伝{てつだ}います", "en": "The company helps you" },
+    "changeScope": { "ja": "働{はたら}く 場所{ばしょ}：会社{かいしゃ}の ホテル／仕事{しごと}：フロントと 案内{あんない}の 仕事{しごと}", "en": "Workplace: the company's hotels / Duties: front desk and guest guidance" }
+  }
+}

@@ -47,7 +47,13 @@ const ST_OPEN = '募集中', ST_SELECTING = '選考中', ST_CLOSED = '募集終�
 /* 特定技能の分野。絞り込みの並び順にも使います */
 const FIELDS = ['介護', 'ビルクリーニング', '工業製品製造業', '建設', '造船・舶用工業', '自動車整備', '航空',
   '宿泊', '自動車運送業', '鉄道', '農業', '漁業', '飲食料品製造業', '外食業', '林業', '木材産業'];
-const VISAS = ['特定技能1号', '特定技能2号', '育成就労・技能実習', '技人国'];
+const VISAS = ['技能実習', '育成就労', '特定技能1号', '特定技能2号', '技人国'];
+/* 在留資格の大きな区分。一覧のいちばん上で、この4つに分けて探せます */
+const CATS = ['jinou', 'ikusei', 'tokutei', 'gijinkoku'];
+const VISA_CAT = { '技能実習': 'jinou', '育成就労': 'ikusei', '特定技能1号': 'tokutei', '特定技能2号': 'tokutei', '技人国': 'gijinkoku' };
+/* 以前の書き方（育成就労・技能実習）は、2つに分けて読みます */
+const VISA_OLD = { '育成就労・技能実習': ['技能実習', '育成就労'] };
+const catsOf = c => Array.from(new Set((c.visas || []).map(v => VISA_CAT[v]).filter(Boolean)));
 const STATUSES = ['特定技能1号', '特定技能2号', '技能実習2号修了', '技能実習3号修了', '技能実習中',
   '留学', '技人国', '特定活動', '家族滞在', 'その他'];
 /* 日本語のレベル。数字が大きいほど高い。JFT-Basic は N4 と同じ扱い */
@@ -189,7 +195,12 @@ function loadCompanies() {
     }
     const job = c.job || {};
     if (job.field && !FIELDS.includes(job.field)) warn(`${id}: job.field「${job.field}」は16分野の名前にありません`);
-    (c.visas || []).forEach(v => { if (!VISAS.includes(v)) warn(`${id}: visas の「${v}」は書ける言葉にありません`); });
+    c.visas = [].concat(...(c.visas || []).map(v => {
+      if (VISA_OLD[v]) { warn(`${id}: visas の「${v}」は「${VISA_OLD[v].join('」「')}」に分けて書いてください（いまは両方として扱っています）`); return VISA_OLD[v]; }
+      if (!VISAS.includes(v)) warn(`${id}: visas の「${v}」は書ける言葉にありません（${VISAS.join('・')}）`);
+      return [v];
+    }));
+    if (!c.visas.length) warn(`${id}: visas（募集する在留資格）が空です`);
     (c.fromStatus || []).forEach(s => { if (!STATUSES.includes(s.status)) warn(`${id}: fromStatus の「${s.status}」は書ける言葉にありません`); });
     const pref = (c.location || {}).prefecture;
     if (!PREF[pref]) warn(`${id}: location.prefecture「${pref}」は都道府県の名前になっていません（例：愛知県）`);
@@ -391,6 +402,7 @@ function view(c, lang) {
     title: tr(job.title, lang),
     fieldLabel: job.field ? (t.fields[job.field] || job.field) : '',
     visasLabel: (c.visas || []).map(v => t.visas[v] || v),
+    catsLabel: catsOf(c).map(k => t.cats[k]),
     videoId: youtubeId(c.video),
     href: `c/${c.id}.html`
   };
@@ -405,7 +417,7 @@ function card(c, lang) {
   if (v.videoId) tags.push(`<span class="tag tag--video">${ruby(t.card.video)}</span>`);
   return `<a class="card" href="${esc(v.href)}" data-card
    data-region="${esc(v.pref.region)}" data-pref="${esc(v.loc.prefecture || '')}" data-field="${esc(v.job.field || '')}"
-   data-visas="${esc((c.visas || []).join(','))}" data-jp="${JP_RANK[v.jp] || 0}"
+   data-visas="${esc((c.visas || []).join(','))}" data-cats="${esc(catsOf(c).join(','))}" data-jp="${JP_RANK[v.jp] || 0}"
    data-injapan="${v.accept.inJapan ? 1 : 0}" data-overseas="${v.accept.overseas ? 1 : 0}" data-from="${esc(from)}">
   <div class="card__top">
     ${c.sample ? `<span class="badge badge--sample">${ruby(t.card.sample)}</span>` : ''}
@@ -421,7 +433,7 @@ function card(c, lang) {
     <div><dt>${ruby(t.card.jp)}</dt><dd>${ruby(v.jpLabel)}</dd></div>
     <div><dt>${ruby(t.terms.visas)}</dt><dd>${v.visasLabel.map(ruby).join('<br>')}</dd></div>
   </dl>
-  <p class="card__tags">${tags.join('')}</p>
+  <p class="card__tags">${v.catsLabel.map(x => `<span class="tag tag--cat">${ruby(x)}</span>`).join('')}${tags.join('')}</p>
   <span class="card__more">${ruby(t.card.more)}</span>
 </a>`;
 }
@@ -441,7 +453,7 @@ function pageIndex(lang) {
   const list = OPEN;
   const regions = REGIONS.filter(r => list.some(c => (PREF[(c.location || {}).prefecture] || {}).region === r));
   const fields = FIELDS.filter(f => list.some(c => (c.job || {}).field === f));
-  const visas = VISAS.filter(v => list.some(c => (c.visas || []).includes(v)));
+  const catCount = k => list.filter(c => catsOf(c).includes(k)).length;
   const lastUpdated = list.map(c => c.updatedAt || c.postedAt || '').sort().pop() || TODAY;
   const prefOpts = PREFS.map(([ja, en]) => `<option value="${esc(ja)}">${esc(lang === 'ja' ? ja : en)}</option>`).join('');
 
@@ -464,7 +476,6 @@ function pageIndex(lang) {
     </div>
     ${regions.length > 1 ? `<p class="flabel">${ruby(t.filter.region)}</p>` + pills('region', regions.map(r => ({ v: r, t: t.regions[r] })), t) : ''}
     ${fields.length > 1 ? `<p class="flabel">${ruby(t.filter.field)}</p>` + pills('field', fields.map(f => ({ v: f, t: t.fields[f] || f })), t) : ''}
-    ${visas.length > 1 ? `<p class="flabel">${ruby(t.filter.visa)}</p>` + pills('visa', visas.map(v => ({ v, t: t.visas[v] })), t) : ''}
     <p class="freset"><button type="button" class="link" data-reset>${ruby(t.filter.reset)}</button></p>
   </div>
 </details>` : '';
@@ -487,6 +498,16 @@ function pageIndex(lang) {
       <button type="button" class="whobtn" data-who="overseas"><b>${ruby(t.home.whoOverseas)}</b><span>${ruby(t.home.whoOverseasSub)}</span></button>
     </div>
     <p class="who__all"><button type="button" class="link" data-who="">${ruby(t.home.whoAll)}</button></p>
+  </div>
+</section>
+
+<section class="cats" aria-labelledby="cats-h">
+  <div class="wrap">
+    <h2 class="who__h" id="cats-h">${ruby(t.cats.title)}</h2>
+    <div class="cats__btns">
+      ${CATS.map(k => { const n = catCount(k); return `<button type="button" class="catbtn" data-cat="${k}"${n ? '' : ' disabled'}><b>${ruby(t.cats[k])}</b>${t.cats[k + 'Sub'] ? `<small>${ruby(t.cats[k + 'Sub'])}</small>` : ''}<span class="catbtn__n">${n}${ruby(t.filter.hits)}</span></button>`; }).join('')}
+    </div>
+    <p class="who__all"><button type="button" class="link" data-cat="">${ruby(t.cats.all)}</button></p>
   </div>
 </section>
 
@@ -613,7 +634,7 @@ ${c.sample ? `<div class="samplebar"><div class="wrap">${ruby(t.job.sampleNote)}
     <p class="card__tags">
       ${v.accept.inJapan ? `<span class="tag tag--jp">${ruby(t.card.inJapan)}</span>` : ''}
       ${v.accept.overseas ? `<span class="tag">${ruby(t.card.overseas)}</span>` : ''}
-      ${v.visasLabel.map(x => `<span class="tag tag--plain">${ruby(x)}</span>`).join('')}
+      ${v.catsLabel.map(x => `<span class="tag tag--cat">${ruby(x)}</span>`).join('')}
     </p>
     ${v.salary ? `<p class="jhead__pay">${ruby(v.salary)}</p>` : ''}
     ${c.selecting ? `<p class="note">${ruby(t.job.selectingNote)}</p>` : ''}

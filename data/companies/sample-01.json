@@ -38,7 +38,7 @@
     }
   },
 
-  "visas": ["特定技能1号", "育成就労・技能実習"],
+  "visas": ["特定技能1号", "技能実習", "育成就労"],
   "accept": { "inJapan": true, "overseas": true },
 
   "fromStatus": [

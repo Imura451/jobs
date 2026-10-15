@@ -188,6 +188,9 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 .closed .btn{margin-top:4px}
 .samplebar,.draftbar{background:#FFF3A0;padding:10px 0;font-size:14px;font-weight:700}
 .jhead{padding:24px 0 30px;border-bottom:1px solid var(--line)}
+.pr{display:block;margin:-8px 0 16px;border-radius:10px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.pr img{width:100%;height:auto;display:block}
+@media(min-width:800px){.pr{max-width:760px}}
 .jhead__field{font-size:14px;font-weight:700;margin:0}
 .jhead__name{font-size:clamp(24px,6vw,34px)}
 .jhead__job{font-size:18px;font-weight:700;margin:2px 0 0}

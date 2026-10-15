@@ -645,6 +645,10 @@ function pageCompany(c, lang) {
 
   const mapQ = encodeURIComponent(loc.mapQuery || `${v.pref.ja}${plain(tr(loc.city, 'ja'))}`);
 
+  /* いちばん上のPRバナー（スマホで開いて最初に目に入る画像）。押すと動画へ */
+  const bn = c.banner && has(c.banner.file) && fs.existsSync(path.join(ASSETS, 'companies', c.id, c.banner.file)) ? c.banner : null;
+  const bannerHtml = bn
+    ? `<a class="pr" href="#video"><img src="${up}assets/companies/${esc(c.id)}/${esc(bn.file)}" alt="${esc(plain(tr(bn.alt, lang)))}" width="1280" height="720"></a>` : '';
   const banner = c.closed
     ? `<div class="closed" role="status"><div class="wrap"><p class="closed__t">${ruby(t.job.closedTitle)}</p><p>${ruby(t.job.closedBody)}</p><p><a class="btn" href="../">${ruby(t.job.closedBtn)}</a></p></div></div>`
     : `<div class="closed" data-deadline-banner hidden role="status"><div class="wrap"><p class="closed__t">${ruby(t.job.closedTitle)}</p><p>${ruby(t.job.closedBody)}</p><p><a class="btn" href="../">${ruby(t.job.closedBtn)}</a></p></div></div>`;
@@ -659,6 +663,7 @@ ${c.sample ? `<div class="samplebar"><div class="wrap">${ruby(t.job.sampleNote)}
 <article class="job" data-job="${esc(c.id)}"${!c.closed && has(c.deadline) ? ` data-deadline="${esc(c.deadline)}"` : ''}>
 <section class="jhead">
   <div class="wrap">
+    ${bannerHtml}
     <p class="jhead__field">${ruby(v.fieldLabel)}${c.selecting ? ` <span class="badge">${ruby(t.card.selecting)}</span>` : ''}</p>
     <h1 class="jhead__name">${ruby(v.name)}</h1>
     <p class="jhead__job">${ruby(v.title)}</p>
@@ -697,7 +702,7 @@ ${c.sample ? `<div class="samplebar"><div class="wrap">${ruby(t.job.sampleNote)}
 
 ${housingShowcase(c, lang, up)}
 
-<section class="sec">
+<section class="sec" id="video">
   <div class="wrap narrow">
     <h2 class="h2">${ruby(tr(c.videoTitle, lang) || t.job.sec.video)}</h2>
     ${video}
@@ -831,7 +836,7 @@ ${shareBox(t, url, `${plain(v.name)}｜${plain(v.title)}`)}`;
   const hsList = ((c.housingShowcase || {}).photos || []).filter(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
   /* シェア画像は "og": true の写真を優先。無ければ1枚目 */
   const hsFirst = hsList.find(p => p.og) || hsList[0];
-  const photo = c.photosOk[0] || (hsFirst && hsFirst.file);
+  const photo = (c.banner && has(c.banner.file) && fs.existsSync(path.join(ASSETS, 'companies', c.id, c.banner.file)) && c.banner.file) || c.photosOk[0] || (hsFirst && hsFirst.file);
   return layout({
     lang, rel, altRel: v.href, pageKey: 'company',
     title: `${plain(v.name)}｜${plain(v.title)}｜${plain(v.place)}`,

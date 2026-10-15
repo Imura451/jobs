@@ -27,6 +27,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const ROOT = __dirname;
 const DATA = path.join(ROOT, 'data');
@@ -175,6 +176,12 @@ const SITE = (S.siteUrl || '').replace(/\/?$/, '/');
 const T = {};
 for (const l of LANGS) T[l] = readJSON(path.join(LANG_DIR, l + '.json'));
 const TODAY = todayJST();
+/* 見た目と動きのファイルを直したとき、ブラウザに残った古い版を使わせないための印。
+   中身が変わると印も変わるので、必ず新しい版が読み込まれます */
+const VER = crypto.createHash('md5')
+  .update(fs.readFileSync(path.join(SRC, 'style.css')))
+  .update(fs.readFileSync(path.join(SRC, 'main.js')))
+  .digest('hex').slice(0, 8);
 
 function loadCompanies() {
   const out = [];
@@ -314,7 +321,7 @@ ${hreflang}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
-<link rel="stylesheet" href="${up}style.css">
+<link rel="stylesheet" href="${up}style.css?v=${VER}">
 ${jsonld ? `<script type="application/ld+json">${jsonld}</script>` : ''}
 </head>
 <body>
@@ -361,7 +368,7 @@ ${body}
 </footer>
 ${bottomBar || ''}
 <script>window.JOBS=${JSON.stringify({ lang, endpoint: (S.form || {}).endpoint || '', t: { copied: plain(t.share.copied), zaloHint: plain(t.share.zaloHint), apply: { sending: plain(t.apply.sending), send: plain(t.apply.send), ok: plain(t.apply.ok), ng: plain(t.apply.ng), missing: plain(t.apply.missing), badEmail: plain(t.apply.badEmail) }, filter: { open: plain(t.filter.open), close: plain(t.filter.close) } } }).replace(/</g, '\\u003c')};</script>
-<script src="${up}main.js" defer></script>
+<script src="${up}main.js?v=${VER}" defer></script>
 </body>
 </html>
 `;

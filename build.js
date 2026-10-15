@@ -647,6 +647,10 @@ function pageCompany(c, lang) {
 
   /* いちばん上のPRバナー（スマホで開いて最初に目に入る画像）。押すと動画へ */
   const bn = c.banner && has(c.banner.file) && fs.existsSync(path.join(ASSETS, 'companies', c.id, c.banner.file)) ? c.banner : null;
+  const ogFile = (bn && bn.file) || c.photosOk[0] || '';
+  /* シェア用のアドレス。シェア画像が変わると末尾の印も変わるので、
+     LINEやFacebookが前の画像を覚えていても、新しい画像で読み直します */
+  const shareUrl = ogFile ? `${url}?s=${crypto.createHash('md5').update(ogFile + (c.updatedAt || '')).digest('hex').slice(0, 6)}` : url;
   const bannerHtml = bn
     ? `<a class="pr" href="#video"><img src="${up}assets/companies/${esc(c.id)}/${esc(bn.file)}" alt="${esc(plain(tr(bn.alt, lang)))}" width="1280" height="720"></a>` : '';
   const banner = c.closed
@@ -829,7 +833,7 @@ ${v.accept.overseas ? `<section class="sec${v.accept.inJapan ? ' sec--gray' : ''
   </div>
 </section>
 </article>
-${shareBox(t, url, `${plain(v.name)}｜${plain(v.title)}`)}`;
+${shareBox(t, shareUrl, `${plain(v.name)}｜${plain(v.title)}`)}`;
 
   /* 中身が1行もない表は、見出しごと消します（書いていない項目を空の枠で見せないため） */
   const bodyClean = body.replace(/<h3 class="h3">(?:(?!<\/h3>)[\s\S])*<\/h3>\s*<table class="tbl"><tbody>\s*<\/tbody><\/table>/g, '');

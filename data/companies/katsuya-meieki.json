@@ -62,6 +62,8 @@
     ],
     "photos": [
       { "file": "house-room.jpg", "caption": { "ja": "明{あか}るい 部屋{へや}。エアコンが あります", "en": "A bright room with an air conditioner" } },
+      { "file": "house-exterior.jpg", "wide": true, "credit": "画像：Google ストリートビュー", "caption": { "ja": "マンションの 外観{がいかん}", "en": "The apartment building" } },
+      { "file": "house-front.jpg", "wide": true, "credit": "画像：Google ストリートビュー", "caption": { "ja": "入口{いりぐち}と 駐輪場{ちゅうりんじょう}", "en": "Entrance and bicycle parking" } },
       { "file": "house-bath.jpg", "caption": { "ja": "お風呂{ふろ}・トイレ・洗面台{せんめんだい}", "en": "Bath, toilet and sink" } },
       { "file": "house-entrance.jpg", "caption": { "ja": "マンションの 入口{いりぐち}", "en": "Building entrance" } },
       { "file": "house-elevator.jpg", "caption": { "ja": "エレベーターが あります", "en": "There is an elevator" } }

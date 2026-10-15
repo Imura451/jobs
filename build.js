@@ -601,7 +601,7 @@ function housingShowcase(c, lang, up) {
     <h2 class="house__title">${ruby(tr(hs.title, lang))}</h2>
     ${has(tr(hs.lead, lang)) ? `<p class="house__lead">${multi(tr(hs.lead, lang))}</p>` : ''}
     ${money.length ? `<div class="house__money">${money.map(m => `<div class="hm${m.strong ? ' hm--strong' : ''}"><span>${ruby(tr(m.label, lang))}</span><b>${ruby(tr(m.value, lang))}</b>${has(tr(m.note, lang)) ? `<small>${ruby(tr(m.note, lang))}</small>` : ''}</div>`).join('')}</div>` : ''}
-    ${photos.length ? `<div class="house__photos">${photos.map(p => `<figure><img src="${up}assets/companies/${esc(c.id)}/${esc(p.file)}" alt="${esc(plain(tr(p.caption, lang)))}" loading="lazy"><figcaption>${ruby(tr(p.caption, lang))}</figcaption></figure>`).join('')}</div>
+    ${photos.length ? `<div class="house__photos">${photos.map(p => `<figure${p.wide ? ' class="is-wide"' : ''}><img src="${up}assets/companies/${esc(c.id)}/${esc(p.file)}" alt="${esc(plain(tr(p.caption, lang)))}" loading="lazy"><figcaption>${ruby(tr(p.caption, lang))}${has(p.credit) ? `<small class="credit">${esc(p.credit)}</small>` : ''}</figcaption></figure>`).join('')}</div>
     <p class="house__swipe">${ruby(t.house.swipe)}</p>` : ''}
     ${points.length ? `<ul class="house__points">${points.map(p => `<li>${ruby(p)}</li>`).join('')}</ul>` : ''}
     ${has(tr(hs.note, lang)) ? `<p class="note">${ruby(tr(hs.note, lang))}</p>` : ''}

@@ -242,8 +242,11 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 .house__photos figure{flex:none;width:78%;max-width:340px;margin:0;scroll-snap-align:start}
 .house__photos img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px}
 .house__photos figcaption{font-size:14px;font-weight:700;margin-top:6px;line-height:1.6}
+.house__photos figure.is-wide{width:92%;max-width:520px}
+.house__photos figure.is-wide img{aspect-ratio:16/10}
+.house__photos .credit{display:block;font-size:11px;font-weight:400;color:var(--muted)}
 .house__swipe{font-size:12px;color:var(--muted);text-align:center;margin:4px 0 0}
-@media(min-width:1000px){.house__photos{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible}.house__photos figure{width:auto;max-width:none}.house__swipe{display:none}}
+@media(min-width:1000px){.house__photos{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible}.house__photos figure{width:auto;max-width:none}.house__photos figure.is-wide{grid-column:span 2;width:auto;max-width:none}.house__photos figure.is-wide img{aspect-ratio:auto;height:calc(100% - 3.4em)}.house__swipe{display:none}}
 .house__points{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px}
 @media(min-width:800px){.house__points{grid-template-columns:1fr 1fr}}
 .house__points li{position:relative;padding:10px 12px 10px 40px;background:var(--gray);border-radius:8px;margin:0;font-weight:700}

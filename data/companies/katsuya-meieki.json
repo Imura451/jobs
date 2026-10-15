@@ -41,7 +41,7 @@
   "leadTime": { "inJapan": { "ja": "", "en": "" }, "overseas": { "ja": "", "en": "" } },
   "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
 
-  "banner": { "file": "banner.jpg", "alt": { "ja": "かつや 名古屋・名駅店 外食特定技能 求人用 企業紹介動画。ベトナム人スタッフが活躍中", "en": "Katsuya Nagoya Meieki: Vietnamese staff are working here" } },
+  "banner": { "file": "banner-site.jpg", "alt": { "ja": "かつや 名古屋・名駅店 外食特定技能 求人用 企業紹介サイト。ベトナム人スタッフが活躍中", "en": "Katsuya Nagoya Meieki: Vietnamese staff are working here" } },
   "video": "RTp2VOMVoq0",
   "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },
   "imuraComment": {

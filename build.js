@@ -840,7 +840,10 @@ ${shareBox(t, url, `${plain(v.name)}｜${plain(v.title)}`)}`;
   return layout({
     lang, rel, altRel: v.href, pageKey: 'company',
     title: `${plain(v.name)}｜${plain(v.title)}｜${plain(v.place)}`,
-    desc: `${plain(v.fieldLabel)}｜${plain(v.salary)}｜${plain(tr(c.job.description, lang)).replace(/\s+/g, ' ').slice(0, 90)}`,
+    /* シェアしたときの説明文。空の項目は飛ばし、住まいがあれば家賃も添えます */
+    desc: [plain(v.fieldLabel), v.visasLabel.map(plain).join('・'), plain(v.place), plain(v.salary),
+      v.housing ? plain(tr((tm.housing || {}).rent, lang)) ? `${plain(t.card.housingYes)}（${plain(t.terms.rent)} ${plain(tr(tm.housing.rent, lang))}）` : plain(t.card.housingYes) : '',
+      plain(tr(c.job.description, lang)).replace(/\s+/g, ' ').slice(0, 60)].filter(has).join('｜'),
     body: bodyClean, ogType: 'article',
     ogImage: photo ? `${SITE}assets/companies/${c.id}/${photo}` : '',
     jsonld: jobPostingLd(c, lang, v, url),

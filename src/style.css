@@ -191,6 +191,8 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 .pr{display:block;margin:-8px 0 16px;border-radius:10px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.12)}
 .pr img{width:100%;height:auto;display:block}
 @media(min-width:800px){.pr{max-width:760px}}
+/* スマホでは画面の端から端まで広げ、開いて最初に目に入る「待ち受け」にします */
+@media(max-width:799px){.pr{margin:-24px -16px 16px;border-radius:0;box-shadow:none}}
 .jhead__field{font-size:14px;font-weight:700;margin:0}
 .jhead__name{font-size:clamp(24px,6vw,34px)}
 .jhead__job{font-size:18px;font-weight:700;margin:2px 0 0}

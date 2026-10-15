@@ -392,12 +392,14 @@ function view(c, lang) {
       ? `${unit} ${yen(tm.salaryMin)}${has(tm.salaryMax) && tm.salaryMax !== tm.salaryMin ? '〜' + yen(tm.salaryMax) : ''}円{えん}`
       : `${unit} ${yen(tm.salaryMin)}${has(tm.salaryMax) && tm.salaryMax !== tm.salaryMin ? ' - ' + yen(tm.salaryMax) : ''} yen`;
   }
-  const jp = tm.japanese || 'none';
-  const jpLabel = jp === 'none' ? t.jpLevels.none : `${t.jpLevels[jp] || jp} ${t.jpNeed}`;
+  /* 書いていない項目は「問いません」「なし」と出さず、空のままにします */
+  const jp = tm.japanese || '';
+  const jpLabel = !jp ? '' : jp === 'none' ? t.jpLevels.none : `${t.jpLevels[jp] || jp} ${t.jpNeed}`;
   const housing = !!(tm.housing && tm.housing.available);
+  const housingKnown = !!(tm.housing && typeof tm.housing.available === 'boolean');
   const accept = c.accept || {};
   return {
-    t, comp, loc, job, tm, pref, place, salary, jp, jpLabel, housing, accept,
+    t, comp, loc, job, tm, pref, place, salary, jp, jpLabel, housing, housingKnown, accept,
     name: tr(comp.name, lang),
     title: tr(job.title, lang),
     fieldLabel: job.field ? (t.fields[job.field] || job.field) : '',
@@ -429,8 +431,8 @@ function card(c, lang) {
   <p class="card__place">${ruby(v.place)}</p>
   <dl class="card__dl">
     ${v.salary ? `<div><dt>${ruby(t.card.salary)}</dt><dd class="hl">${ruby(v.salary)}</dd></div>` : ''}
-    <div><dt>${ruby(t.card.housing)}</dt><dd>${ruby(v.housing ? t.card.housingYes : t.card.housingNo)}</dd></div>
-    <div><dt>${ruby(t.card.jp)}</dt><dd>${ruby(v.jpLabel)}</dd></div>
+    ${v.housingKnown ? `<div><dt>${ruby(t.card.housing)}</dt><dd>${ruby(v.housing ? t.card.housingYes : t.card.housingNo)}</dd></div>` : ''}
+    ${v.jpLabel ? `<div><dt>${ruby(t.card.jp)}</dt><dd>${ruby(v.jpLabel)}</dd></div>` : ''}
     <div><dt>${ruby(t.terms.visas)}</dt><dd>${v.visasLabel.map(ruby).join('<br>')}</dd></div>
   </dl>
   <p class="card__tags">${v.catsLabel.map(x => `<span class="tag tag--cat">${ruby(x)}</span>`).join('')}${tags.join('')}</p>
@@ -584,6 +586,29 @@ function jobPostingLd(c, lang, v, url) {
   return JSON.stringify(ld).replace(/</g, '\\u003c');
 }
 
+/* 住まいの紹介。写真と「ここがいい」を並べて、住む場所を思い浮かべてもらいます。
+   data の housingShowcase に書いたときだけ出ます */
+function housingShowcase(c, lang, up) {
+  const hs = c.housingShowcase;
+  if (!hs) return '';
+  const t = T[lang];
+  const photos = (hs.photos || []).filter(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
+  const money = (hs.money || []).filter(m => has(tr(m.value, lang)));
+  const points = (hs.points || []).map(p => tr(p, lang)).filter(has);
+  return `<section class="sec house" id="house">
+  <div class="wrap">
+    <p class="house__eyebrow">${ruby(t.house.eyebrow)}</p>
+    <h2 class="house__title">${ruby(tr(hs.title, lang))}</h2>
+    ${has(tr(hs.lead, lang)) ? `<p class="house__lead">${multi(tr(hs.lead, lang))}</p>` : ''}
+    ${money.length ? `<div class="house__money">${money.map(m => `<div class="hm${m.strong ? ' hm--strong' : ''}"><span>${ruby(tr(m.label, lang))}</span><b>${ruby(tr(m.value, lang))}</b>${has(tr(m.note, lang)) ? `<small>${ruby(tr(m.note, lang))}</small>` : ''}</div>`).join('')}</div>` : ''}
+    ${photos.length ? `<div class="house__photos">${photos.map(p => `<figure><img src="${up}assets/companies/${esc(c.id)}/${esc(p.file)}" alt="${esc(plain(tr(p.caption, lang)))}" loading="lazy"><figcaption>${ruby(tr(p.caption, lang))}</figcaption></figure>`).join('')}</div>
+    <p class="house__swipe">${ruby(t.house.swipe)}</p>` : ''}
+    ${points.length ? `<ul class="house__points">${points.map(p => `<li>${ruby(p)}</li>`).join('')}</ul>` : ''}
+    ${has(tr(hs.note, lang)) ? `<p class="note">${ruby(tr(hs.note, lang))}</p>` : ''}
+  </div>
+</section>`;
+}
+
 function pageCompany(c, lang) {
   const v = view(c, lang), t = v.t, tm = v.tm, comp = v.comp, loc = v.loc;
   const rel = langDir(lang) + v.href;
@@ -601,7 +626,7 @@ function pageCompany(c, lang) {
   }).join('');
   const iv = c.interview || {};
   const methods = (iv.methods || []).map(m => ruby((t.interviewMethods || {})[m] || m)).join('、');
-  const okng = b => ruby(b ? t.terms.ok : t.terms.ng);
+  const okng = b => (typeof b === 'boolean' ? ruby(b ? t.terms.ok : t.terms.ng) : '');
 
   const photos = v.comp.photos && c.photosOk.length
     ? `<div class="photos">${c.photosOk.map((p, i) => `<img src="${up}assets/companies/${esc(c.id)}/${esc(p)}" alt="${esc(plain(v.name))} ${i + 1}" loading="lazy">`).join('')}</div>` : '';
@@ -663,9 +688,11 @@ ${c.sample ? `<div class="samplebar"><div class="wrap">${ruby(t.job.sampleNote)}
   </div>
 </section>
 
+${housingShowcase(c, lang, up)}
+
 <section class="sec">
   <div class="wrap narrow">
-    <h2 class="h2">${ruby(t.job.sec.video)}</h2>
+    <h2 class="h2">${ruby(tr(c.videoTitle, lang) || t.job.sec.video)}</h2>
     ${video}
   </div>
 </section>
@@ -720,8 +747,11 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
 
     <h3 class="h3">${ruby(t.terms.group.house)}</h3>
     <table class="tbl"><tbody>
-      ${row(t.terms.housing, ruby(h.available ? (tr(h.detail, lang) || t.terms.yes) : t.terms.no))}
+      ${row(t.terms.housing, typeof h.available === "boolean" ? ruby(h.available ? (tr(h.detail, lang) || t.terms.yes) : t.terms.no) : "")}
       ${row(t.terms.rent, ruby(tr(h.rent, lang)))}
+      ${row(t.terms.housingAllowance, ruby(tr(h.allowance, lang)))}
+      ${row(t.terms.utilities, ruby(tr(h.utilities, lang)))}
+      ${row(t.terms.parking, ruby(tr(h.parking, lang)))}
       ${row(t.terms.initialCost, ruby(tr(h.initialCost, lang)))}
       ${row(t.terms.commute, ruby(tr(h.commute, lang)))}
     </tbody></table>
@@ -789,12 +819,15 @@ ${v.accept.overseas ? `<section class="sec${v.accept.inJapan ? ' sec--gray' : ''
 </article>
 ${shareBox(t, url, `${plain(v.name)}｜${plain(v.title)}`)}`;
 
-  const photo = c.photosOk[0];
+  /* 中身が1行もない表は、見出しごと消します（書いていない項目を空の枠で見せないため） */
+  const bodyClean = body.replace(/<h3 class="h3">(?:(?!<\/h3>)[\s\S])*<\/h3>\s*<table class="tbl"><tbody>\s*<\/tbody><\/table>/g, '');
+  const hsFirst = ((c.housingShowcase || {}).photos || []).find(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
+  const photo = c.photosOk[0] || (hsFirst && hsFirst.file);
   return layout({
     lang, rel, altRel: v.href, pageKey: 'company',
     title: `${plain(v.name)}｜${plain(v.title)}｜${plain(v.place)}`,
     desc: `${plain(v.fieldLabel)}｜${plain(v.salary)}｜${plain(tr(c.job.description, lang)).replace(/\s+/g, ' ').slice(0, 90)}`,
-    body, ogType: 'article',
+    body: bodyClean, ogType: 'article',
     ogImage: photo ? `${SITE}assets/companies/${c.id}/${photo}` : '',
     jsonld: jobPostingLd(c, lang, v, url),
     robots: robotsMeta(c),

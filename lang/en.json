@@ -129,6 +129,9 @@
     "overtime": "Overtime (estimate)",
     "housing": "Dormitory / company housing",
     "rent": "Rent",
+    "housingAllowance": "Housing allowance",
+    "utilities": "Utilities (water, electricity, gas)",
+    "parking": "Bicycle / car parking",
     "initialCost": "Move-in costs",
     "commute": "How to get to work",
     "japanese": "Japanese required",
@@ -280,5 +283,6 @@
     "kinki": "Kinki", "chugoku": "Chugoku", "shikoku": "Shikoku", "kyushu": "Kyushu / Okinawa"
   },
   "interviewMethods": { "対面": "In person", "オンライン": "Online" },
-  "abroad": "Outside Japan"
+  "abroad": "Outside Japan",
+  "house": {"eyebrow": "Where you will live", "swipe": "← Swipe to see more photos →"}
 }

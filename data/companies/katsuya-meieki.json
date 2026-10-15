@@ -1,0 +1,92 @@
+{
+  "_メモ": "2026-10-15 作成。給料・勤務時間・休日・応募できる人（国内／海外）・必要な日本語などは未確認のため空。確認できたら埋める。会社名の読み（八洲）も未確認",
+  "id": "katsuya-meieki",
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "deadline": "",
+
+  "company": {
+    "name": { "ja": "株式会社八洲（かつや 名古屋{なごや}・名駅店{めいえきてん}）", "en": "株式会社八洲 (Katsuya Nagoya Meieki)" },
+    "business": {
+      "ja": "とんかつ・かつ丼{どん}の お店{みせ}「かつや」を 運営{うんえい}しています。",
+      "en": "Operates \"Katsuya\", a tonkatsu (pork cutlet) and katsudon restaurant."
+    },
+    "website": "",
+    "photos": []
+  },
+
+  "location": {
+    "prefecture": "愛知県",
+    "city": { "ja": "名古屋市{なごやし} 中村区{なかむらく}", "en": "Nakamura Ward, Nagoya" },
+    "station": { "ja": "名古屋駅{なごやえき}の 近{ちか}く（名駅店{めいえきてん}）", "en": "Near Nagoya Station (Meieki store)" },
+    "mapQuery": "愛知県名古屋市中村区"
+  },
+
+  "job": {
+    "field": "外食業",
+    "title": { "ja": "とんかつ店{てん}「かつや」の スタッフ", "en": "Staff at Katsuya tonkatsu restaurant" },
+    "description": {
+      "ja": "とんかつ店{てん}「かつや」名古屋{なごや}・名駅店{めいえきてん}で 働{はたら}きます。\nお店{みせ}の 様子{ようす}は、下{した}の 会社紹介{かいしゃしょうかい}の 動画{どうが}で 見{み}られます。",
+      "en": "You will work at Katsuya, Nagoya Meieki store.\nYou can see the store in the company video below."
+    }
+  },
+
+  "visas": ["特定技能1号"],
+  "accept": {},
+
+  "fromStatus": [],
+  "noExamNote": { "ja": "", "en": "" },
+  "leadTime": { "inJapan": { "ja": "", "en": "" }, "overseas": { "ja": "", "en": "" } },
+  "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
+
+  "video": "RTp2VOMVoq0",
+  "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },
+  "imuraComment": {
+    "ja": "気持{きも}ちの ある 社長{しゃちょう}です。\n会社{かいしゃ}も とても 明{あか}るい 雰囲気{ふんいき}で、男性{だんせい}も 女性{じょせい}も 働{はたら}きやすい 職場{しょくば}です。",
+    "en": "The president truly cares about his staff.\nThe company has a very bright atmosphere, and it is an easy place to work for both men and women."
+  },
+
+  "housingShowcase": {
+    "title": { "ja": "名古屋市{なごやし} 中村区{なかむらく}の マンションに 住{す}めます", "en": "You can live in an apartment in Nakamura Ward, Nagoya" },
+    "lead": {
+      "ja": "会社{かいしゃ}が 用意{ようい}する 部屋{へや}です。住{す}む 場所{ばしょ}を 自分{じぶん}で さがす 必要{ひつよう}は ありません。",
+      "en": "The company arranges this apartment for you, so you do not need to look for a place to live yourself."
+    },
+    "money": [
+      { "label": { "ja": "家賃{やちん}（1か月{げつ}）", "en": "Rent (per month)" }, "value": { "ja": "45,000円{えん}", "en": "45,000 yen" } },
+      { "label": { "ja": "住宅手当{じゅうたくてあて}（1か月{げつ}）", "en": "Housing allowance (per month)" }, "value": { "ja": "15,000円{えん}", "en": "15,000 yen" }, "note": { "ja": "会社{かいしゃ}から 出{で}ます", "en": "Paid by the company" } },
+      { "label": { "ja": "家賃{やちん}から 手当{てあて}を 引{ひ}くと", "en": "Rent minus allowance" }, "value": { "ja": "30,000円{えん}", "en": "30,000 yen" }, "strong": true },
+      { "label": { "ja": "水道{すいどう}・電気{でんき}・ガス", "en": "Water, electricity, gas" }, "value": { "ja": "使{つか}った 分{ぶん}だけ", "en": "Pay for what you use" } }
+    ],
+    "photos": [
+      { "file": "house-room.jpg", "caption": { "ja": "明{あか}るい 部屋{へや}。エアコンが あります", "en": "A bright room with an air conditioner" } },
+      { "file": "house-bath.jpg", "caption": { "ja": "お風呂{ふろ}・トイレ・洗面台{せんめんだい}", "en": "Bath, toilet and sink" } },
+      { "file": "house-entrance.jpg", "caption": { "ja": "マンションの 入口{いりぐち}", "en": "Building entrance" } },
+      { "file": "house-elevator.jpg", "caption": { "ja": "エレベーターが あります", "en": "There is an elevator" } }
+    ],
+    "points": [
+      { "ja": "エアコン付{つ}き", "en": "Air conditioner" },
+      { "ja": "エレベーターが ある マンション", "en": "Building with an elevator" },
+      { "ja": "自転車{じてんしゃ}を 置{お}ける 場所{ばしょ}が あります", "en": "Bicycle parking available" }
+    ],
+    "note": {
+      "ja": "写真{しゃしん}は 部屋{へや}の 一例{いちれい}です。家具{かぐ}が あるかどうかは、相談{そうだん}のときに 確{たし}かめてください。",
+      "en": "The photos are an example of the room. Please ask whether furniture is included."
+    }
+  },
+
+  "terms": {
+    "housing": {
+      "available": true,
+      "detail": { "ja": "あり（名古屋市{なごやし} 中村区{なかむらく}の マンション）", "en": "Yes (an apartment in Nakamura Ward, Nagoya)" },
+      "rent": { "ja": "月{つき} 45,000円{えん}", "en": "45,000 yen a month" },
+      "allowance": { "ja": "月{つき} 15,000円{えん}", "en": "15,000 yen a month" },
+      "utilities": { "ja": "使{つか}った 分{ぶん}を 払{はら}います", "en": "You pay for what you use" },
+      "parking": { "ja": "駐輪場{ちゅうりんじょう}あり", "en": "Bicycle parking available" },
+      "initialCost": { "ja": "", "en": "" },
+      "commute": { "ja": "", "en": "" }
+    }
+  }
+}

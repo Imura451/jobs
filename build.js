@@ -828,7 +828,9 @@ ${shareBox(t, url, `${plain(v.name)}｜${plain(v.title)}`)}`;
 
   /* 中身が1行もない表は、見出しごと消します（書いていない項目を空の枠で見せないため） */
   const bodyClean = body.replace(/<h3 class="h3">(?:(?!<\/h3>)[\s\S])*<\/h3>\s*<table class="tbl"><tbody>\s*<\/tbody><\/table>/g, '');
-  const hsFirst = ((c.housingShowcase || {}).photos || []).find(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
+  const hsList = ((c.housingShowcase || {}).photos || []).filter(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
+  /* シェア画像は "og": true の写真を優先。無ければ1枚目 */
+  const hsFirst = hsList.find(p => p.og) || hsList[0];
   const photo = c.photosOk[0] || (hsFirst && hsFirst.file);
   return layout({
     lang, rel, altRel: v.href, pageKey: 'company',

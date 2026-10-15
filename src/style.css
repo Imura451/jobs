@@ -238,7 +238,7 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 .hm small{display:block;font-size:12px;color:var(--muted);line-height:1.5}
 .hm--strong{border:2px solid var(--red)}
 .hm--strong b{color:var(--red)}
-.house__photos{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+.house__photos{display:flex;align-items:flex-start;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;-webkit-overflow-scrolling:touch}
 .house__photos figure{flex:none;width:78%;max-width:340px;margin:0;scroll-snap-align:start}
 .house__photos img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px}
 .house__photos figcaption{font-size:14px;font-weight:700;margin-top:6px;line-height:1.6}

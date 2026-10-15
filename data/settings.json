@@ -16,7 +16,8 @@
     "tel": "090-1728-4593",
     "telIntl": "+81-90-1728-4593",
     "mail": "gaikokujin18@gmail.com",
-    "site": "https://gaikokujinconnect.jp/"
+    "site": "https://gaikokujinconnect.d4station-info.workers.dev/",
+    "siteNote": "独自ドメイン gaikokujinconnect.jp が使えるようになったら書き換えます（いまはDNSに登録がなく開けません）"
   },
   "license": {
     "text": "",

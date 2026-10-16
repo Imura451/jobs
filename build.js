@@ -628,7 +628,8 @@ function pageCompany(c, lang) {
   const fromList = (c.fromStatus || []).map(s => {
     const st = t.statuses[s.status] || s.status;
     const fld = s.field ? (t.fields[s.field] || s.field) : t.terms.anyField;
-    const ex = s.noExam ? `<span class="ex-ok">${ruby(t.terms.noExam)}</span>` : `<span class="ex-ng">${ruby(t.terms.examNeeded)}</span>`;
+    /* noExam を書いていない（null）ときは、試験の要否の印を出しません */
+    const ex = s.noExam === true ? `<span class="ex-ok">${ruby(t.terms.noExam)}</span>` : s.noExam === false ? `<span class="ex-ng">${ruby(t.terms.examNeeded)}</span>` : '';
     return `<li>${ruby(st)}（${ruby(fld)}）${ex}${has(tr(s.note, lang)) ? `<br><small>${ruby(tr(s.note, lang))}</small>` : ''}</li>`;
   }).join('');
   const iv = c.interview || {};
@@ -713,6 +714,13 @@ ${housingShowcase(c, lang, up)}
   </div>
 </section>
 
+${has(tr((c.ceoMessage || {}).text, lang)) ? `<section class="sec">
+  <div class="wrap narrow">
+    <h2 class="h2">${ruby(t.job.sec.ceo)}</h2>
+    <div class="ceo">${multi(tr(c.ceoMessage.text, lang))}</div>
+  </div>
+</section>` : ''}
+
 ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
   <div class="wrap narrow">
     <h2 class="h2">${ruby(t.job.sec.imura)}</h2>
@@ -741,6 +749,7 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
       ${row(t.terms.openings, has(tm.openings) ? `${esc(tm.openings)}${ruby(t.terms.people)}` : '')}
       ${row(t.terms.employment, ruby(tr(tm.employment, lang)))}
       ${row(t.terms.contract, ruby(tr(tm.contract, lang)))}
+      ${row(t.terms.probation, ruby(tr(tm.probation, lang)))}
       ${row(t.terms.visas, v.visasLabel.map(ruby).join('<br>'))}
       ${row(t.terms.acceptInJapan, okng(v.accept.inJapan))}
       ${row(t.terms.acceptOverseas, okng(v.accept.overseas))}
@@ -749,14 +758,19 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
     <h3 class="h3">${ruby(t.terms.group.pay)}</h3>
     <table class="tbl"><tbody>
       ${row(t.terms.salary, ruby(v.salary))}
-      ${row(t.terms.takeHome, ruby(tr(tm.takeHome, lang)))}
+      ${row(t.terms.allowances, multi(tr(tm.allowances, lang)))}
+      ${row(t.terms.takeHome, multi(tr(tm.takeHome, lang)))}
       ${row(t.terms.bonus, ruby(tr(tm.bonus, lang)))}
+      ${row(t.terms.payment, ruby(tr(tm.payment, lang)))}
+      ${row(t.terms.insurance, ruby(tr(tm.insurance, lang)))}
     </tbody></table>
 
     <h3 class="h3">${ruby(t.terms.group.time)}</h3>
     <table class="tbl"><tbody>
-      ${row(t.terms.hours, ruby(tr(tm.hours, lang)))}
+      ${row(t.terms.hours, multi(tr(tm.hours, lang)))}
+      ${row(t.terms.nightShift, ruby(tr(tm.nightShift, lang)))}
       ${row(t.terms.holidays, ruby(tr(tm.holidays, lang)))}
+      ${row(t.terms.leave, multi(tr(tm.leave, lang)))}
       ${row(t.terms.annualHolidays, has(tm.annualHolidays) ? `${esc(tm.annualHolidays)}${lang === 'ja' ? ruby(t.terms.days) : ' ' + esc(t.terms.days)}` : '')}
       ${row(t.terms.overtime, ruby(tr(tm.overtime, lang)))}
     </tbody></table>
@@ -768,6 +782,7 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
       ${row(t.terms.housingAllowance, ruby(tr(h.allowance, lang)))}
       ${row(t.terms.utilities, ruby(tr(h.utilities, lang)))}
       ${row(t.terms.parking, ruby(tr(h.parking, lang)))}
+      ${row(t.terms.furniture, ruby(tr(h.furniture, lang)))}
       ${row(t.terms.initialCost, ruby(tr(h.initialCost, lang)))}
       ${row(t.terms.commute, ruby(tr(h.commute, lang)))}
     </tbody></table>
@@ -775,18 +790,20 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
     <h3 class="h3">${ruby(t.terms.group.skill)}</h3>
     <table class="tbl"><tbody>
       ${row(t.terms.japanese, ruby(tr(tm.japaneseText, lang) || v.jpLabel))}
-      ${row(t.terms.requirements, ruby(tr(tm.requirements, lang)))}
+      ${row(t.terms.requirements, multi(tr(tm.requirements, lang)))}
     </tbody></table>
 
     <h3 class="h3">${ruby(t.terms.group.support)}</h3>
     <table class="tbl"><tbody>
       ${row(t.terms.support, ruby(tr(tm.support, lang)))}
+      ${row(t.terms.benefits, multi(tr(tm.benefits, lang)))}
       ${row(t.terms.consultLanguages, ruby(tr(tm.consultLanguages, lang)))}
     </tbody></table>
 
     <h3 class="h3">${ruby(t.terms.group.scope)}</h3>
     <table class="tbl"><tbody>
-      ${row(t.terms.changeScope, ruby(tr(tm.changeScope, lang)))}
+      ${row(t.terms.changeScope, multi(tr(tm.changeScope, lang)))}
+      ${row(t.terms.transfer, ruby(tr(tm.transfer, lang)))}
     </tbody></table>
 
     <h3 class="h3">${ruby(t.terms.group.dates)}</h3>

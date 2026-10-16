@@ -751,8 +751,8 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
       ${row(t.terms.contract, ruby(tr(tm.contract, lang)))}
       ${row(t.terms.probation, ruby(tr(tm.probation, lang)))}
       ${row(t.terms.visas, v.visasLabel.map(ruby).join('<br>'))}
-      ${row(t.terms.acceptInJapan, okng(v.accept.inJapan))}
-      ${row(t.terms.acceptOverseas, okng(v.accept.overseas))}
+      ${row(t.terms.acceptInJapan, okng(v.accept.inJapan) + (has(tr(v.accept.inJapanNote, lang)) ? `<br><small>${ruby(tr(v.accept.inJapanNote, lang))}</small>` : ''))}
+      ${row(t.terms.acceptOverseas, okng(v.accept.overseas) + (has(tr(v.accept.overseasNote, lang)) ? `<br><small>${ruby(tr(v.accept.overseasNote, lang))}</small>` : ''))}
     </tbody></table>
 
     <h3 class="h3">${ruby(t.terms.group.pay)}</h3>

@@ -36,7 +36,14 @@
   },
 
   "visas": ["特定技能1号"],
-  "accept": { "inJapan": true, "overseas": false },
+  "accept": {
+    "inJapan": true,
+    "overseas": false,
+    "overseasNote": {
+      "ja": "いまは、海外{かいがい}からの 申請{しんせい}が できないためです。※海外{かいがい}からの 申請{しんせい}が できるように なったら、受{う}け付{つ}けます。",
+      "en": "At the moment, applications from abroad cannot be processed. We will accept them once applications from abroad become possible."
+    }
+  },
 
   "fromStatus": [
     { "status": "特定技能1号", "field": "外食業", "noExam": true,

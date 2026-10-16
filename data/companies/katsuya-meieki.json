@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-10-16 求人票（2026年10月16日作成）を反映。求人票は国内在留者のみ。採用予定は男1名・女1名とあるが、性別を限った募集は原則できないため「2人」と表示。水道光熱費は、井村さんの最初の連絡では実費・求人票では家賃に含む → 求人票に合わせ、井村さんに確認中",
+  "_メモ": "2026-10-16 求人票（2026年10月16日作成）を反映。求人票は国内在留者のみ。採用予定は男1名・女1名とあるが、性別を限った募集は原則できないため「2人」と表示。水道光熱費は実費・本人負担（2026-10-16 井村さん確定。求人票の「家賃に含む」より優先）",
   "id": "katsuya-meieki",
   "published": true,
   "status": "募集中",
@@ -76,7 +76,7 @@
       "en": "This is company housing: one room per person, with furniture and appliances. It is about 15 minutes by bicycle to the store."
     },
     "money": [
-      { "label": { "ja": "家賃{やちん}（1か月{げつ}）", "en": "Rent (per month)" }, "value": { "ja": "45,000円{えん}", "en": "45,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます", "en": "Includes water, electricity and gas" } },
+      { "label": { "ja": "家賃{やちん}（1か月{げつ}）", "en": "Rent (per month)" }, "value": { "ja": "45,000円{えん}", "en": "45,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}は 別{べつ}に、使{つか}った 分{ぶん}を 自分{じぶん}で 払{はら}います", "en": "Water, electricity and gas are separate; you pay for what you use" } },
       { "label": { "ja": "住宅手当{じゅうたくてあて}（1か月{げつ}）", "en": "Housing allowance (per month)" }, "value": { "ja": "15,000円{えん}", "en": "15,000 yen" }, "note": { "ja": "会社{かいしゃ}から 出{で}ます", "en": "Paid by the company" } },
       { "label": { "ja": "家賃{やちん}から 手当{てあて}を 引{ひ}くと", "en": "Rent minus allowance" }, "value": { "ja": "30,000円{えん}", "en": "30,000 yen" }, "strong": true },
       { "label": { "ja": "お店{みせ}まで", "en": "To the store" }, "value": { "ja": "自転車{じてんしゃ}で 15分{ふん}", "en": "15 min by bicycle" }, "note": { "ja": "新{あたら}しい 自転車{じてんしゃ}を 貸{か}してもらえます", "en": "A new bicycle is lent to you" } }
@@ -112,8 +112,8 @@
       "en": "Overtime allowance: 55,000 yen a month (fixed; overtime is about 10 to 30 hours a month)\nHousing allowance: 15,000 yen a month\nCommuting allowance: paid in full\nHoliday work: 1.35 times\nPosition / skill allowance: up to 50,000 yen"
     },
     "takeHome": {
-      "ja": "約{やく} 227,000円{えん}\n270,000円{えん}から、社会保険料{しゃかいほけんりょう} 約{やく}38,000円{えん}と 所得税{しょとくぜい} 約{やく}5,000円{えん}を 引{ひ}いた 金額{きんがく}です。家賃{やちん}は ここから 払{はら}います。",
-      "en": "About 227,000 yen\nThis is 270,000 yen minus social insurance (about 38,000 yen) and income tax (about 5,000 yen). You pay your rent from this."
+      "ja": "約{やく} 227,000円{えん}\n270,000円{えん}から、社会保険料{しゃかいほけんりょう} 約{やく}38,000円{えん}と 所得税{しょとくぜい} 約{やく}5,000円{えん}を 引{ひ}いた 金額{きんがく}です。家賃{やちん}と 水道{すいどう}・電気{でんき}・ガス代{だい}は、ここから 払{はら}います。",
+      "en": "About 227,000 yen\nThis is 270,000 yen minus social insurance (about 38,000 yen) and income tax (about 5,000 yen). You pay your rent and utilities from this."
     },
     "bonus": { "ja": "昇給{しょうきゅう}：年{ねん}1回{かい}／ボーナス：年{ねん}1回{かい}（会社{かいしゃ}の 業績{ぎょうせき}による）", "en": "Pay raise: once a year / Bonus: once a year (depends on company performance)" },
     "payment": { "ja": "月末{げつまつ}締{じ}め、次{つぎ}の 月{つき}の 15日{にち}に 現金{げんきん}で 払{はら}います", "en": "Closed at the end of each month, paid in cash on the 15th of the next month" },
@@ -130,7 +130,7 @@
       "detail": { "ja": "社宅{しゃたく}（1人{にん}1部屋{へや}・名古屋市{なごやし} 中村区{なかむらく}の マンション）", "en": "Company housing (one room per person, an apartment in Nakamura Ward, Nagoya)" },
       "rent": { "ja": "月{つき} 45,000円{えん}", "en": "45,000 yen a month" },
       "allowance": { "ja": "月{つき} 15,000円{えん}", "en": "15,000 yen a month" },
-      "utilities": { "ja": "家賃{やちん}に 含{ふく}まれます", "en": "Included in the rent" },
+      "utilities": { "ja": "使{つか}った 分{ぶん}を 自分{じぶん}で 払{はら}います（家賃{やちん}とは 別{べつ}）", "en": "You pay for what you use (separate from the rent)" },
       "parking": { "ja": "駐輪場{ちゅうりんじょう}あり", "en": "Bicycle parking available" },
       "furniture": { "ja": "布団{ふとん}・エアコン・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ", "en": "Futon, air conditioner, fridge, washing machine, rice cooker, gas stove" },
       "initialCost": { "ja": "", "en": "" },

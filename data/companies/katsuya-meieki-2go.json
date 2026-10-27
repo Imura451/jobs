@@ -1,0 +1,392 @@
+{
+  "_メモ": "2026-10-27 作成。特定技能2号の求人。給料と控除は井村さんから（月給310,000・社保16,200・厚年29,300・雇保1,500・所得税6,500・手取256,500）。動画・社宅・時間・休日などは1号の求人票と同じとして載せた（会社に要確認）。手当の内訳は2号では未確認のため載せない",
+  "id": "katsuya-meieki-2go",
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "deadline": "",
+  "company": {
+    "name": {
+      "ja": "株式会社{かぶしきがいしゃ}八洲{はっしゅう}（かつや 名古屋{なごや}・名駅店{めいえきてん}）",
+      "en": "Hasshu Co., Ltd. (Katsuya Nagoya Meieki)"
+    },
+    "business": {
+      "ja": "飲食店{いんしょくてん}の 会社{かいしゃ}です。とんかつ・かつ丼{どん}の お店{みせ}「かつや」を 運営{うんえい}しています。\n1957年{ねん}に できた 会社{かいしゃ}です。",
+      "en": "A restaurant company that runs \"Katsuya\", a tonkatsu (pork cutlet) and katsudon restaurant.\nFounded in 1957."
+    },
+    "employees": 13,
+    "foreignStaff": {
+      "count": 3,
+      "countries": {
+        "ja": "",
+        "en": ""
+      }
+    },
+    "website": "https://hassyu.co.jp",
+    "photos": []
+  },
+  "location": {
+    "prefecture": "愛知県",
+    "city": {
+      "ja": "名古屋市{なごやし} 中村区{なかむらく}",
+      "en": "Nakamura Ward, Nagoya"
+    },
+    "station": {
+      "ja": "名古屋駅{なごやえき}の 前{まえ}（名古屋市{なごやし}中村区{なかむらく}名駅{めいえき}4-22-17 中央{ちゅうおう}ビル 1階{かい}）",
+      "en": "In front of Nagoya Station (Chuo Bldg. 1F, 4-22-17 Meieki, Nakamura Ward, Nagoya)"
+    },
+    "mapQuery": "名古屋市中村区名駅4-22-17"
+  },
+  "job": {
+    "field": "外食業",
+    "title": {
+      "ja": "とんかつ店{てん}「かつや」の 社員{しゃいん}（特定技能{とくていぎのう}2号{ごう}）",
+      "en": "Full-time staff at Katsuya (Specified Skilled Worker (ii))"
+    },
+    "description": {
+      "ja": "名古屋駅{なごやえき}の 前{まえ}に ある、とんかつ専門店{せんもんてん}「かつや」で 働{はたら}きます。\n仕事{しごと}は、料理{りょうり}を 作{つく}ることと、お客{きゃく}さんの 対応{たいおう}です。\n\n1日{にち}の 流{なが}れ：開店{かいてん}の 準備{じゅんび} → お店{みせ}の 営業{えいぎょう}（仕込{しこ}み・調理{ちょうり}・接客{せっきゃく}） → 休憩{きゅうけい}・まかない（食事{しょくじ}） → お店{みせ}の 営業{えいぎょう} → 閉店{へいてん}の 作業{さぎょう}\n\nお店{みせ}の 中{なか}は、社長{しゃちょう} → 店長{てんちょう} → 社員{しゃいん} → アルバイト です。あなたは 特定技能{とくていぎのう}の 社員{しゃいん}として 働{はたら}きます。\n\n特定技能{とくていぎのう}2号{ごう}は、在留期間{ざいりゅうきかん}の 更新{こうしん}に 上限{じょうげん}が ありません。条件{じょうけん}を 満{み}たせば、家族{かぞく}を 日本{にほん}に 呼{よ}ぶことも できます（最新{さいしん}の 要件{ようけん}は 出入国在留管理庁{しゅつにゅうこくざいりゅうかんりちょう}で 確{たし}かめてください）。",
+      "en": "You will work at Katsuya, a tonkatsu restaurant in front of Nagoya Station.\nYour work is cooking and serving customers.\n\nA day: opening preparation → service (prep, cooking, serving) → break and staff meal → service → closing work\n\nThe team: president → store manager → full-time staff → part-time staff. You will work as full-time staff with the Specified Skilled Worker visa.\n\nWith the Specified Skilled Worker (ii) visa, there is no upper limit on renewing your period of stay, and if you meet the conditions you can bring your family to Japan (please check the latest requirements with the Immigration Services Agency)."
+    }
+  },
+  "visas": [
+    "特定技能2号"
+  ],
+  "accept": {
+    "inJapan": true,
+    "overseas": false,
+    "overseasNote": {
+      "ja": "いまは、海外{かいがい}からの 申請{しんせい}が できないためです。※海外{かいがい}からの 申請{しんせい}が できるように なったら、受{う}け付{つ}けます。",
+      "en": "At the moment, applications from abroad cannot be processed. We will accept them once applications from abroad become possible."
+    }
+  },
+  "fromStatus": [
+    {
+      "status": "特定技能2号",
+      "field": "外食業",
+      "noExam": true,
+      "note": {
+        "ja": "外食業{がいしょくぎょう}の 特定技能{とくていぎのう}2号{ごう}で 働{はたら}いていて、転職{てんしょく}したい 人{ひと}",
+        "en": "If you work in food service with the Specified Skilled Worker (ii) visa and want to change jobs"
+      }
+    },
+    {
+      "status": "特定技能1号",
+      "field": "外食業",
+      "noExam": false,
+      "note": {
+        "ja": "外食業{がいしょくぎょう}の 特定技能{とくていぎのう}1号{ごう}で 働{はたら}いていて、2号{ごう}の 試験{しけん}に 合格{ごうかく}した 人{ひと}（または 合格{ごうかく}を めざす 人{ひと}）",
+        "en": "If you work in food service with the Specified Skilled Worker (i) visa and passed (or plan to take) the (ii) exam"
+      }
+    }
+  ],
+  "noExamNote": {
+    "ja": "外食業{がいしょくぎょう}の 特定技能{とくていぎのう}2号{ごう}を 持{も}っている 人{ひと}は、試験{しけん}なしで 移{うつ}れます。1号{ごう}から 2号{ごう}に なるには、2号{ごう}の 試験{しけん}と 日本語{にほんご}の 試験{しけん}に 合格{ごうかく}する 必要{ひつよう}が あります（くわしい 要件{ようけん}は 相談{そうだん}のときに 確{たし}かめます）。",
+    "en": "If you already have the Specified Skilled Worker (ii) visa in food service, you can move without an exam. To move from (i) to (ii), you need to pass the (ii) exam and a Japanese test (we will check the details with you)."
+  },
+  "leadTime": {
+    "inJapan": {
+      "ja": "",
+      "en": ""
+    },
+    "overseas": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "interview": {
+    "methods": [],
+    "travelCost": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "banner": {
+    "file": "banner-site.jpg",
+    "alt": {
+      "ja": "かつや 名古屋・名駅店 外食特定技能 求人用 企業紹介サイト。ベトナム人スタッフが活躍中",
+      "en": "Katsuya Nagoya Meieki: Vietnamese staff are working here"
+    }
+  },
+  "video": "RTp2VOMVoq0",
+  "videoTitle": {
+    "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}",
+    "en": "Company video"
+  },
+  "ceoMessage": {
+    "text": {
+      "ja": "時間{じかん}を 守{まも}って、まじめに がんばる 仲間{なかま}を 応援{おうえん}します！\n\nお店{みせ}は、アットホームで 家族{かぞく}みたいな 会社{かいしゃ}です。\n日本{にほん}で 安心{あんしん}・安全{あんぜん}に 働{はたら}けるように、全面{ぜんめん}的{てき}に サポートします！\n\n飲食{いんしょく}の サービスは「ニコ・キビ・ハキ」が 大切{たいせつ}です。\n明{あか}るく（ニコニコ）・楽{たの}しく（キビキビ）・元気{げんき}よく（ハキハキ）。\n食{た}べるのが 好{す}きな 人{ひと}、料理{りょうり}が 好{す}きな 人{ひと}、人{ひと}が 好{す}きな 人{ひと}を 待{ま}っています。",
+      "en": "We support teammates who keep time and work hard!\n\nOur store is a friendly, family-like company.\nWe fully support you so that you can work safely and with peace of mind in Japan!\n\nIn food service, \"Niko, Kibi, Haki\" is important:\nbe bright (niko-niko), lively (kibi-kibi) and energetic (haki-haki).\nWe are waiting for people who love eating, love cooking and love people."
+    }
+  },
+  "imuraComment": {
+    "ja": "気持{きも}ちの ある 社長{しゃちょう}です。\n会社{かいしゃ}も とても 明{あか}るい 雰囲気{ふんいき}で、男性{だんせい}も 女性{じょせい}も 働{はたら}きやすい 職場{しょくば}です。",
+    "en": "The president truly cares about his staff.\nThe company has a very bright atmosphere, and it is an easy place to work for both men and women."
+  },
+  "housingShowcase": {
+    "title": {
+      "ja": "名古屋市{なごやし} 中村区{なかむらく}の マンションに 一人{ひとり}で 住{す}めます",
+      "en": "Your own room in an apartment in Nakamura Ward, Nagoya"
+    },
+    "lead": {
+      "ja": "会社{かいしゃ}の 社宅{しゃたく}です。1人{にん}1部屋{へや}で、家具{かぐ}と 家電{かでん}が そろっています。お店{みせ}までは 自転車{じてんしゃ}で 15分{ふん}くらいです。",
+      "en": "This is company housing: one room per person, with furniture and appliances. It is about 15 minutes by bicycle to the store."
+    },
+    "money": [
+      {
+        "label": {
+          "ja": "家賃{やちん}（1か月{げつ}）",
+          "en": "Rent (per month)"
+        },
+        "value": {
+          "ja": "45,000円{えん}",
+          "en": "45,000 yen"
+        },
+        "note": {
+          "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます",
+          "en": "Includes water, electricity and gas"
+        }
+      },
+      {
+        "label": {
+          "ja": "住宅手当{じゅうたくてあて}（1か月{げつ}）",
+          "en": "Housing allowance (per month)"
+        },
+        "value": {
+          "ja": "15,000円{えん}",
+          "en": "15,000 yen"
+        },
+        "note": {
+          "ja": "会社{かいしゃ}から 出{で}ます",
+          "en": "Paid by the company"
+        }
+      },
+      {
+        "label": {
+          "ja": "家賃{やちん}から 手当{てあて}を 引{ひ}くと",
+          "en": "Rent minus allowance"
+        },
+        "value": {
+          "ja": "30,000円{えん}",
+          "en": "30,000 yen"
+        },
+        "strong": true
+      },
+      {
+        "label": {
+          "ja": "お店{みせ}まで",
+          "en": "To the store"
+        },
+        "value": {
+          "ja": "自転車{じてんしゃ}で 15分{ふん}",
+          "en": "15 min by bicycle"
+        },
+        "note": {
+          "ja": "新{あたら}しい 自転車{じてんしゃ}を 貸{か}してもらえます",
+          "en": "A new bicycle is lent to you"
+        }
+      }
+    ],
+    "photos": [
+      {
+        "file": "house-exterior.jpg",
+        "wide": true,
+        "credit": "画像：Google ストリートビュー",
+        "caption": {
+          "ja": "マンションの 外観{がいかん}",
+          "en": "The apartment building"
+        }
+      },
+      {
+        "file": "house-front.jpg",
+        "wide": true,
+        "credit": "画像：Google ストリートビュー",
+        "caption": {
+          "ja": "入口{いりぐち}と 駐輪場{ちゅうりんじょう}",
+          "en": "Entrance and bicycle parking"
+        }
+      },
+      {
+        "file": "house-room.jpg",
+        "caption": {
+          "ja": "明{あか}るい 部屋{へや}。エアコンが あります",
+          "en": "A bright room with an air conditioner"
+        },
+        "og": true
+      },
+      {
+        "file": "house-bath.jpg",
+        "caption": {
+          "ja": "お風呂{ふろ}・トイレ・洗面台{せんめんだい}",
+          "en": "Bath, toilet and sink"
+        }
+      },
+      {
+        "file": "house-entrance.jpg",
+        "caption": {
+          "ja": "マンションの 入口{いりぐち}",
+          "en": "Building entrance"
+        }
+      },
+      {
+        "file": "house-elevator.jpg",
+        "caption": {
+          "ja": "エレベーターが あります",
+          "en": "There is an elevator"
+        }
+      }
+    ],
+    "points": [
+      {
+        "ja": "1人{にん}1部屋{へや}",
+        "en": "One room per person"
+      },
+      {
+        "ja": "布団{ふとん}・エアコン・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ つき",
+        "en": "Futon, air conditioner, fridge, washing machine, rice cooker and gas stove"
+      },
+      {
+        "ja": "新{あたら}しい 自転車{じてんしゃ}を 貸{か}してもらえます",
+        "en": "A new bicycle is lent to you"
+      },
+      {
+        "ja": "エレベーターが ある マンション",
+        "en": "Building with an elevator"
+      }
+    ],
+    "note": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "terms": {
+    "openings": null,
+    "employment": {
+      "ja": "正社員{せいしゃいん}（会社{かいしゃ}が 直接{ちょくせつ} 雇{やと}います・フルタイム）",
+      "en": "Full-time employee, hired directly by the company"
+    },
+    "contract": {
+      "ja": "期間{きかん}の 定{さだ}めなし",
+      "en": "No fixed term"
+    },
+    "probation": {
+      "ja": "なし",
+      "en": "None"
+    },
+    "salaryType": "月給",
+    "salaryMin": 310000,
+    "salaryMax": 310000,
+    "allowances": {
+      "ja": "",
+      "en": ""
+    },
+    "takeHome": {
+      "ja": "約{やく} 256,500円{えん}\n310,000円{えん}から、健康保険{けんこうほけん} 16,200円{えん}・厚生年金{こうせいねんきん} 29,300円{えん}・雇用保険{こようほけん} 1,500円{えん}・所得税{しょとくぜい} 6,500円{えん}（合計{ごうけい} 53,500円{えん}）を 引{ひ}いた 金額{きんがく}です。家賃{やちん}（水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}む）は、ここから 払{はら}います。",
+      "en": "About 256,500 yen\nThis is 310,000 yen minus health insurance 16,200 yen, pension 29,300 yen, employment insurance 1,500 yen and income tax 6,500 yen (53,500 yen in total). You pay your rent (including utilities) from this."
+    },
+    "bonus": {
+      "ja": "昇給{しょうきゅう}：年{ねん}1回{かい}／ボーナス：年{ねん}1回{かい}（会社{かいしゃ}の 業績{ぎょうせき}による）",
+      "en": "Pay raise: once a year / Bonus: once a year (depends on company performance)"
+    },
+    "payment": {
+      "ja": "月末{げつまつ}締{じ}め、次{つぎ}の 月{つき}の 15日{にち}に 現金{げんきん}で 払{はら}います",
+      "en": "Closed at the end of each month, paid in cash on the 15th of the next month"
+    },
+    "insurance": {
+      "ja": "健康保険{けんこうほけん}・厚生年金{こうせいねんきん}・雇用保険{こようほけん}・労災保険{ろうさいほけん}",
+      "en": "Health insurance, pension, employment insurance and workers' accident insurance"
+    },
+    "hours": {
+      "ja": "10:00〜22:00 の あいだの シフト制{せい}\n1日{にち} 8時間{じかん}／休憩{きゅうけい} 90分{ぷん}くらい",
+      "en": "Shifts between 10:00 and 22:00\n8 hours a day / about 90 minutes of break"
+    },
+    "nightShift": {
+      "ja": "ありません",
+      "en": "None"
+    },
+    "holidays": {
+      "ja": "1か月{げつ}に 6〜8日{にち}",
+      "en": "6 to 8 days a month"
+    },
+    "leave": {
+      "ja": "冬休{ふゆやす}み（年末年始{ねんまつねんし}）、リフレッシュ休暇{きゅうか}\n有給休暇{ゆうきゅうきゅうか}：あり",
+      "en": "Winter holidays (New Year), refresh leave\nPaid leave: yes"
+    },
+    "overtime": {
+      "ja": "月{つき} 10〜30時間{じかん}くらい",
+      "en": "About 10 to 30 hours a month"
+    },
+    "housing": {
+      "available": true,
+      "detail": {
+        "ja": "社宅{しゃたく}（1人{にん}1部屋{へや}・名古屋市{なごやし} 中村区{なかむらく}の マンション）",
+        "en": "Company housing (one room per person, an apartment in Nakamura Ward, Nagoya)"
+      },
+      "rent": {
+        "ja": "月{つき} 45,000円{えん}",
+        "en": "45,000 yen a month"
+      },
+      "allowance": {
+        "ja": "月{つき} 15,000円{えん}",
+        "en": "15,000 yen a month"
+      },
+      "utilities": {
+        "ja": "家賃{やちん}に 含{ふく}まれます",
+        "en": "Included in the rent"
+      },
+      "parking": {
+        "ja": "駐輪場{ちゅうりんじょう}あり",
+        "en": "Bicycle parking available"
+      },
+      "furniture": {
+        "ja": "布団{ふとん}・エアコン・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ",
+        "en": "Futon, air conditioner, fridge, washing machine, rice cooker, gas stove"
+      },
+      "initialCost": {
+        "ja": "",
+        "en": ""
+      },
+      "commute": {
+        "ja": "自転車{じてんしゃ}で 15分{ふん}くらい（新{あたら}しい 自転車{じてんしゃ}を 貸{か}してもらえます）",
+        "en": "About 15 minutes by bicycle (a new bicycle is lent to you)"
+      }
+    },
+    "moving": {
+      "ja": "",
+      "en": ""
+    },
+    "japanese": "N3",
+    "japaneseText": {
+      "ja": "日本語能力試験{にほんごのうりょくしけん} N3 くらい 以上{いじょう}（外食業{がいしょくぎょう}の 2号{ごう}では、日本語{にほんご}の 試験{しけん}の 合格{ごうかく}が 求{もと}められます。最新{さいしん}の 要件{ようけん}は 出入国在留管理庁{しゅつにゅうこくざいりゅうかんりちょう}で 確{たし}かめてください）",
+      "en": "About JLPT N3 or higher (a Japanese test pass is required for food service (ii); please check the latest requirements with the Immigration Services Agency)"
+    },
+    "requirements": {
+      "ja": "年齢{ねんれい}・学歴{がくれき}・運転免許{うんてんめんきょ}は 問{と}いません\n食{た}べるのが 好{す}きな 人{ひと}、料理{りょうり}が 好{す}きな 人{ひと}、人{ひと}が 好{す}きな 人{ひと}",
+      "en": "Age, education and driving licence do not matter\nPeople who love eating, cooking and people"
+    },
+    "support": {
+      "ja": "登録支援機関{とうろくしえんきかん}が 特定技能{とくていぎのう}の 支援{しえん}を します",
+      "en": "A registered support organization provides the Specified Skilled Worker support"
+    },
+    "benefits": {
+      "ja": "まかない（お店{みせ}の 食事{しょくじ}）\n感謝祭{かんしゃさい}（懇親会{こんしんかい}や 社員旅行{しゃいんりょこう}など。お金{かね}は かかりません）\n制服{せいふく}あり",
+      "en": "Staff meals\nThank-you events (parties, company trips and more, free of charge)\nUniform provided"
+    },
+    "consultLanguages": {
+      "ja": "",
+      "en": ""
+    },
+    "visaSupport": {
+      "ja": "登録支援機関{とうろくしえんきかん}が 手伝{てつだ}います",
+      "en": "The registered support organization helps you"
+    },
+    "changeScope": {
+      "ja": "働{はたら}く 場所{ばしょ}：かつや 名古屋{なごや}・名駅店{めいえきてん}\n仕事{しごと}：調理{ちょうり}と 接客{せっきゃく}",
+      "en": "Workplace: Katsuya Nagoya Meieki store\nDuties: cooking and customer service"
+    },
+    "transfer": {
+      "ja": "ありません",
+      "en": "None"
+    }
+  }
+}

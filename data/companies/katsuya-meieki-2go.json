@@ -101,6 +101,9 @@
       "en": ""
     }
   },
+  "related": [
+    {"id": "katsuya-meieki", "eyebrow": {"ja": "1号{ごう}も 募集中{ぼしゅうちゅう}", "en": "Also hiring (i)"}, "title": {"ja": "特定技能{とくていぎのう}1号{ごう}の 人{ひと}も 募集{ぼしゅう}しています", "en": "We are also hiring Specified Skilled Worker (i)"}, "text": {"ja": "まだ 2号{ごう}を 持{も}っていない 人{ひと}は、こちらに 応募{おうぼ}できます。同{おな}じ お店{みせ}・同{おな}じ 社宅{しゃたく}です。", "en": "If you do not have the (ii) visa yet, you can apply here. Same store, same company housing."}, "button": {"ja": "1号{ごう}の 求人{きゅうじん}を 見{み}る", "en": "See the (i) job"}}
+  ],
   "banner": {
     "file": "banner-2go.jpg",
     "alt": {

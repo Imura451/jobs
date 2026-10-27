@@ -652,6 +652,27 @@ function pageCompany(c, lang) {
   /* シェア用のアドレス。シェア画像が変わると末尾の印も変わるので、
      LINEやFacebookが前の画像を覚えていても、新しい画像で読み直します */
   const shareUrl = ogFile ? `${url}?s=${crypto.createHash('md5').update(ogFile + (c.updatedAt || '')).digest('hex').slice(0, 6)}` : url;
+  /* 同じ会社の、別の在留資格の求人への案内（例：2号の求人に「1号も募集しています」）。
+     data の related に書いたときだけ出ます。給料や画像は、相手の求人のデータから取ります */
+  const relJobs = (c.related || []).map(r => {
+    const o = PUBLISHED.find(x => x.id === r.id && !x.closed);
+    if (!o) return null;
+    const ov = view(o, lang);
+    const ob = o.banner && has(o.banner.file) && fs.existsSync(path.join(ASSETS, 'companies', o.id, o.banner.file)) ? o.banner.file : '';
+    return { r, o, ov, ob };
+  }).filter(Boolean);
+  const relatedHtml = relJobs.length ? `<section class="sec rel" id="related"><div class="wrap narrow">${relJobs.map(({ r, o, ov, ob }) => `
+    <a class="relcard" href="${esc(o.id)}.html">
+      ${ob ? `<img src="${up}assets/companies/${esc(o.id)}/${esc(ob)}" alt="" loading="lazy">` : ''}
+      <span class="relcard__body">
+        <span class="relcard__eyebrow">${ruby(tr(r.eyebrow, lang))}</span>
+        <b class="relcard__title">${ruby(tr(r.title, lang))}</b>
+        ${has(tr(r.text, lang)) ? `<span class="relcard__text">${ruby(tr(r.text, lang))}</span>` : ''}
+        <span class="relcard__facts">${[ov.visasLabel.map(ruby).join('・'), ruby(ov.salary), ov.jpLabel ? ruby(t.card.jp) + ' ' + ruby(ov.jpLabel) : ''].filter(Boolean).join('　／　')}</span>
+        <span class="relcard__more">${ruby(tr(r.button, lang) || t.card.more)} →</span>
+      </span>
+    </a>`).join('')}</div></section>` : '';
+  const relatedSmall = relJobs.map(({ r, o }) => `<p class="relsmall">${ruby(tr(r.title, lang))}　<a href="${esc(o.id)}.html">${ruby(tr(r.button, lang) || t.card.more)} →</a></p>`).join('');
   const bannerHtml = bn
     ? `<a class="pr" href="#video"><img src="${up}assets/companies/${esc(c.id)}/${esc(bn.file)}" alt="${esc(plain(tr(bn.alt, lang)))}" width="1280" height="720"></a>` : '';
   const banner = c.closed
@@ -684,6 +705,8 @@ ${c.sample ? `<div class="samplebar"><div class="wrap">${ruby(t.job.sampleNote)}
     ${freeBox(t)}
   </div>
 </section>
+
+${relatedHtml}
 
 <section class="sec">
   <div class="wrap narrow">
@@ -828,6 +851,7 @@ ${v.accept.inJapan ? `<section class="sec" id="in-japan">
       ${row(t.terms.moving, ruby(tr(tm.moving, lang)))}
       ${row(t.terms.visaSupport, ruby(tr(tm.visaSupport, lang)))}
     </tbody></table>
+    ${relatedSmall}
     <p><a href="../flow.html">${ruby(t.home.flowBtn)}</a></p>
   </div>
 </section>` : ''}

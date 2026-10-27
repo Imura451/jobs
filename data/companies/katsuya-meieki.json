@@ -60,6 +60,9 @@
   "leadTime": { "inJapan": { "ja": "", "en": "" }, "overseas": { "ja": "", "en": "" } },
   "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
 
+  "related": [
+    {"id": "katsuya-meieki-2go", "eyebrow": {"ja": "2号{ごう}も 募集中{ぼしゅうちゅう}", "en": "Also hiring (ii)"}, "title": {"ja": "特定技能{とくていぎのう}2号{ごう}の 人{ひと}も 募集{ぼしゅう}しています", "en": "We are also hiring Specified Skilled Worker (ii)"}, "text": {"ja": "外食業{がいしょくぎょう}の 2号{ごう}を 持{も}っている 人{ひと}は、こちらに 応募{おうぼ}できます。", "en": "If you have the (ii) visa in food service, you can apply here."}, "button": {"ja": "2号{ごう}の 求人{きゅうじん}を 見{み}る", "en": "See the (ii) job"}}
+  ],
   "banner": { "file": "banner-site.jpg", "alt": { "ja": "かつや 名古屋・名駅店 外食特定技能 求人用 企業紹介サイト。ベトナム人スタッフが活躍中", "en": "Katsuya Nagoya Meieki: Vietnamese staff are working here" } },
   "video": "RTp2VOMVoq0",
   "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },

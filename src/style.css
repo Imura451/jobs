@@ -231,6 +231,20 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 @media(min-width:800px){.map{aspect-ratio:16/9}}
 .map iframe{width:100%;height:100%;border:0}
 
+/* 同じ会社の別の在留資格の求人への案内 */
+.rel{padding-top:24px;padding-bottom:8px}
+.relcard{display:grid;gap:0;text-decoration:none;color:var(--ink);background:#fff;border:3px solid var(--red);border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+@media(min-width:700px){.relcard{grid-template-columns:240px 1fr;align-items:center}}
+.relcard img{width:100%;height:auto;display:block}
+.relcard__body{display:flex;flex-direction:column;gap:4px;padding:12px 16px 14px}
+.relcard__eyebrow{align-self:flex-start;font-size:12px;font-weight:700;color:#fff;background:var(--red);border-radius:999px;padding:1px 10px}
+.relcard__title{font-size:18px;line-height:1.5}
+.relcard__text{font-size:14px}
+.relcard__facts{font-size:14px;font-weight:700}
+.relcard__more{font-size:15px;font-weight:700;color:var(--red);margin-top:2px}
+.relsmall{margin:12px 0 0;padding:10px 12px;background:var(--gray);border-radius:8px;font-weight:700;font-size:15px}
+.relsmall a{color:var(--red)}
+
 /* 住まいの紹介 */
 .house{background:#fff;border-top:1px solid var(--line)}
 .house__eyebrow{display:inline-block;font-size:13px;font-weight:700;color:#fff;background:var(--red);border-radius:999px;padding:2px 12px;margin-bottom:8px}

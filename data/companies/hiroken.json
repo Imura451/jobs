@@ -1,0 +1,51 @@
+{
+  "_メモ": "2026-10-29 作成。求人票は後日。在留資格の種類・給料・時間・休日・住まいの条件などは未確認のため空（空の表は見出しごと出ない）。住まいはアパートを借りている（写真と条件を井村さんに依頼中）",
+  "id": "hiroken",
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "deadline": "",
+
+  "company": {
+    "name": { "ja": "株式会社{かぶしきがいしゃ}宏建{ひろけん}", "en": "Hiroken Co., Ltd." },
+    "business": {
+      "ja": "木造{もくぞう}の 家{いえ}を 建{た}てる 会社{かいしゃ}です。木{き}の ぬくもりの ある 家{いえ}づくりを しています。",
+      "en": "A company that builds wooden houses with the warmth of natural wood."
+    },
+    "website": "",
+    "photos": []
+  },
+
+  "location": {
+    "prefecture": "愛知県",
+    "city": { "ja": "蒲郡市{がまごおりし}", "en": "Gamagori City" },
+    "station": { "ja": "", "en": "" },
+    "mapQuery": "愛知県蒲郡市"
+  },
+
+  "job": {
+    "field": "建設",
+    "title": { "ja": "建築大工{けんちくだいく}", "en": "Carpenter (building construction)" },
+    "description": {
+      "ja": "木造{もくぞう}の 家{いえ}を つくる 大工{だいく}の 仕事{しごと}です。\n仕事{しごと}の 様子{ようす}は、下{した}の 会社紹介{かいしゃしょうかい}の 動画{どうが}で 見{み}られます。",
+      "en": "Carpentry work building wooden houses.\nYou can see the work in the company video below."
+    }
+  },
+
+  "visas": [],
+  "accept": {},
+
+  "fromStatus": [],
+  "noExamNote": { "ja": "", "en": "" },
+  "leadTime": { "inJapan": { "ja": "", "en": "" }, "overseas": { "ja": "", "en": "" } },
+  "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
+
+  "banner": { "file": "banner.jpg", "alt": { "ja": "株式会社宏建（愛知県蒲郡市）建築大工 求人用 企業紹介サイト。木のぬくもり 木造建築", "en": "Hiroken Co., Ltd. (Gamagori, Aichi): carpenter job, company introduction" } },
+  "video": "SkDYycsOmW0",
+  "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },
+
+  "imuraComment": { "ja": "", "en": "" },
+
+  "terms": {}
+}

@@ -440,7 +440,7 @@ function card(c, lang) {
     ${v.salary ? `<div><dt>${ruby(t.card.salary)}</dt><dd class="hl">${ruby(v.salary)}</dd></div>` : ''}
     ${v.housingKnown ? `<div><dt>${ruby(t.card.housing)}</dt><dd>${ruby(v.housing ? t.card.housingYes : t.card.housingNo)}</dd></div>` : ''}
     ${v.jpLabel ? `<div><dt>${ruby(t.card.jp)}</dt><dd>${ruby(v.jpLabel)}</dd></div>` : ''}
-    <div><dt>${ruby(t.terms.visas)}</dt><dd>${v.visasLabel.map(ruby).join('<br>')}</dd></div>
+    ${v.visasLabel.length ? `<div><dt>${ruby(t.terms.visas)}</dt><dd>${v.visasLabel.map(ruby).join('<br>')}</dd></div>` : ''}
   </dl>
   <p class="card__tags">${v.catsLabel.map(x => `<span class="tag tag--cat">${ruby(x)}</span>`).join('')}${tags.join('')}</p>
   <span class="card__more">${ruby(t.card.more)}</span>

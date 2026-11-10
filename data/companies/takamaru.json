@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-11 作成。求人票は後日。事業内容は会社のホームページ（takamarusyokuhin.com）から。給料・時間・休日・在留資格などは未確認のため空。住まいは提携先の一例（家賃 39,000円・水道光熱費込み、2026-11-11 井村さん）。会社紹介動画 rjgsw46rJ9U（サムネイルをPRバナーに使用）",
+  "_メモ": "2026-11-11 作成。求人票は後日。事業内容は会社のホームページ（takamarusyokuhin.com）から。給料・時間・休日・在留資格などは未確認のため空。住まいは提携先。家賃は 25,000円タイプと 35,000円タイプ、どちらも水道光熱費込み（2026-11-11 井村さん修正。最初は 39,000円）。写真がどちらのタイプかは未確認。会社紹介動画 rjgsw46rJ9U（サムネイルをPRバナーに使用）",
   "id": "takamaru",
   "published": true,
   "status": "募集中",
@@ -48,13 +48,14 @@
   "imuraComment": { "ja": "", "en": "" },
 
   "housingShowcase": {
-    "title": { "ja": "家賃{やちん}は 水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}めて 39,000円{えん}", "en": "Rent is 39,000 yen including water, electricity and gas" },
+    "title": { "ja": "家賃{やちん}は 25,000円{えん}と 35,000円{えん}の 2つ。水道{すいどう}・電気{でんき}・ガス代{だい}も 含{ふく}みます", "en": "Two rent types: 25,000 yen and 35,000 yen, including water, electricity and gas" },
     "lead": {
       "ja": "提携先{ていけいさき}の 住{す}まいです。写真{しゃしん}は その 一例{いちれい}です。",
       "en": "Partner housing. The photo is one example."
     },
     "money": [
-      { "label": { "ja": "家賃{やちん}（1か月{げつ}）", "en": "Rent (per month)" }, "value": { "ja": "39,000円{えん}", "en": "39,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます", "en": "Includes water, electricity and gas" }, "strong": true }
+      { "label": { "ja": "家賃{やちん}（1か月{げつ}）A タイプ", "en": "Rent (per month) Type A" }, "value": { "ja": "25,000円{えん}", "en": "25,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます", "en": "Includes water, electricity and gas" }, "strong": true },
+      { "label": { "ja": "家賃{やちん}（1か月{げつ}）B タイプ", "en": "Rent (per month) Type B" }, "value": { "ja": "35,000円{えん}", "en": "35,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます", "en": "Includes water, electricity and gas" }, "strong": true }
     ],
     "photos": [
       { "file": "house-room.jpg", "caption": { "ja": "提携先{ていけいさき}の 住{す}まいの 一例{いちれい}", "en": "An example of our partner housing" }, "og": true }
@@ -67,7 +68,7 @@
     "housing": {
       "available": true,
       "detail": { "ja": "提携先{ていけいさき}の 住{す}まい", "en": "Partner housing" },
-      "rent": { "ja": "月{つき} 39,000円{えん}（一例{いちれい}）", "en": "39,000 yen a month (example)" },
+      "rent": { "ja": "月{つき} 25,000円{えん} か 35,000円{えん}（2つの タイプ）", "en": "25,000 or 35,000 yen a month (two types)" },
       "utilities": { "ja": "家賃{やちん}に 含{ふく}まれます", "en": "Included in the rent" }
     }
   }

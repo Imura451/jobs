@@ -1,0 +1,74 @@
+{
+  "_メモ": "2026-11-11 作成。求人票は後日。事業内容は会社のホームページ（takamarusyokuhin.com）から。給料・時間・休日・在留資格などは未確認のため空。住まいは提携先の一例（家賃 39,000円・水道光熱費込み、2026-11-11 井村さん）。会社紹介動画 rjgsw46rJ9U（サムネイルをPRバナーに使用）",
+  "id": "takamaru",
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "deadline": "",
+
+  "company": {
+    "name": { "ja": "有限会社{ゆうげんがいしゃ}高丸食品{たかまるしょくひん}", "en": "Takamaru Shokuhin Co., Ltd." },
+    "business": {
+      "ja": "納豆{なっとう}を 作{つく}って 売{う}っている 会社{かいしゃ}です。60年{ねん}より 長{なが}く、愛知県{あいちけん} 大府市{おおぶし}で 納豆{なっとう}を 作{つく}っています。\n大豆{だいず}は、愛知県{あいちけん}と 北海道{ほっかいどう}の ものを 使{つか}っています。全国納豆鑑評会{ぜんこくなっとうかんぴょうかい}で、いちばん 上{うえ}の 賞{しょう}を 4回{かい} もらいました。",
+      "en": "A company that makes and sells natto (fermented soybeans). It has been making natto in Obu, Aichi for more than 60 years.\nIt uses soybeans from Aichi and Hokkaido, and has won the top prize at the national natto competition four times."
+    },
+    "website": "https://takamarusyokuhin.com/",
+    "photos": []
+  },
+
+  "location": {
+    "prefecture": "愛知県",
+    "city": { "ja": "大府市{おおぶし}", "en": "Obu City" },
+    "station": { "ja": "", "en": "" },
+    "mapQuery": "愛知県大府市"
+  },
+
+  "job": {
+    "field": "飲食料品製造業",
+    "title": { "ja": "納豆{なっとう}の 製造{せいぞう}", "en": "Natto production" },
+    "description": {
+      "ja": "納豆{なっとう}を 作{つく}る 工場{こうじょう}の 仕事{しごと}です。\n仕事{しごと}の 様子{ようす}は、下{した}の 会社紹介{かいしゃしょうかい}の 動画{どうが}で 見{み}られます。",
+      "en": "Work at a factory that makes natto.\nYou can see the work in the company video below."
+    }
+  },
+
+  "visas": [],
+  "accept": {},
+
+  "fromStatus": [],
+  "noExamNote": { "ja": "", "en": "" },
+  "leadTime": { "inJapan": { "ja": "", "en": "" }, "overseas": { "ja": "", "en": "" } },
+  "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
+
+  "banner": { "file": "banner.jpg", "alt": { "ja": "愛知県大府市 有限会社高丸食品 求人企業紹介。美味しい納豆を世界へ！一緒に働く仲間を募集しています", "en": "Takamaru Shokuhin (Obu, Aichi): company introduction. We are looking for people to work with us" } },
+  "video": "rjgsw46rJ9U",
+  "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },
+
+  "imuraComment": { "ja": "", "en": "" },
+
+  "housingShowcase": {
+    "title": { "ja": "家賃{やちん}は 水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}めて 39,000円{えん}", "en": "Rent is 39,000 yen including water, electricity and gas" },
+    "lead": {
+      "ja": "提携先{ていけいさき}の 住{す}まいです。写真{しゃしん}は その 一例{いちれい}です。",
+      "en": "Partner housing. The photo is one example."
+    },
+    "money": [
+      { "label": { "ja": "家賃{やちん}（1か月{げつ}）", "en": "Rent (per month)" }, "value": { "ja": "39,000円{えん}", "en": "39,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます", "en": "Includes water, electricity and gas" }, "strong": true }
+    ],
+    "photos": [
+      { "file": "house-room.jpg", "caption": { "ja": "提携先{ていけいさき}の 住{す}まいの 一例{いちれい}", "en": "An example of our partner housing" }, "og": true }
+    ],
+    "points": [],
+    "note": { "ja": "", "en": "" }
+  },
+
+  "terms": {
+    "housing": {
+      "available": true,
+      "detail": { "ja": "提携先{ていけいさき}の 住{す}まい", "en": "Partner housing" },
+      "rent": { "ja": "月{つき} 39,000円{えん}（一例{いちれい}）", "en": "39,000 yen a month (example)" },
+      "utilities": { "ja": "家賃{やちん}に 含{ふく}まれます", "en": "Included in the rent" }
+    }
+  }
+}

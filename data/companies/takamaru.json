@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-11 作成。求人票は後日。事業内容は会社のホームページ（takamarusyokuhin.com）から。給料・時間・休日・在留資格などは未確認のため空。住まいは提携先。家賃は 25,000円タイプと 35,000円タイプ、どちらも水道光熱費込み（2026-11-11 井村さん修正。最初は 39,000円）。写真がどちらのタイプかは未確認。会社紹介動画 rjgsw46rJ9U（サムネイルをPRバナーに使用）",
+  "_メモ": "2026-11-11 作成。求人票は後日。事業内容は会社のホームページ（takamarusyokuhin.com）から。給料・時間・休日・在留資格などは未確認のため空。住まいは提携先。家賃は 25,000円タイプと 35,000円タイプ、どちらも水道光熱費込み（2026-11-11 井村さん修正。最初は 39,000円）。写真がどちらのタイプかは未確認。会社紹介動画 DUMo6alRQiM（サムネイルをPRバナーに使用）",
   "id": "takamaru",
   "published": true,
   "status": "募集中",
@@ -42,7 +42,7 @@
   "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
 
   "banner": { "file": "banner.jpg", "alt": { "ja": "愛知県大府市 有限会社高丸食品 求人企業紹介。美味しい納豆を世界へ！一緒に働く仲間を募集しています", "en": "Takamaru Shokuhin (Obu, Aichi): company introduction. We are looking for people to work with us" } },
-  "video": "rjgsw46rJ9U",
+  "video": "DUMo6alRQiM",
   "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },
 
   "imuraComment": { "ja": "", "en": "" },

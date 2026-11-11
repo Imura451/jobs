@@ -724,6 +724,7 @@ ${relatedHtml}
       ${has(comp.employees) ? row(t.terms.employees, `${esc(comp.employees)}${ruby(t.terms.people)}`) : ''}
       ${comp.foreignStaff && has(comp.foreignStaff.count) ? row(t.terms.foreignStaff, `${esc(comp.foreignStaff.count)}${ruby(t.terms.people)}${has(tr(comp.foreignStaff.countries, lang)) ? `（${ruby(tr(comp.foreignStaff.countries, lang))}）` : ''}`) : ''}
       ${has(comp.website) ? row(t.job.website, `<a href="${esc(comp.website)}" target="_blank" rel="noopener">${esc(comp.website)}</a>`) : ''}
+      ${has(comp.youtube) ? row(t.job.youtube, `<a href="${esc(comp.youtube)}" target="_blank" rel="noopener">${esc(decodeURI(comp.youtube))}</a>`) : ''}
     </tbody></table>
   </div>
 </section>

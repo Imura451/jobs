@@ -45,6 +45,11 @@
   "banner": { "file": "banner.jpg", "alt": { "ja": "愛知県大府市 有限会社高丸食品 求人企業紹介。美味しい納豆を世界へ！一緒に働く仲間を募集しています", "en": "Takamaru Shokuhin (Obu, Aichi): company introduction. We are looking for people to work with us" } },
   "video": "DUMo6alRQiM",
   "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}", "en": "Company video" },
+  "moreVideos": [
+    { "video": "-XT5XKfGw4Q",
+      "title": { "ja": "テレビの ニュースで 紹介{しょうかい}されました", "en": "Featured on TV news" },
+      "caption": { "ja": "CBCテレビの ニュースです（CBCテレビ 公式{こうしき}の YouTube）。全国納豆鑑評会{ぜんこくなっとうかんぴょうかい}で、4回目{かいめ}の 最優秀賞{さいゆうしゅうしょう}を もらった ときの 番組{ばんぐみ}です。", "en": "A CBC TV news report (CBC TV official YouTube), made when the company won the top prize at the national natto competition for the fourth time." } }
+  ],
 
   "imuraComment": { "ja": "", "en": "" },
 

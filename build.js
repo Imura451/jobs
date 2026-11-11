@@ -644,6 +644,17 @@ function pageCompany(c, lang) {
         <img src="https://i.ytimg.com/vi/${esc(v.videoId)}/hqdefault.jpg" alt="" loading="lazy"><span class="vid__play"></span></button>`
     : `<p class="muted">${ruby(t.job.noVideo)}</p>`;
 
+  /* 2本目からの動画（テレビ番組など）。data の moreVideos に書いたときだけ出ます */
+  const moreVideos = (c.moreVideos || []).filter(m => has(m.video)).map(m => {
+    const id = String(m.video).replace(/^.*(?:youtu\.be\/|v=|embed\/)/, '').replace(/[?&#].*$/, '');
+    return `<div class="more-vid">
+      ${has(tr(m.title, lang)) ? `<h3 class="h3">${ruby(tr(m.title, lang))}</h3>` : ''}
+      <button type="button" class="vid" data-video="${esc(id)}" aria-label="${esc(plain(t.job.videoPlay))}">
+        <img src="https://i.ytimg.com/vi/${esc(id)}/hqdefault.jpg" alt="" loading="lazy"><span class="vid__play"></span></button>
+      ${has(tr(m.caption, lang)) ? `<p class="note">${ruby(tr(m.caption, lang))}</p>` : ''}
+    </div>`;
+  }).join('');
+
   const mapQ = encodeURIComponent(loc.mapQuery || `${v.pref.ja}${plain(tr(loc.city, 'ja'))}`);
 
   /* いちばん上のPRバナー（スマホで開いて最初に目に入る画像）。押すと動画へ */
@@ -735,6 +746,7 @@ ${housingShowcase(c, lang, up)}
   <div class="wrap narrow">
     <h2 class="h2">${ruby(tr(c.videoTitle, lang) || t.job.sec.video)}</h2>
     ${video}
+    ${moreVideos}
   </div>
 </section>
 

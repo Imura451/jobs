@@ -619,6 +619,42 @@ function housingShowcase(c, lang, up) {
 </section>`;
 }
 
+/* 給料明細の例。実際の明細の数字だけを、名前を出さずに並べます。
+   data の payExamples に書いたときだけ出ます。合計が合わないときは警告します */
+function payExamples(c, lang) {
+  const pe = c.payExamples;
+  if (!pe || !(pe.items || []).length) return '';
+  const L = lang === 'ja'
+    ? { work: '働{はたら}いた 日{ひ}と 時間{じかん}', pay: 'もらう お金{かね}', deduct: '引{ひ}かれる お金{かね}', gross: '合計{ごうけい}（総支給{そうしきゅう}）', dTotal: '引{ひ}かれる お金{かね}の 合計{ごうけい}', net: '手取{てど}り', yen: '円{えん}' }
+    : { work: 'Days and hours worked', pay: 'Pay', deduct: 'Deductions', gross: 'Total pay (gross)', dTotal: 'Total deductions', net: 'Take-home pay', yen: ' yen' };
+  const money = n => `${yen(n)}${ruby(L.yen)}`;
+  const cards = pe.items.map(it => {
+    const sum = a => (a || []).reduce((x, r) => x + Number(r.amount || 0), 0);
+    if (sum(it.pay) !== Number(it.gross) || sum(it.deduct) !== Number(it.deductTotal) || Number(it.gross) - Number(it.deductTotal) !== Number(it.net)) {
+      warnings.push(`${c.id}: payExamples「${plain(tr(it.label, 'ja'))}」の合計が合いません`);
+    }
+    const rows = a => (a || []).map(r => `<tr><th>${ruby(tr(r.label, lang))}</th><td>${money(r.amount)}</td></tr>`).join('');
+    const after = it.after && has(tr(it.after.label, lang)) ? `<p class="pay__after">${ruby(tr(it.after.label, lang))} <b>${money(it.after.amount)}</b></p>` : '';
+    return `<article class="pay">
+      <p class="pay__label">${ruby(tr(it.label, lang))}</p>
+      ${has(tr(it.month, lang)) ? `<p class="pay__month">${ruby(tr(it.month, lang))}</p>` : ''}
+      <p class="pay__net"><span>${ruby(L.net)}</span><b>${yen(it.net)}</b><small>${ruby(L.yen)}</small></p>
+      ${after}
+      ${has(tr(it.work, lang)) ? `<p class="pay__work"><span>${ruby(L.work)}</span>${ruby(tr(it.work, lang))}</p>` : ''}
+      <table class="pay__tbl"><caption>${ruby(L.pay)}</caption><tbody>${rows(it.pay)}<tr class="sum"><th>${ruby(L.gross)}</th><td>${money(it.gross)}</td></tr></tbody></table>
+      <table class="pay__tbl"><caption>${ruby(L.deduct)}</caption><tbody>${rows(it.deduct)}<tr class="sum"><th>${ruby(L.dTotal)}</th><td>${money(it.deductTotal)}</td></tr></tbody></table>
+    </article>`;
+  }).join('');
+  return `<section class="sec sec--gray" id="pay">
+  <div class="wrap">
+    <h2 class="h2">${ruby(tr(pe.title, lang))}</h2>
+    ${has(tr(pe.lead, lang)) ? `<p class="house__lead">${multi(tr(pe.lead, lang))}</p>` : ''}
+    <div class="pays">${cards}</div>
+    ${has(tr(pe.note, lang)) ? `<p class="note">${multi(tr(pe.note, lang))}</p>` : ''}
+  </div>
+</section>`;
+}
+
 function pageCompany(c, lang) {
   const v = view(c, lang), t = v.t, tm = v.tm, comp = v.comp, loc = v.loc;
   const rel = langDir(lang) + v.href;
@@ -743,6 +779,7 @@ ${relatedHtml}
   </div>
 </section>
 
+${payExamples(c, lang)}
 ${housingShowcase(c, lang, up)}
 
 <section class="sec" id="video">

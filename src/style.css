@@ -319,3 +319,21 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 .ft a{color:#fff}
 .ft__nofee{color:#fff;font-weight:700;font-size:15px}
 .ft__links{display:flex;flex-wrap:wrap;gap:6px 16px}
+
+/* 給料明細の例 */
+.pays{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:16px}
+.pay{background:#fff;border:1px solid var(--line,#E0E0E0);border-top:4px solid var(--red);border-radius:8px;padding:18px 16px}
+.pay__label{font-weight:700;font-size:17px;margin:0}
+.pay__month{color:var(--muted);font-size:13px;margin:2px 0 0}
+.pay__net{margin:12px 0 4px;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.pay__net span{font-weight:700}
+.pay__net b{font-size:34px;line-height:1.1;color:var(--red)}
+.pay__after{font-size:14px;margin:0 0 8px}
+.pay__work{font-size:13px;color:var(--muted);margin:0 0 10px}
+.pay__work span{display:block;font-weight:700;color:var(--ink,#1A1A1A)}
+.pay__tbl{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
+.pay__tbl caption{text-align:left;font-weight:700;padding:4px 0}
+.pay__tbl th,.pay__tbl td{border-top:1px solid var(--line,#E0E0E0);padding:6px 4px;font-weight:400}
+.pay__tbl th{text-align:left}
+.pay__tbl td{text-align:right;white-space:nowrap}
+.pay__tbl .sum th,.pay__tbl .sum td{font-weight:700}

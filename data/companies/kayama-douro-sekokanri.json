@@ -1,0 +1,108 @@
+{
+  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日",
+  "id": "kayama-douro-sekokanri",
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "deadline": "",
+  "company": {
+    "name": {
+      "ja": "香山道路株式会社{かやまどうろかぶしきがいしゃ}",
+      "en": "Kayama Douro Co., Ltd."
+    },
+    "business": {
+      "ja": "「道{みち}・まち・未来{みらい}を 創{つく}る 会社{かいしゃ}」です。静岡県{しずおかけん} 浜松市{はままつし}で、土木{どぼく}工事{こうじ}・外構{がいこう}工事{こうじ}・舗装{ほそう}工事{こうじ}を しています。\n会社{かいしゃ}には、3つの 部{ぶ}が あります。\n・土木施工工事部{どぼくせこうこうじぶ}\n・鉄骨住宅組立工事部{てっこつじゅうたくくみたてこうじぶ}\n・型枠住宅基礎工事部{かたわくじゅうたくきそこうじぶ}\nアスファルトフィニッシャー・ローラー・バックホー（油圧{ゆあつ}ショベル）などの 重機{じゅうき}を、会社{かいしゃ}で 持{も}っています。",
+      "en": "\"A company that creates roads, towns and the future.\" Based in Hamamatsu, Shizuoka, it does civil engineering, exterior construction and paving work.\nThe company has three departments:\n- Civil engineering construction\n- Steel-frame house assembly\n- Formwork and house foundations\nThe company owns heavy machines such as asphalt finishers, rollers and backhoes (hydraulic excavators)."
+    },
+    "website": "https://www.kayamadouro.com/",
+    "photos": []
+  },
+  "location": {
+    "prefecture": "静岡県",
+    "city": {
+      "ja": "浜松市{はままつし}",
+      "en": "Hamamatsu City"
+    },
+    "station": {
+      "ja": "",
+      "en": ""
+    },
+    "mapQuery": "静岡県浜松市"
+  },
+  "job": {
+    "field": "",
+    "title": {
+      "ja": "土木施工管理{どぼくせこうかんり}",
+      "en": "Civil construction management"
+    },
+    "description": {
+      "ja": "道路{どうろ}や まちを つくる 工事{こうじ}の 現場{げんば}で、土木施工管理{どぼくせこうかんり}の 仕事{しごと}を します。\n技術{ぎじゅつ}・人文知識{じんぶんちしき}・国際業務{こくさいぎょうむ}の ビザで 働{はたら}く 人{ひと}を 募集{ぼしゅう}しています。\n会社{かいしゃ}の 様子{ようす}と 重機{じゅうき}は、下{した}の 動画{どうが}で 見{み}られます。香山{かやま}社長{しゃちょう}が 案内{あんない}します。",
+      "en": "Civil construction management at sites that build roads and towns.\nWe are hiring people with the Engineer / Specialist in Humanities / International Services visa.\nYou can see the company and its heavy machines in the video below. President Kayama shows you around."
+    }
+  },
+  "visas": [
+    "技人国"
+  ],
+  "accept": {},
+  "fromStatus": [],
+  "noExamNote": {
+    "ja": "",
+    "en": ""
+  },
+  "leadTime": {
+    "inJapan": {
+      "ja": "",
+      "en": ""
+    },
+    "overseas": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "interview": {
+    "methods": [],
+    "travelCost": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "related": [
+    {
+      "id": "kayama-douro",
+      "eyebrow": {
+        "ja": "特定技能{とくていぎのう}も 募集中{ぼしゅうちゅう}",
+        "en": "Also hiring (SSW)"
+      },
+      "title": {
+        "ja": "特定技能{とくていぎのう}1号{ごう}・2号{ごう}の 人{ひと}も 募集{ぼしゅう}しています",
+        "en": "We are also hiring Specified Skilled Workers (i) and (ii)"
+      },
+      "text": {
+        "ja": "工事{こうじ}の 仕事{しごと}を する 人{ひと}は、こちらを 見{み}てください。実際{じっさい}の 給料明細{きゅうりょうめいさい}の 例{れい}も あります。",
+        "en": "For construction work, see this job. Real payslip examples are also shown."
+      },
+      "button": {
+        "ja": "特定技能{とくていぎのう}の 求人{きゅうじん}を 見{み}る",
+        "en": "See the SSW job"
+      }
+    }
+  ],
+  "banner": {
+    "file": "banner.jpg",
+    "alt": {
+      "ja": "香山道路株式会社 道・まち・未来を創る会社 求人企業紹介 静岡県浜松市 一緒に働く仲間を募集しています",
+      "en": "Kayama Douro Co., Ltd. (Hamamatsu, Shizuoka): a company that creates roads, towns and the future. We are hiring"
+    }
+  },
+  "video": "HkQHF1MMias",
+  "videoTitle": {
+    "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}（重機{じゅうき}の 紹介{しょうかい}・社長{しゃちょう}インタビュー）",
+    "en": "Company video (heavy machines and interview with the president)"
+  },
+  "imuraComment": {
+    "ja": "",
+    "en": ""
+  },
+  "terms": {}
+}

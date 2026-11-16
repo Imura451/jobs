@@ -1,14 +1,16 @@
 {
-  "_メモ": "2026-11-17 作成。求人票と給与明細は後日（社長から、名前・会社名・数字は出してよいと了承あり＝井村さん）。事業部3つと募集区分は井村さんの依頼文から、事業内容（土木・外構・舗装）と保有機械はホームページから。寮は香山寮・1人部屋・家賃1万円（水道光熱費込み）。特定技能と技人国（土木施工管理）を1ページにまとめている。求人票で条件が分かれたら、かつやのようにページを分けて related でつなぐ",
+  "_メモ": "2026-11-17 作成。同日、特定技能（1号・2号）のページに絞り、土木施工管理（技人国）は kayama-douro-sekokanri に分けた。給与明細3枚（コード54＝特定技能1号、38＝特定技能2号、43＝技能実習生。いずれも2026年11月分）の数字を payExamples に。名前は出さない（社長の許可あり＝井村さん）。明細の所属欄はどれも「実習生」と印字されているが、区分は井村さんの説明どおり。寮は香山寮・1人1部屋・家賃1万円（水道光熱費込み）。求人票は後日",
   "id": "kayama-douro",
   "published": true,
   "status": "募集中",
   "postedAt": "2026-11-17",
   "updatedAt": "2026-11-17",
   "deadline": "",
-
   "company": {
-    "name": { "ja": "香山道路株式会社{かやまどうろかぶしきがいしゃ}", "en": "Kayama Douro Co., Ltd." },
+    "name": {
+      "ja": "香山道路株式会社{かやまどうろかぶしきがいしゃ}",
+      "en": "Kayama Douro Co., Ltd."
+    },
     "business": {
       "ja": "「道{みち}・まち・未来{みらい}を 創{つく}る 会社{かいしゃ}」です。静岡県{しずおかけん} 浜松市{はままつし}で、土木{どぼく}工事{こうじ}・外構{がいこう}工事{こうじ}・舗装{ほそう}工事{こうじ}を しています。\n会社{かいしゃ}には、3つの 部{ぶ}が あります。\n・土木施工工事部{どぼくせこうこうじぶ}\n・鉄骨住宅組立工事部{てっこつじゅうたくくみたてこうじぶ}\n・型枠住宅基礎工事部{かたわくじゅうたくきそこうじぶ}\nアスファルトフィニッシャー・ローラー・バックホー（油圧{ゆあつ}ショベル）などの 重機{じゅうき}を、会社{かいしゃ}で 持{も}っています。",
       "en": "\"A company that creates roads, towns and the future.\" Based in Hamamatsu, Shizuoka, it does civil engineering, exterior construction and paving work.\nThe company has three departments:\n- Civil engineering construction\n- Steel-frame house assembly\n- Formwork and house foundations\nThe company owns heavy machines such as asphalt finishers, rollers and backhoes (hydraulic excavators)."
@@ -16,60 +18,424 @@
     "website": "https://www.kayamadouro.com/",
     "photos": []
   },
-
   "location": {
     "prefecture": "静岡県",
-    "city": { "ja": "浜松市{はままつし}", "en": "Hamamatsu City" },
-    "station": { "ja": "", "en": "" },
+    "city": {
+      "ja": "浜松市{はままつし}",
+      "en": "Hamamatsu City"
+    },
+    "station": {
+      "ja": "",
+      "en": ""
+    },
     "mapQuery": "静岡県浜松市"
   },
-
   "job": {
     "field": "建設",
-    "title": { "ja": "道路{どうろ}・土木{どぼく}の 工事{こうじ}／土木施工管理{どぼくせこうかんり}", "en": "Road and civil engineering work / Civil construction management" },
+    "title": {
+      "ja": "道路{どうろ}・土木{どぼく}の 工事{こうじ}（特定技能{とくていぎのう}）",
+      "en": "Road and civil engineering work (Specified Skilled Worker)"
+    },
     "description": {
-      "ja": "道路{どうろ}や まちを つくる 工事{こうじ}の 仕事{しごと}です。2つの 仕事{しごと}で 募集{ぼしゅう}しています。\n・工事{こうじ}の 仕事{しごと}（特定技能{とくていぎのう}1号{ごう}・2号{ごう}）\n・土木施工管理{どぼくせこうかんり}の 仕事{しごと}（技術{ぎじゅつ}・人文知識{じんぶんちしき}・国際業務{こくさいぎょうむ}）\n仕事{しごと}の 様子{ようす}と 会社{かいしゃ}の 重機{じゅうき}は、下{した}の 動画{どうが}で 見{み}られます。香山{かやま}社長{しゃちょう}が 案内{あんない}します。",
-      "en": "Construction work that builds roads and towns. We are hiring for two kinds of work:\n- Construction work (Specified Skilled Worker (i) and (ii))\n- Civil construction management (Engineer / Specialist in Humanities / International Services)\nYou can see the work and the company's heavy machines in the video below. President Kayama shows you around."
+      "ja": "道路{どうろ}や まちを つくる 工事{こうじ}の 仕事{しごと}です。特定技能{とくていぎのう}1号{ごう}と 2号{ごう}の 人{ひと}を 募集{ぼしゅう}しています。\n仕事{しごと}の 様子{ようす}と 会社{かいしゃ}の 重機{じゅうき}は、下{した}の 動画{どうが}で 見{み}られます。香山{かやま}社長{しゃちょう}が 案内{あんない}します。",
+      "en": "Construction work that builds roads and towns. We are hiring people with the Specified Skilled Worker (i) and (ii) visas.\nYou can see the work and the company's heavy machines in the video below. President Kayama shows you around."
     }
   },
-
-  "visas": ["特定技能1号", "特定技能2号", "技人国"],
+  "visas": [
+    "特定技能1号",
+    "特定技能2号"
+  ],
   "accept": {},
-
   "fromStatus": [],
-  "noExamNote": { "ja": "", "en": "" },
-  "leadTime": { "inJapan": { "ja": "", "en": "" }, "overseas": { "ja": "", "en": "" } },
-  "interview": { "methods": [], "travelCost": { "ja": "", "en": "" } },
-
-  "banner": { "file": "banner.jpg", "alt": { "ja": "香山道路株式会社 道・まち・未来を創る会社 求人企業紹介 静岡県浜松市 一緒に働く仲間を募集しています", "en": "Kayama Douro Co., Ltd. (Hamamatsu, Shizuoka): a company that creates roads, towns and the future. We are hiring" } },
+  "noExamNote": {
+    "ja": "",
+    "en": ""
+  },
+  "leadTime": {
+    "inJapan": {
+      "ja": "",
+      "en": ""
+    },
+    "overseas": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "interview": {
+    "methods": [],
+    "travelCost": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "related": [
+    {
+      "id": "kayama-douro-sekokanri",
+      "eyebrow": {
+        "ja": "就労{しゅうろう}ビザも 募集中{ぼしゅうちゅう}",
+        "en": "Also hiring (engineers)"
+      },
+      "title": {
+        "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}も 募集{ぼしゅう}しています",
+        "en": "We are also hiring civil construction managers"
+      },
+      "text": {
+        "ja": "技術{ぎじゅつ}・人文知識{じんぶんちしき}・国際業務{こくさいぎょうむ}の ビザで 働{はたら}く 人{ひと}は、こちらを 見{み}てください。",
+        "en": "If you work with the Engineer / Specialist in Humanities / International Services visa, see this job."
+      },
+      "button": {
+        "ja": "土木施工管理{どぼくせこうかんり}の 求人{きゅうじん}を 見{み}る",
+        "en": "See the construction management job"
+      }
+    }
+  ],
+  "banner": {
+    "file": "banner.jpg",
+    "alt": {
+      "ja": "香山道路株式会社 道・まち・未来を創る会社 求人企業紹介 静岡県浜松市 一緒に働く仲間を募集しています",
+      "en": "Kayama Douro Co., Ltd. (Hamamatsu, Shizuoka): a company that creates roads, towns and the future. We are hiring"
+    }
+  },
   "video": "HkQHF1MMias",
-  "videoTitle": { "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}（重機{じゅうき}の 紹介{しょうかい}・社長{しゃちょう}インタビュー）", "en": "Company video (heavy machines and interview with the president)" },
-
-  "imuraComment": { "ja": "", "en": "" },
-
+  "videoTitle": {
+    "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}（重機{じゅうき}の 紹介{しょうかい}・社長{しゃちょう}インタビュー）",
+    "en": "Company video (heavy machines and interview with the president)"
+  },
+  "imuraComment": {
+    "ja": "",
+    "en": ""
+  },
+  "payExamples": {
+    "title": {
+      "ja": "実際{じっさい}の 給料明細{きゅうりょうめいさい}の 例{れい}",
+      "en": "Real payslip examples"
+    },
+    "lead": {
+      "ja": "香山道路{かやまどうろ}で 働{はたら}いている 人{ひと}の、2026年{ねん}11月分{がつぶん}の 給料明細{きゅうりょうめいさい}です。社長{しゃちょう}の 許可{きょか}を もらって、数字{すうじ}だけを のせています（名前{なまえ}は のせていません）。",
+      "en": "These are real payslips (November 2026) of people working at Kayama Douro. With the president's permission, we show only the numbers (no names)."
+    },
+    "items": [
+      {
+        "label": {
+          "ja": "特定技能{とくていぎのう}1号{ごう}の 人{ひと}の 例{れい}",
+          "en": "Example: Specified Skilled Worker (i)"
+        },
+        "month": {
+          "ja": "2026年{ねん}11月分{がつぶん}の 給料{きゅうりょう}",
+          "en": "Pay for November 2026"
+        },
+        "work": {
+          "ja": "23.5日{にち}・176.25時間{じかん}（そのうち 残業{ざんぎょう} 3.5時間{じかん}）",
+          "en": "23.5 days, 176.25 hours (including 3.5 hours of overtime)"
+        },
+        "pay": [
+          {
+            "label": {
+              "ja": "基本給{きほんきゅう}",
+              "en": "Base pay"
+            },
+            "amount": 186953
+          },
+          {
+            "label": {
+              "ja": "残業手当{ざんぎょうてあて}",
+              "en": "Overtime pay"
+            },
+            "amount": 7588
+          },
+          {
+            "label": {
+              "ja": "職能手当{しょくのうてあて}",
+              "en": "Skill allowance"
+            },
+            "amount": 118547
+          }
+        ],
+        "deduct": [
+          {
+            "label": {
+              "ja": "健康保険{けんこうほけん}",
+              "en": "Health insurance"
+            },
+            "amount": 14760
+          },
+          {
+            "label": {
+              "ja": "厚生年金{こうせいねんきん}",
+              "en": "Pension"
+            },
+            "amount": 27450
+          },
+          {
+            "label": {
+              "ja": "雇用保険{こようほけん}",
+              "en": "Employment insurance"
+            },
+            "amount": 1879
+          },
+          {
+            "label": {
+              "ja": "所得税{しょとくぜい}",
+              "en": "Income tax"
+            },
+            "amount": 6750
+          },
+          {
+            "label": {
+              "ja": "住民税{じゅうみんぜい}",
+              "en": "Resident tax"
+            },
+            "amount": 3500
+          }
+        ],
+        "gross": 313088,
+        "deductTotal": 54339,
+        "net": 258749,
+        "after": {
+          "label": {
+            "ja": "寮{りょう}の 家賃{やちん}（10,000円{えん}）を 払{はら}うと、残{のこ}りは",
+            "en": "After paying the dormitory rent (10,000 yen):"
+          },
+          "amount": 248749
+        }
+      },
+      {
+        "label": {
+          "ja": "特定技能{とくていぎのう}2号{ごう}の 人{ひと}の 例{れい}",
+          "en": "Example: Specified Skilled Worker (ii)"
+        },
+        "month": {
+          "ja": "2026年{ねん}11月分{がつぶん}の 給料{きゅうりょう}",
+          "en": "Pay for November 2026"
+        },
+        "work": {
+          "ja": "24.5日{にち}・183.75時間{じかん}（そのうち 残業{ざんぎょう} 7時間{じかん}）",
+          "en": "24.5 days, 183.75 hours (including 7 hours of overtime)"
+        },
+        "pay": [
+          {
+            "label": {
+              "ja": "基本給{きほんきゅう}",
+              "en": "Base pay"
+            },
+            "amount": 186953
+          },
+          {
+            "label": {
+              "ja": "残業手当{ざんぎょうてあて}",
+              "en": "Overtime pay"
+            },
+            "amount": 17500
+          },
+          {
+            "label": {
+              "ja": "職能手当{しょくのうてあて}",
+              "en": "Skill allowance"
+            },
+            "amount": 180547
+          }
+        ],
+        "deduct": [
+          {
+            "label": {
+              "ja": "健康保険{けんこうほけん}",
+              "en": "Health insurance"
+            },
+            "amount": 20172
+          },
+          {
+            "label": {
+              "ja": "厚生年金{こうせいねんきん}",
+              "en": "Pension"
+            },
+            "amount": 37515
+          },
+          {
+            "label": {
+              "ja": "雇用保険{こようほけん}",
+              "en": "Employment insurance"
+            },
+            "amount": 2310
+          },
+          {
+            "label": {
+              "ja": "所得税{しょとくぜい}",
+              "en": "Income tax"
+            },
+            "amount": 9530
+          },
+          {
+            "label": {
+              "ja": "住民税{じゅうみんぜい}",
+              "en": "Resident tax"
+            },
+            "amount": 4900
+          }
+        ],
+        "gross": 385000,
+        "deductTotal": 74427,
+        "net": 310573,
+        "after": {
+          "label": {
+            "ja": "寮{りょう}の 家賃{やちん}（10,000円{えん}）を 払{はら}うと、残{のこ}りは",
+            "en": "After paying the dormitory rent (10,000 yen):"
+          },
+          "amount": 300573
+        }
+      },
+      {
+        "label": {
+          "ja": "技能実習生{ぎのうじっしゅうせい}の 例{れい}（参考{さんこう}）",
+          "en": "Example: Technical Intern Trainee (for reference)"
+        },
+        "month": {
+          "ja": "2026年{ねん}11月分{がつぶん}の 給料{きゅうりょう}",
+          "en": "Pay for November 2026"
+        },
+        "work": {
+          "ja": "23.5日{にち}・176.25時間{じかん}（そのうち 残業{ざんぎょう} 13.5時間{じかん}）",
+          "en": "23.5 days, 176.25 hours (including 13.5 hours of overtime)"
+        },
+        "pay": [
+          {
+            "label": {
+              "ja": "基本給{きほんきゅう}",
+              "en": "Base pay"
+            },
+            "amount": 186953
+          },
+          {
+            "label": {
+              "ja": "残業手当{ざんぎょうてあて}",
+              "en": "Overtime pay"
+            },
+            "amount": 24759
+          },
+          {
+            "label": {
+              "ja": "職能手当{しょくのうてあて}",
+              "en": "Skill allowance"
+            },
+            "amount": 71547
+          }
+        ],
+        "deduct": [
+          {
+            "label": {
+              "ja": "健康保険{けんこうほけん}",
+              "en": "Health insurance"
+            },
+            "amount": 12792
+          },
+          {
+            "label": {
+              "ja": "厚生年金{こうせいねんきん}",
+              "en": "Pension"
+            },
+            "amount": 23790
+          },
+          {
+            "label": {
+              "ja": "雇用保険{こようほけん}",
+              "en": "Employment insurance"
+            },
+            "amount": 1700
+          },
+          {
+            "label": {
+              "ja": "所得税{しょとくぜい}",
+              "en": "Income tax"
+            },
+            "amount": 5890
+          },
+          {
+            "label": {
+              "ja": "住民税{じゅうみんぜい}",
+              "en": "Resident tax"
+            },
+            "amount": 3500
+          }
+        ],
+        "gross": 283259,
+        "deductTotal": 47672,
+        "net": 235587,
+        "after": {
+          "label": {
+            "ja": "寮{りょう}の 家賃{やちん}（10,000円{えん}）を 払{はら}うと、残{のこ}りは",
+            "en": "After paying the dormitory rent (10,000 yen):"
+          },
+          "amount": 225587
+        }
+      }
+    ],
+    "note": {
+      "ja": "給料{きゅうりょう}は、働{はたら}いた 時間{じかん}や 残業{ざんぎょう}、税金{ぜいきん}などで 毎月{まいつき} 変{か}わります。この 金額{きんがく}を 約束{やくそく}する ものでは ありません。\n寮{りょう}の 家賃{やちん}は、この 明細{めいさい}には 入{はい}っていません。",
+      "en": "Pay changes every month depending on hours worked, overtime, taxes and more. These amounts are not a promise.\nThe dormitory rent is not included in these payslips."
+    }
+  },
   "housingShowcase": {
-    "title": { "ja": "香山寮{かやまりょう}は 1人{にん}1部屋{へや}。家賃{やちん}は 月{つき} 10,000円{えん}です", "en": "Kayama Dormitory: your own room for 10,000 yen a month" },
+    "title": {
+      "ja": "香山寮{かやまりょう}は 1人{にん}1部屋{へや}。家賃{やちん}は 月{つき} 10,000円{えん}です",
+      "en": "Kayama Dormitory: your own room for 10,000 yen a month"
+    },
     "lead": {
       "ja": "会社{かいしゃ}の 寮{りょう}です。家賃{やちん}には、水道{すいどう}・電気{でんき}・ガス代{だい}も 含{ふく}まれます。寮{りょう}の 様子{ようす}は、下{した}の 動画{どうが}で 見{み}られます。",
       "en": "This is the company dormitory. Water, electricity and gas are included in the rent. You can see the dormitory in the video below."
     },
     "money": [
-      { "label": { "ja": "家賃{やちん}（1か月{げつ}）", "en": "Rent (per month)" }, "value": { "ja": "10,000円{えん}", "en": "10,000 yen" }, "note": { "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます", "en": "Includes water, electricity and gas" }, "strong": true },
-      { "label": { "ja": "部屋{へや}", "en": "Room" }, "value": { "ja": "1人{にん}1部屋{へや}", "en": "Private room" } }
+      {
+        "label": {
+          "ja": "家賃{やちん}（1か月{げつ}）",
+          "en": "Rent (per month)"
+        },
+        "value": {
+          "ja": "10,000円{えん}",
+          "en": "10,000 yen"
+        },
+        "note": {
+          "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます",
+          "en": "Includes water, electricity and gas"
+        },
+        "strong": true
+      },
+      {
+        "label": {
+          "ja": "部屋{へや}",
+          "en": "Room"
+        },
+        "value": {
+          "ja": "1人{にん}1部屋{へや}",
+          "en": "Private room"
+        }
+      }
     ],
     "video": "YhqCtrirkG8",
-    "videoCaption": { "ja": "香山寮{かやまりょう}の 紹介{しょうかい}の 動画{どうが}", "en": "Video of Kayama Dormitory" },
+    "videoCaption": {
+      "ja": "香山寮{かやまりょう}の 紹介{しょうかい}の 動画{どうが}",
+      "en": "Video of Kayama Dormitory"
+    },
     "photos": [],
     "points": [],
-    "note": { "ja": "", "en": "" }
+    "note": {
+      "ja": "",
+      "en": ""
+    }
   },
-
   "terms": {
     "housing": {
       "available": true,
-      "detail": { "ja": "会社{かいしゃ}の 寮{りょう}（香山寮{かやまりょう}・1人{にん}1部屋{へや}）", "en": "Company dormitory (Kayama Dormitory, private room)" },
-      "rent": { "ja": "月{つき} 10,000円{えん}", "en": "10,000 yen a month" },
-      "utilities": { "ja": "家賃{やちん}に 含{ふく}まれます", "en": "Included in the rent" }
+      "detail": {
+        "ja": "会社{かいしゃ}の 寮{りょう}（香山寮{かやまりょう}・1人{にん}1部屋{へや}）",
+        "en": "Company dormitory (Kayama Dormitory, private room)"
+      },
+      "rent": {
+        "ja": "月{つき} 10,000円{えん}",
+        "en": "10,000 yen a month"
+      },
+      "utilities": {
+        "ja": "家賃{やちん}に 含{ふく}まれます",
+        "en": "Included in the rent"
+      }
     }
   }
 }

@@ -596,13 +596,17 @@ function jobPostingLd(c, lang, v, url) {
 /* 住まいの紹介。写真と「ここがいい」を並べて、住む場所を思い浮かべてもらいます。
    data の housingShowcase に書いたときだけ出ます */
 function housingShowcase(c, lang, up) {
-  const hs = c.housingShowcase;
+  /* 2つ以上の住まい（寮と、特別な例など）を並べたいときは、配列で書けます */
+  const list = Array.isArray(c.housingShowcase) ? c.housingShowcase : (c.housingShowcase ? [c.housingShowcase] : []);
+  return list.map((hs, i) => housingBlock(c, hs, lang, up, i)).join('\n');
+}
+function housingBlock(c, hs, lang, up, i) {
   if (!hs) return '';
   const t = T[lang];
   const photos = (hs.photos || []).filter(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
   const money = (hs.money || []).filter(m => has(tr(m.value, lang)));
   const points = (hs.points || []).map(p => tr(p, lang)).filter(has);
-  return `<section class="sec house" id="house">
+  return `<section class="sec house" id="${i ? `house${i + 1}` : 'house'}">
   <div class="wrap">
     <p class="house__eyebrow">${ruby(tr(hs.eyebrow, lang) || t.house.eyebrow)}</p>
     <h2 class="house__title">${ruby(tr(hs.title, lang))}</h2>
@@ -931,7 +935,7 @@ ${shareBox(t, shareUrl, `${plain(v.name)}｜${plain(v.title)}`)}`;
 
   /* 中身が1行もない表は、見出しごと消します（書いていない項目を空の枠で見せないため） */
   const bodyClean = body.replace(/<h3 class="h3">(?:(?!<\/h3>)[\s\S])*<\/h3>\s*<table class="tbl"><tbody>\s*<\/tbody><\/table>/g, '');
-  const hsList = ((c.housingShowcase || {}).photos || []).filter(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
+  const hsList = [].concat(c.housingShowcase || []).flatMap(h => (h && h.photos) || []).filter(p => fs.existsSync(path.join(ASSETS, 'companies', c.id, p.file)));
   /* シェア画像は "og": true の写真を優先。無ければ1枚目 */
   const hsFirst = hsList.find(p => p.og) || hsList[0];
   const photo = (c.banner && has(c.banner.file) && fs.existsSync(path.join(ASSETS, 'companies', c.id, c.banner.file)) && c.banner.file) || c.photosOk[0] || (hsFirst && hsFirst.file);

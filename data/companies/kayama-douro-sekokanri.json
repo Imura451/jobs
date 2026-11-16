@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日。2026-11-17 井村さん：施工管理で会社に認められると、社長が住居を買い、入居時の家財道具も会社持ち、家賃はその物件の半額以下くらい（金額はケースによる）という特例の人もいる→ housingShowcase に「特別な例」として掲載。香山寮に入れるかは未回答",
+  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日。2026-11-17 井村さん：施工管理で会社に認められると、社長が住居を買い、入居時の家財道具も会社持ち、家賃はその物件の半額以下くらい（金額はケースによる）という特例の人もいる→ housingShowcase に「特別な例」として掲載。2026-11-17 井村さん：施工管理も独身なら会社と相談のうえ香山寮に入寮可。家庭のある人はアパートに住む人が多い → housingShowcase を配列にして、寮と特例を並べた",
   "id": "kayama-douro-sekokanri",
   "published": true,
   "status": "募集中",
@@ -104,38 +104,104 @@
     "ja": "",
     "en": ""
   },
-  "housingShowcase": {
-    "eyebrow": {
-      "ja": "住{す}まいの 特別{とくべつ}な 例{れい}",
-      "en": "A special housing case"
-    },
-    "title": {
-      "ja": "会社{かいしゃ}に 認{みと}められると、住{す}まいを 用意{ようい}してもらえる ことも あります",
-      "en": "If the company recognizes your work, it may provide a home for you"
-    },
-    "lead": {
-      "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}で、会社{かいしゃ}に 認{みと}められた 人{ひと}には、香山{かやま}社長{しゃちょう}が 住{す}まいを 買{か}って 用意{ようい}した 例{れい}が あります。",
-      "en": "For civil construction managers recognized by the company, there are cases where President Kayama bought a home for them."
-    },
-    "points": [
-      {
-        "ja": "会社{かいしゃ}が 家{いえ}を 買{か}って、住{す}まいとして 用意{ようい}します",
-        "en": "The company buys a home and provides it to you"
+  "housingShowcase": [
+    {
+      "title": {
+        "ja": "独身{どくしん}の 人{ひと}は、香山寮{かやまりょう}にも 入{はい}れます",
+        "en": "Single people can also live in Kayama Dormitory"
       },
-      {
-        "ja": "入{はい}るときの 家具{かぐ}や 家電{かでん}も、会社{かいしゃ}が 用意{ようい}します",
-        "en": "The company also provides furniture and appliances when you move in"
+      "lead": {
+        "ja": "会社{かいしゃ}の 寮{りょう}です。土木施工管理{どぼくせこうかんり}で 独身{どくしん}の 人{ひと}は、会社{かいしゃ}と 相談{そうだん}して 入{はい}れます。家賃{やちん}には、水道{すいどう}・電気{でんき}・ガス代{だい}も 含{ふく}まれます。\n家族{かぞく}と いっしょに 住{す}む 人{ひと}は、アパートに 住{す}む 人{ひと}が 多{おお}いです。",
+        "en": "This is the company dormitory. Single civil construction managers can live here after talking with the company. Water, electricity and gas are included in the rent.\nMany people who live with their families live in apartments."
       },
-      {
-        "ja": "家賃{やちん}は、その 家{いえ}の ふつうの 家賃{やちん}の 半分{はんぶん}くらいか、それより 安{やす}く なる 例{れい}が あります",
-        "en": "There are cases where the rent is about half or less of the normal rent for that home"
+      "money": [
+        {
+          "label": {
+            "ja": "家賃{やちん}（1か月{げつ}）",
+            "en": "Rent (per month)"
+          },
+          "value": {
+            "ja": "10,000円{えん}",
+            "en": "10,000 yen"
+          },
+          "note": {
+            "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます",
+            "en": "Includes water, electricity and gas"
+          },
+          "strong": true
+        },
+        {
+          "label": {
+            "ja": "部屋{へや}",
+            "en": "Room"
+          },
+          "value": {
+            "ja": "1人{にん}1部屋{へや}",
+            "en": "Private room"
+          }
+        }
+      ],
+      "video": "YhqCtrirkG8",
+      "videoCaption": {
+        "ja": "香山寮{かやまりょう}の 紹介{しょうかい}の 動画{どうが}",
+        "en": "Video of Kayama Dormitory"
+      },
+      "photos": [],
+      "points": [],
+      "note": {
+        "ja": "",
+        "en": ""
       }
-    ],
-    "photos": [],
-    "note": {
-      "ja": "これは 特別{とくべつ}な 例{れい}です。全員{ぜんいん}が 受{う}けられる ものでは ありません。家賃{やちん}などの 条件{じょうけん}は、人{ひと}によって 違{ちが}います。",
-      "en": "This is a special case. Not everyone can receive it. Rent and other conditions differ from person to person."
+    },
+    {
+      "eyebrow": {
+        "ja": "住{す}まいの 特別{とくべつ}な 例{れい}",
+        "en": "A special housing case"
+      },
+      "title": {
+        "ja": "会社{かいしゃ}に 認{みと}められると、住{す}まいを 用意{ようい}してもらえる ことも あります",
+        "en": "If the company recognizes your work, it may provide a home for you"
+      },
+      "lead": {
+        "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}で、会社{かいしゃ}に 認{みと}められた 人{ひと}には、香山{かやま}社長{しゃちょう}が 住{す}まいを 買{か}って 用意{ようい}した 例{れい}が あります。",
+        "en": "For civil construction managers recognized by the company, there are cases where President Kayama bought a home for them."
+      },
+      "points": [
+        {
+          "ja": "会社{かいしゃ}が 家{いえ}を 買{か}って、住{す}まいとして 用意{ようい}します",
+          "en": "The company buys a home and provides it to you"
+        },
+        {
+          "ja": "入{はい}るときの 家具{かぐ}や 家電{かでん}も、会社{かいしゃ}が 用意{ようい}します",
+          "en": "The company also provides furniture and appliances when you move in"
+        },
+        {
+          "ja": "家賃{やちん}は、その 家{いえ}の ふつうの 家賃{やちん}の 半分{はんぶん}くらいか、それより 安{やす}く なる 例{れい}が あります",
+          "en": "There are cases where the rent is about half or less of the normal rent for that home"
+        }
+      ],
+      "photos": [],
+      "note": {
+        "ja": "これは 特別{とくべつ}な 例{れい}です。全員{ぜんいん}が 受{う}けられる ものでは ありません。家賃{やちん}などの 条件{じょうけん}は、人{ひと}によって 違{ちが}います。",
+        "en": "This is a special case. Not everyone can receive it. Rent and other conditions differ from person to person."
+      }
     }
-  },
-  "terms": {}
+  ],
+  "terms": {
+    "housing": {
+      "available": true,
+      "detail": {
+        "ja": "会社{かいしゃ}の 寮{りょう}（香山寮{かやまりょう}・1人{にん}1部屋{へや}）。独身{どくしん}の 人{ひと}は、会社{かいしゃ}と 相談{そうだん}して 入{はい}れます",
+        "en": "Company dormitory (Kayama Dormitory, private room). Single people can live here after talking with the company"
+      },
+      "rent": {
+        "ja": "月{つき} 10,000円{えん}",
+        "en": "10,000 yen a month"
+      },
+      "utilities": {
+        "ja": "家賃{やちん}に 含{ふく}まれます",
+        "en": "Included in the rent"
+      }
+    }
+  }
 }

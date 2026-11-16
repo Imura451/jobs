@@ -604,7 +604,7 @@ function housingShowcase(c, lang, up) {
   const points = (hs.points || []).map(p => tr(p, lang)).filter(has);
   return `<section class="sec house" id="house">
   <div class="wrap">
-    <p class="house__eyebrow">${ruby(t.house.eyebrow)}</p>
+    <p class="house__eyebrow">${ruby(tr(hs.eyebrow, lang) || t.house.eyebrow)}</p>
     <h2 class="house__title">${ruby(tr(hs.title, lang))}</h2>
     ${has(tr(hs.lead, lang)) ? `<p class="house__lead">${multi(tr(hs.lead, lang))}</p>` : ''}
     ${money.length ? `<div class="house__money">${money.map(m => `<div class="hm${m.strong ? ' hm--strong' : ''}"><span>${ruby(tr(m.label, lang))}</span><b>${ruby(tr(m.value, lang))}</b>${has(tr(m.note, lang)) ? `<small>${ruby(tr(m.note, lang))}</small>` : ''}</div>`).join('')}</div>` : ''}

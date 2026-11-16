@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日",
+  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日。2026-11-17 井村さん：施工管理で会社に認められると、社長が住居を買い、入居時の家財道具も会社持ち、家賃はその物件の半額以下くらい（金額はケースによる）という特例の人もいる→ housingShowcase に「特別な例」として掲載。香山寮に入れるかは未回答",
   "id": "kayama-douro-sekokanri",
   "published": true,
   "status": "募集中",
@@ -103,6 +103,39 @@
   "imuraComment": {
     "ja": "",
     "en": ""
+  },
+  "housingShowcase": {
+    "eyebrow": {
+      "ja": "住{す}まいの 特別{とくべつ}な 例{れい}",
+      "en": "A special housing case"
+    },
+    "title": {
+      "ja": "会社{かいしゃ}に 認{みと}められると、住{す}まいを 用意{ようい}してもらえる ことも あります",
+      "en": "If the company recognizes your work, it may provide a home for you"
+    },
+    "lead": {
+      "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}で、会社{かいしゃ}に 認{みと}められた 人{ひと}には、香山{かやま}社長{しゃちょう}が 住{す}まいを 買{か}って 用意{ようい}した 例{れい}が あります。",
+      "en": "For civil construction managers recognized by the company, there are cases where President Kayama bought a home for them."
+    },
+    "points": [
+      {
+        "ja": "会社{かいしゃ}が 家{いえ}を 買{か}って、住{す}まいとして 用意{ようい}します",
+        "en": "The company buys a home and provides it to you"
+      },
+      {
+        "ja": "入{はい}るときの 家具{かぐ}や 家電{かでん}も、会社{かいしゃ}が 用意{ようい}します",
+        "en": "The company also provides furniture and appliances when you move in"
+      },
+      {
+        "ja": "家賃{やちん}は、その 家{いえ}の ふつうの 家賃{やちん}の 半分{はんぶん}くらいか、それより 安{やす}く なる 例{れい}が あります",
+        "en": "There are cases where the rent is about half or less of the normal rent for that home"
+      }
+    ],
+    "photos": [],
+    "note": {
+      "ja": "これは 特別{とくべつ}な 例{れい}です。全員{ぜんいん}が 受{う}けられる ものでは ありません。家賃{やちん}などの 条件{じょうけん}は、人{ひと}によって 違{ちが}います。",
+      "en": "This is a special case. Not everyone can receive it. Rent and other conditions differ from person to person."
+    }
   },
   "terms": {}
 }

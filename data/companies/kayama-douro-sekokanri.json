@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日。2026-11-17 井村さん：施工管理で会社に認められると、社長が住居を買い、入居時の家財道具も会社持ち、家賃はその物件の半額以下くらい（金額はケースによる）という特例の人もいる→ housingShowcase に「特別な例」として掲載。2026-11-17 井村さん：施工管理も独身なら会社と相談のうえ香山寮に入寮可。家庭のある人はアパートに住む人が多い → housingShowcase を配列にして、寮と特例を並べた。2026-11-17 運転免許取得支援制度（規定・条件を満たす者は会社負担で準中型・大型免許）を features と terms.benefits に（井村さん・画像あり）",
+  "_メモ": "2026-11-17 作成。同日 求人票（施工管理エンジニア用・2026年6月26日）を反映。採用予定は「男1名」だが性別を限った募集は原則できないため「1人」と表示。月給は基本給168,000＋職能手当157,000＝325,000で表示し、総支給390,000（残業代6〜7万含む）は手当欄に。手取り31〜33万は住居費・水道光熱費を引く前（求人票の控除から計算すると327,500）。寮は求人票の住居費2万＋水道光熱費5千（特定技能ページの1万円込みとは違う）。日本語は「N3」と「以上」に○→N3以上と読んだ。運転免許は普通・準中型に○（必須か歓迎かは要確認）。休日は祝日に○、週休二日制は○なし。住所の区は求人票では西区（2024年の区再編で変わっている可能性があるので区は出さない）。社長メッセージの「怒れること」は「怒られること」と読んだ。会社に認められた人への住居の特例（井村さん談）と運転免許取得支援も残す",
   "id": "kayama-douro-sekokanri",
   "published": true,
   "status": "募集中",
@@ -12,11 +12,12 @@
       "en": "Kayama Douro Co., Ltd."
     },
     "business": {
-      "ja": "「道{みち}・まち・未来{みらい}を 創{つく}る 会社{かいしゃ}」です。静岡県{しずおかけん} 浜松市{はままつし}で、土木{どぼく}工事{こうじ}・外構{がいこう}工事{こうじ}・舗装{ほそう}工事{こうじ}を しています。\n会社{かいしゃ}には、3つの 部{ぶ}が あります。\n・土木施工工事部{どぼくせこうこうじぶ}\n・鉄骨住宅組立工事部{てっこつじゅうたくくみたてこうじぶ}\n・型枠住宅基礎工事部{かたわくじゅうたくきそこうじぶ}\nアスファルトフィニッシャー・ローラー・バックホー（油圧{ゆあつ}ショベル）などの 重機{じゅうき}を、会社{かいしゃ}で 持{も}っています。",
-      "en": "\"A company that creates roads, towns and the future.\" Based in Hamamatsu, Shizuoka, it does civil engineering, exterior construction and paving work.\nThe company has three departments:\n- Civil engineering construction\n- Steel-frame house assembly\n- Formwork and house foundations\nThe company owns heavy machines such as asphalt finishers, rollers and backhoes (hydraulic excavators)."
+      "ja": "「道{みち}・まち・未来{みらい}を 創{つく}る 会社{かいしゃ}」です。静岡県{しずおかけん} 浜松市{はままつし}で、土木{どぼく}工事{こうじ}・外構{がいこう}工事{こうじ}・舗装{ほそう}工事{こうじ}を しています。\n会社{かいしゃ}には、3つの 部{ぶ}が あります。\n・土木施工工事部{どぼくせこうこうじぶ}\n・鉄骨住宅組立工事部{てっこつじゅうたくくみたてこうじぶ}\n・型枠住宅基礎工事部{かたわくじゅうたくきそこうじぶ}\nアスファルトフィニッシャー・ローラー・バックホー（油圧{ゆあつ}ショベル）などの 重機{じゅうき}を、会社{かいしゃ}で 持{も}っています。\n2006年{ねん}に できた 会社{かいしゃ}です。",
+      "en": "\"A company that creates roads, towns and the future.\" Based in Hamamatsu, Shizuoka, it does civil engineering, exterior construction and paving work.\nThe company has three departments:\n- Civil engineering construction\n- Steel-frame house assembly\n- Formwork and house foundations\nThe company owns heavy machines such as asphalt finishers, rollers and backhoes (hydraulic excavators).\nFounded in 2006."
     },
     "website": "https://www.kayamadouro.com/",
-    "photos": []
+    "photos": [],
+    "employees": 13
   },
   "location": {
     "prefecture": "静岡県",
@@ -25,10 +26,10 @@
       "en": "Hamamatsu City"
     },
     "station": {
-      "ja": "",
-      "en": ""
+      "ja": "会社{かいしゃ}は 浜松市{はままつし} 湖東町{ことうちょう}に あります。",
+      "en": "The company is in Koto-cho, Hamamatsu."
     },
-    "mapQuery": "静岡県浜松市"
+    "mapQuery": "静岡県浜松市 湖東町"
   },
   "job": {
     "field": "",
@@ -37,8 +38,8 @@
       "en": "Civil construction management"
     },
     "description": {
-      "ja": "道路{どうろ}や まちを つくる 工事{こうじ}の 現場{げんば}で、土木施工管理{どぼくせこうかんり}の 仕事{しごと}を します。\n技術{ぎじゅつ}・人文知識{じんぶんちしき}・国際業務{こくさいぎょうむ}の ビザで 働{はたら}く 人{ひと}を 募集{ぼしゅう}しています。\n会社{かいしゃ}の 様子{ようす}と 重機{じゅうき}は、下{した}の 動画{どうが}で 見{み}られます。香山{かやま}社長{しゃちょう}が 案内{あんない}します。",
-      "en": "Civil construction management at sites that build roads and towns.\nWe are hiring people with the Engineer / Specialist in Humanities / International Services visa.\nYou can see the company and its heavy machines in the video below. President Kayama shows you around."
+      "ja": "土木施工管理{どぼくせこうかんり}（現場{げんば}の 管理{かんり}）の 仕事{しごと}です。現場監督{げんばかんとく}として、作業{さぎょう}の 管理{かんり}と 品質{ひんしつ}の 管理{かんり}を します。\n工事{こうじ}は、土木{どぼく}工事{こうじ}・外構{がいこう}工事{こうじ}（L型{がた}擁壁{ようへき}・ブロック積{づ}み など）・盛土{もりど}・造成{ぞうせい}工事{こうじ}・舗装{ほそう}工事{こうじ}です。\n\n1日{にち}の 流{なが}れ：7:00 会社{かいしゃ}に 集合{しゅうごう} → 8:00 現場{げんば}に 着{つ}く・朝礼{ちょうれい} → 現場{げんば}での 作業{さぎょう} → 17:00 会社{かいしゃ}に 帰{かえ}る → 車{くるま}の そうじ（15分{ふん}くらい）・書類{しょるい}・日報{にっぽう}・次{つぎ}の 日{ひ}の 打{う}ち合{あ}わせ\n\n会社{かいしゃ}の 中{なか}は、社長{しゃちょう} → 工事部長{こうじぶちょう} → 作業管理者{さぎょうかんりしゃ} → 職人{しょくにん}（一般{いっぱん}社員{しゃいん}）です。会社{かいしゃ}を もっと よく していく ことを 進{すす}める 仲間{なかま}としても 期待{きたい}されています。\n会社{かいしゃ}の 様子{ようす}と 重機{じゅうき}は、下{した}の 動画{どうが}で 見{み}られます。",
+      "en": "Civil construction management (site management). As a site supervisor, you manage the work and the quality.\nThe work includes civil engineering, exterior work (L-shaped retaining walls, block walls, etc.), embankment, land development and paving.\n\nA day: 7:00 meet at the office -> 8:00 arrive at the site, morning meeting -> work at the site -> 17:00 return to the office -> clean the vehicle (about 15 min), paperwork, daily report, planning for the next day\n\nThe team: president -> construction manager -> work supervisor -> craftsmen (regular staff). You are also expected to help make the company better.\nYou can see the company and its heavy machines in the video below."
     }
   },
   "visas": [
@@ -100,6 +101,12 @@
     "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}（重機{じゅうき}の 紹介{しょうかい}・社長{しゃちょう}インタビュー）",
     "en": "Company video (heavy machines and interview with the president)"
   },
+  "ceoMessage": {
+    "text": {
+      "ja": "【こんな 人{ひと}に 来{き}てほしい】\n楽{たの}しい 人{ひと}、我慢{がまん}できる 人{ひと}、他人{たにん}の せいに しない 人{ひと}、自分{じぶん}の 人生{じんせい}を 真剣{しんけん}に 考{かんが}える 人{ひと}\n\n【こんな 仕事{しごと}を してもらいます】\n現場{げんば}を 管理{かんり}してもらいます。\n人{ひと}と 人{ひと}、また 他{ほか}の 業者{ぎょうしゃ}との 調整{ちょうせい}を します（怒{おこ}られる ことも よく あります）。\n品質{ひんしつ}を よく する 仕事{しごと}を してもらいます。\n\n【こんな ことを 期待{きたい}しています】\nあなたの がんばりが 会社{かいしゃ}を よく します。会社{かいしゃ}は、あなたが 充実{じゅうじつ}して がんばれる 環境{かんきょう}を 用意{ようい}します。\nお互{たが}いに 高{たか}め合{あ}って、人生{じんせい}を よく しましょう。\nたくさんの 応募{おうぼ}を 待{ま}っています。",
+      "en": "[The people we want]\nPeople who are fun, patient, do not blame others, and think seriously about their own life\n\n[Your work]\nYou will manage sites.\nYou will coordinate between people and with other contractors (you will often be scolded).\nYou will work to improve quality.\n\n[What we expect]\nYour hard work makes the company better. The company will give you an environment where you can feel fulfilled and work hard.\nLet's grow together and make our lives better.\nWe look forward to many applications."
+    }
+  },
   "imuraComment": {
     "ja": "",
     "en": ""
@@ -137,33 +144,105 @@
         "ja": "会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}が 対象{たいしょう}です。くわしい 条件{じょうけん}は、相談{そうだん}のときに 確{たし}かめます。",
         "en": "Only for people who meet the company's rules and conditions. We will check the details when you consult us."
       }
+    },
+    {
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の 制度{せいど}",
+        "en": "Company support"
+      },
+      "title": {
+        "ja": "退職金{たいしょくきん}制度{せいど}が あります",
+        "en": "Retirement allowance"
+      },
+      "text": {
+        "ja": "長{なが}く 働{はたら}くと、やめる ときに 退職金{たいしょくきん}が 出{で}ます。",
+        "en": "If you work for a long time, you receive a retirement allowance when you leave."
+      },
+      "points": [
+        {
+          "ja": "30年{ねん} 働{はたら}くと 5,000,000円{えん}",
+          "en": "5,000,000 yen after 30 years"
+        },
+        {
+          "ja": "35年{ねん} 働{はたら}くと 10,000,000円{えん}",
+          "en": "10,000,000 yen after 35 years"
+        }
+      ],
+      "note": {
+        "ja": "求人票{きゅうじんひょう}（2026年{ねん}6月{がつ}26日{にち}）の 内容{ないよう}です。",
+        "en": "From the job posting (June 26, 2026)."
+      }
+    },
+    {
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の まわり",
+        "en": "Around the company"
+      },
+      "title": {
+        "ja": "会社{かいしゃ}の 近{ちか}くに、ベトナムの お店{みせ}が たくさん あります",
+        "en": "Many Vietnamese shops near the company"
+      },
+      "points": [
+        {
+          "ja": "ベトナムの 食材店{しょくざいてん}：10〜20店{てん}",
+          "en": "Vietnamese grocery stores: 10 to 20"
+        },
+        {
+          "ja": "ベトナム料理{りょうり}の お店{みせ}：7〜8店{てん}",
+          "en": "Vietnamese restaurants: 7 to 8"
+        }
+      ],
+      "note": {
+        "ja": "求人票{きゅうじんひょう}に 書{か}かれている 数{かず}です。",
+        "en": "Numbers from the job posting."
+      }
     }
   ],
   "housingShowcase": [
     {
       "title": {
-        "ja": "独身{どくしん}の 人{ひと}は、香山寮{かやまりょう}にも 入{はい}れます",
-        "en": "Single people can also live in Kayama Dormitory"
+        "ja": "独身{どくしん}の 人{ひと}は、香山寮{かやまりょう}（個室{こしつ}）に 入{はい}れます",
+        "en": "Single people can live in Kayama Dormitory (private room)"
       },
       "lead": {
-        "ja": "会社{かいしゃ}の 寮{りょう}です。土木施工管理{どぼくせこうかんり}で 独身{どくしん}の 人{ひと}は、会社{かいしゃ}と 相談{そうだん}して 入{はい}れます。家賃{やちん}には、水道{すいどう}・電気{でんき}・ガス代{だい}も 含{ふく}まれます。\n家族{かぞく}と いっしょに 住{す}む 人{ひと}は、アパートに 住{す}む 人{ひと}が 多{おお}いです。",
-        "en": "This is the company dormitory. Single civil construction managers can live here after talking with the company. Water, electricity and gas are included in the rent.\nMany people who live with their families live in apartments."
+        "ja": "会社{かいしゃ}の 寮{りょう}です。独身{どくしん}の 人{ひと}は、会社{かいしゃ}と 相談{そうだん}して 入{はい}れます。布団{ふとん}や 冷蔵庫{れいぞうこ}などの 生活{せいかつ}に 使{つか}う ものは、無料{むりょう}で 用意{ようい}されます。\n家族{かぞく}と いっしょに 住{す}む 人{ひと}は、アパートに 住{す}む 人{ひと}が 多{おお}いです。",
+        "en": "This is the company dormitory. Single people can live here after talking with the company. Daily necessities such as a futon and fridge are provided free.\nMany people who live with their families live in apartments."
       },
       "money": [
         {
           "label": {
-            "ja": "家賃{やちん}（1か月{げつ}）",
-            "en": "Rent (per month)"
+            "ja": "住居費{じゅうきょひ}（1か月{げつ}）",
+            "en": "Housing (per month)"
           },
           "value": {
-            "ja": "10,000円{えん}",
-            "en": "10,000 yen"
-          },
-          "note": {
-            "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます",
-            "en": "Includes water, electricity and gas"
+            "ja": "20,000円{えん}",
+            "en": "20,000 yen"
           },
           "strong": true
+        },
+        {
+          "label": {
+            "ja": "水道光熱費{すいどうこうねつひ}（1か月{げつ}）",
+            "en": "Utilities (per month)"
+          },
+          "value": {
+            "ja": "5,000円{えん}",
+            "en": "5,000 yen"
+          }
+        },
+        {
+          "label": {
+            "ja": "Wi-Fi",
+            "en": "Wi-Fi"
+          },
+          "value": {
+            "ja": "0円{えん}",
+            "en": "0 yen"
+          },
+          "note": {
+            "ja": "会社{かいしゃ}が 払{はら}います",
+            "en": "Paid by the company"
+          }
         },
         {
           "label": {
@@ -171,7 +250,7 @@
             "en": "Room"
           },
           "value": {
-            "ja": "1人{にん}1部屋{へや}",
+            "ja": "個室{こしつ}",
             "en": "Private room"
           }
         }
@@ -182,10 +261,19 @@
         "en": "Video of Kayama Dormitory"
       },
       "photos": [],
-      "points": [],
+      "points": [
+        {
+          "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ（無料{むりょう}）",
+          "en": "Futon, fridge, washing machine, rice cooker and gas stove (free)"
+        },
+        {
+          "ja": "自転車{じてんしゃ}を 貸{か}してもらえます",
+          "en": "A bicycle is lent to you"
+        }
+      ],
       "note": {
-        "ja": "",
-        "en": ""
+        "ja": "金額{きんがく}は、求人票{きゅうじんひょう}（2026年{ねん}6月{がつ}26日{にち}）の 内容{ないよう}です。",
+        "en": "Amounts are from the job posting (June 26, 2026)."
       }
     },
     {
@@ -223,24 +311,93 @@
     }
   ],
   "terms": {
+    "openings": 1,
+    "employment": {
+      "ja": "正社員{せいしゃいん}",
+      "en": "Full-time employee"
+    },
+    "salaryType": "月給",
+    "salaryMin": 325000,
+    "salaryMax": 325000,
+    "allowances": {
+      "ja": "基本給{きほんきゅう}：168,000円{えん}\n職能手当{しょくのうてあて}：157,000円{えん}\n残業手当{ざんぎょうてあて}（残業{ざんぎょう}した 分{ぶん}）・休日出勤手当{きゅうじつしゅっきんてあて}・通勤手当{つうきんてあて}\n総支給{そうしきゅう}の 例{れい}：390,000円{えん}（残業代{ざんぎょうだい} 60,000〜70,000円{えん}を 含{ふく}む）",
+      "en": "Base pay: 168,000 yen\nSkill allowance: 157,000 yen\nOvertime pay (for hours worked), holiday work allowance, commuting allowance\nExample of total pay: 390,000 yen (including 60,000 to 70,000 yen of overtime pay)"
+    },
+    "takeHome": {
+      "ja": "310,000〜330,000円{えん}くらい\n総支給{そうしきゅう} 390,000円{えん}から、健康保険{けんこうほけん} 17,000円{えん}・厚生年金{こうせいねんきん} 27,500円{えん}・雇用保険{こようほけん} 3,000円{えん}・所得税{しょとくぜい} 15,000円{えん}を 引{ひ}いた 目安{めやす}です（求人票{きゅうじんひょう}より）。住居費{じゅうきょひ}と 水道光熱費{すいどうこうねつひ}は、ここから 払{はら}います。",
+      "en": "About 310,000 to 330,000 yen\nEstimate after subtracting health insurance 17,000 yen, pension 27,500 yen, employment insurance 3,000 yen and income tax 15,000 yen from 390,000 yen (from the job posting). You pay housing and utilities from this."
+    },
+    "bonus": {
+      "ja": "昇給{しょうきゅう}：あり／ボーナス：なし",
+      "en": "Pay raise: yes / Bonus: none"
+    },
+    "payment": {
+      "ja": "月末{げつまつ}締{じ}め、次{つぎ}の 月{つき}の 15日{にち}に 銀行{ぎんこう}振込{ふりこみ}",
+      "en": "Closed at the end of each month, paid by bank transfer on the 15th of the next month"
+    },
+    "insurance": {
+      "ja": "健康保険{けんこうほけん}・厚生年金{こうせいねんきん}・雇用保険{こようほけん}",
+      "en": "Health insurance, pension and employment insurance"
+    },
+    "hours": {
+      "ja": "7:00 会社{かいしゃ}に 集合{しゅうごう}（8:00 現場{げんば}）〜 17:00",
+      "en": "7:00 meet at the office (8:00 at the site) to 17:00"
+    },
+    "overtime": {
+      "ja": "17:00〜18:30 くらい／月{つき} 30〜40時間{じかん}",
+      "en": "About 17:00 to 18:30 / 30 to 40 hours a month"
+    },
+    "nightShift": {
+      "ja": "夜{よる}の 工事{こうじ}が ある ときは 19:00〜7:00",
+      "en": "19:00 to 7:00 when there is night work"
+    },
+    "holidays": {
+      "ja": "祝日{しゅくじつ}／1か月{げつ}に 4〜6日{にち}",
+      "en": "National holidays / 4 to 6 days a month"
+    },
+    "leave": {
+      "ja": "ゴールデンウィーク 3〜6日{にち}、夏休{なつやす}み 3〜6日{にち}、冬休{ふゆやす}み（年末年始{ねんまつねんし}） 6〜7日{にち}\n年間休日{ねんかんきゅうじつ}：90〜105日{にち}",
+      "en": "Golden Week 3 to 6 days, summer 3 to 6 days, winter (New Year) 6 to 7 days\nAnnual holidays: 90 to 105 days"
+    },
     "housing": {
       "available": true,
       "detail": {
-        "ja": "会社{かいしゃ}の 寮{りょう}（香山寮{かやまりょう}・1人{にん}1部屋{へや}）。独身{どくしん}の 人{ひと}は、会社{かいしゃ}と 相談{そうだん}して 入{はい}れます",
+        "ja": "会社{かいしゃ}の 寮{りょう}（香山寮{かやまりょう}・個室{こしつ}）。独身{どくしん}の 人{ひと}は、会社{かいしゃ}と 相談{そうだん}して 入{はい}れます",
         "en": "Company dormitory (Kayama Dormitory, private room). Single people can live here after talking with the company"
       },
       "rent": {
-        "ja": "月{つき} 10,000円{えん}",
-        "en": "10,000 yen a month"
+        "ja": "月{つき} 20,000円{えん}",
+        "en": "20,000 yen a month"
       },
       "utilities": {
-        "ja": "家賃{やちん}に 含{ふく}まれます",
-        "en": "Included in the rent"
+        "ja": "月{つき} 5,000円{えん}（Wi-Fiは 会社{かいしゃ}が 払{はら}います）",
+        "en": "5,000 yen a month (Wi-Fi is paid by the company)"
+      },
+      "furniture": {
+        "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ（無料{むりょう}）",
+        "en": "Futon, fridge, washing machine, rice cooker, gas stove (free)"
+      },
+      "commute": {
+        "ja": "自転車{じてんしゃ}を 貸{か}してもらえます",
+        "en": "A bicycle is lent to you"
       }
     },
+    "japanese": "N3",
+    "japaneseText": {
+      "ja": "日本語能力試験{にほんごのうりょくしけん} N3 以上{いじょう}",
+      "en": "JLPT N3 or higher"
+    },
+    "requirements": {
+      "ja": "大学{だいがく}・短期大学{たんきだいがく}を 卒業{そつぎょう}した 人{ひと}\n資格{しかく}：土木{どぼく}\n運転免許{うんてんめんきょ}：普通{ふつう}・準中型{じゅんちゅうがた}\n施工管理{せこうかんり}の 経験{けいけん}：なくても 大丈夫{だいじょうぶ}です\n年齢{ねんれい}は 問{と}いません\nコミュニケーションが できる 人{ひと}、オンライン（ビデオ通話{つうわ}）が できる 人{ひと}\n大切{たいせつ}な こと：笑顔{えがお}",
+      "en": "Graduated from a university or junior college\nQualification: civil engineering\nDriver's license: regular / semi-medium-sized\nConstruction management experience: not required\nAny age\nGood communication; able to do online (video) calls\nImportant: a smile"
+    },
     "benefits": {
-      "ja": "運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます",
-      "en": "Driver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost"
+      "ja": "退職金{たいしょくきん}：30年{ねん}で 5,000,000円{えん}、35年{ねん}で 10,000,000円{えん}\n運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます\n一戸建{いっこだ}ての 家{いえ}を 借{か}りて 住{す}める 制度{せいど}・生活{せいかつ}に 使{つか}う ものの 無料{むりょう}提供{ていきょう}\n出産{しゅっさん}お祝{いわ}い金{きん}\n制服{せいふく}・作業着{さぎょうぎ}あり",
+      "en": "Retirement allowance: 5,000,000 yen after 30 years, 10,000,000 yen after 35 years\nDriver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost\nDetached house rental, free daily necessities\nChildbirth celebration money\nUniform and work clothes provided"
+    },
+    "transfer": {
+      "ja": "ありません",
+      "en": "None"
     }
   }
 }

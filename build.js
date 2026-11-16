@@ -659,6 +659,26 @@ function payExamples(c, lang) {
 </section>`;
 }
 
+/* 会社の制度などの紹介（画像＋説明）。data の features に書いたときだけ出ます */
+function features(c, lang, up) {
+  const list = (c.features || []).filter(f => has(tr(f.title, lang)));
+  if (!list.length) return '';
+  return list.map(f => {
+    const img = has(f.image) && fs.existsSync(path.join(ASSETS, 'companies', c.id, f.image))
+      ? `<img class="feat__img" src="${up}assets/companies/${esc(c.id)}/${esc(f.image)}" alt="${esc(plain(tr(f.alt || f.title, lang)))}" loading="lazy">` : '';
+    return `<section class="sec feat">
+  <div class="wrap narrow">
+    ${has(tr(f.eyebrow, lang)) ? `<p class="house__eyebrow">${ruby(tr(f.eyebrow, lang))}</p>` : ''}
+    <h2 class="house__title">${ruby(tr(f.title, lang))}</h2>
+    ${img}
+    ${has(tr(f.text, lang)) ? `<p class="house__lead">${multi(tr(f.text, lang))}</p>` : ''}
+    ${(f.points || []).length ? `<ul class="house__points">${f.points.map(p => `<li>${ruby(tr(p, lang))}</li>`).join('')}</ul>` : ''}
+    ${has(tr(f.note, lang)) ? `<p class="note">${multi(tr(f.note, lang))}</p>` : ''}
+  </div>
+</section>`;
+  }).join('\n');
+}
+
 function pageCompany(c, lang) {
   const v = view(c, lang), t = v.t, tm = v.tm, comp = v.comp, loc = v.loc;
   const rel = langDir(lang) + v.href;
@@ -784,6 +804,7 @@ ${relatedHtml}
 </section>
 
 ${payExamples(c, lang)}
+${features(c, lang, up)}
 ${housingShowcase(c, lang, up)}
 
 <section class="sec" id="video">

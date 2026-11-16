@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日。2026-11-17 井村さん：施工管理で会社に認められると、社長が住居を買い、入居時の家財道具も会社持ち、家賃はその物件の半額以下くらい（金額はケースによる）という特例の人もいる→ housingShowcase に「特別な例」として掲載。2026-11-17 井村さん：施工管理も独身なら会社と相談のうえ香山寮に入寮可。家庭のある人はアパートに住む人が多い → housingShowcase を配列にして、寮と特例を並べた",
+  "_メモ": "2026-11-17 作成。香山道路の土木施工管理（技術・人文知識・国際業務）の求人。特定技能のページ（kayama-douro）から分けた（井村さんの指示）。会社紹介・動画・バナーは同じ。給料・応募の条件・寮が使えるかは未確認のため空。求人票は後日。2026-11-17 井村さん：施工管理で会社に認められると、社長が住居を買い、入居時の家財道具も会社持ち、家賃はその物件の半額以下くらい（金額はケースによる）という特例の人もいる→ housingShowcase に「特別な例」として掲載。2026-11-17 井村さん：施工管理も独身なら会社と相談のうえ香山寮に入寮可。家庭のある人はアパートに住む人が多い → housingShowcase を配列にして、寮と特例を並べた。2026-11-17 運転免許取得支援制度（規定・条件を満たす者は会社負担で準中型・大型免許）を features と terms.benefits に（井村さん・画像あり）",
   "id": "kayama-douro-sekokanri",
   "published": true,
   "status": "募集中",
@@ -104,6 +104,41 @@
     "ja": "",
     "en": ""
   },
+  "features": [
+    {
+      "image": "license-support.jpg",
+      "alt": {
+        "ja": "香山道路株式会社 運転免許取得支援制度。会社が費用を負担します！準中型免許・大型免許の取得を応援！",
+        "en": "Kayama Douro driver's license support: the company pays the cost for medium-sized and large licenses"
+      },
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の 制度{せいど}",
+        "en": "Company support"
+      },
+      "title": {
+        "ja": "運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}",
+        "en": "Driver's license support program"
+      },
+      "text": {
+        "ja": "香山道路{かやまどうろ}では、会社{かいしゃ}の 決{き}まり（規定{きてい}・条件{じょうけん}）を 満{み}たす 人{ひと}は、会社{かいしゃ}が 費用{ひよう}を 出{だ}して、運転免許{うんてんめんきょ}を 取{と}ることが できます。",
+        "en": "At Kayama Douro, people who meet the company's rules and conditions can get a driver's license, with the company paying the cost."
+      },
+      "points": [
+        {
+          "ja": "準中型免許{じゅんちゅうがためんきょ}",
+          "en": "Semi-medium-sized vehicle license"
+        },
+        {
+          "ja": "大型免許{おおがためんきょ}",
+          "en": "Large vehicle license"
+        }
+      ],
+      "note": {
+        "ja": "会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}が 対象{たいしょう}です。くわしい 条件{じょうけん}は、相談{そうだん}のときに 確{たし}かめます。",
+        "en": "Only for people who meet the company's rules and conditions. We will check the details when you consult us."
+      }
+    }
+  ],
   "housingShowcase": [
     {
       "title": {
@@ -202,6 +237,10 @@
         "ja": "家賃{やちん}に 含{ふく}まれます",
         "en": "Included in the rent"
       }
+    },
+    "benefits": {
+      "ja": "運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます",
+      "en": "Driver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost"
     }
   }
 }

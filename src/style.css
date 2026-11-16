@@ -337,3 +337,6 @@ select:focus,input:focus,textarea:focus{outline:3px solid var(--red);outline-off
 .pay__tbl th{text-align:left}
 .pay__tbl td{text-align:right;white-space:nowrap}
 .pay__tbl .sum th,.pay__tbl .sum td{font-weight:700}
+
+/* 会社の制度の紹介 */
+.feat__img{display:block;width:100%;height:auto;border-radius:8px;margin:12px 0}

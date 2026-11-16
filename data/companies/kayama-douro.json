@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。同日、特定技能（1号・2号）のページに絞り、土木施工管理（技人国）は kayama-douro-sekokanri に分けた。給与明細3枚（コード54＝特定技能1号、38＝特定技能2号、43＝技能実習生。いずれも2026年11月分）の数字を payExamples に。名前は出さない（社長の許可あり＝井村さん）。明細の所属欄はどれも「実習生」と印字されているが、区分は井村さんの説明どおり。寮は香山寮・1人1部屋・家賃1万円（水道光熱費込み）。求人票は後日",
+  "_メモ": "2026-11-17 作成。同日、特定技能（1号・2号）のページに絞り、土木施工管理（技人国）は kayama-douro-sekokanri に分けた。給与明細3枚（コード54＝特定技能1号、38＝特定技能2号、43＝技能実習生。いずれも2026年11月分）の数字を payExamples に。名前は出さない（社長の許可あり＝井村さん）。明細の所属欄はどれも「実習生」と印字されているが、区分は井村さんの説明どおり。寮は香山寮・1人1部屋・家賃1万円（水道光熱費込み）。求人票は後日。2026-11-17 運転免許取得支援制度（規定・条件を満たす者は会社負担で準中型・大型免許）を features と terms.benefits に（井村さん・画像あり）",
   "id": "kayama-douro",
   "published": true,
   "status": "募集中",
@@ -105,6 +105,41 @@
     "ja": "",
     "en": ""
   },
+  "features": [
+    {
+      "image": "license-support.jpg",
+      "alt": {
+        "ja": "香山道路株式会社 運転免許取得支援制度。会社が費用を負担します！準中型免許・大型免許の取得を応援！",
+        "en": "Kayama Douro driver's license support: the company pays the cost for medium-sized and large licenses"
+      },
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の 制度{せいど}",
+        "en": "Company support"
+      },
+      "title": {
+        "ja": "運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}",
+        "en": "Driver's license support program"
+      },
+      "text": {
+        "ja": "香山道路{かやまどうろ}では、会社{かいしゃ}の 決{き}まり（規定{きてい}・条件{じょうけん}）を 満{み}たす 人{ひと}は、会社{かいしゃ}が 費用{ひよう}を 出{だ}して、運転免許{うんてんめんきょ}を 取{と}ることが できます。",
+        "en": "At Kayama Douro, people who meet the company's rules and conditions can get a driver's license, with the company paying the cost."
+      },
+      "points": [
+        {
+          "ja": "準中型免許{じゅんちゅうがためんきょ}",
+          "en": "Semi-medium-sized vehicle license"
+        },
+        {
+          "ja": "大型免許{おおがためんきょ}",
+          "en": "Large vehicle license"
+        }
+      ],
+      "note": {
+        "ja": "会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}が 対象{たいしょう}です。くわしい 条件{じょうけん}は、相談{そうだん}のときに 確{たし}かめます。",
+        "en": "Only for people who meet the company's rules and conditions. We will check the details when you consult us."
+      }
+    }
+  ],
   "payExamples": {
     "title": {
       "ja": "実際{じっさい}の 給料明細{きゅうりょうめいさい}の 例{れい}",
@@ -436,6 +471,10 @@
         "ja": "家賃{やちん}に 含{ふく}まれます",
         "en": "Included in the rent"
       }
+    },
+    "benefits": {
+      "ja": "運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます",
+      "en": "Driver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost"
     }
   }
 }

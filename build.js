@@ -903,7 +903,9 @@ ${has(tr(c.imuraComment, lang)) ? `<section class="sec sec--gray">
 
     <h3 class="h3">${ruby(t.terms.group.skill)}</h3>
     <table class="tbl"><tbody>
-      ${row(t.terms.japanese, ruby(tr(tm.japaneseText, lang) || v.jpLabel))}
+      ${(() => { const jp = tr(tm.japaneseText, lang) || v.jpLabel;
+        /* 日本語の試験のレベルは目安。会話ができれば採用されることもある、という全社共通の注記を添えます */
+        return row(t.terms.japanese, has(jp) ? `${ruby(jp)}${tm.japanese && tm.japanese !== 'none' ? `<br><small>${ruby(t.terms.japaneseNote)}</small>` : ''}` : ''); })()}
       ${row(t.terms.requirements, multi(tr(tm.requirements, lang)))}
     </tbody></table>
 

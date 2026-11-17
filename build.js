@@ -679,6 +679,18 @@ function features(c, lang, up) {
   }).join('\n');
 }
 
+/* この求人のいいところ（ページの上のほう、給料のすぐ下に目立つ枠で出します）。
+   data の highlights に書いたときだけ出ます */
+function highlights(c, lang) {
+  const h = c.highlights;
+  const items = ((h && h.items) || []).filter(x => has(tr(x.big, lang)));
+  if (!items.length) return '';
+  return `<div class="hl">
+      ${has(tr(h.title, lang)) ? `<p class="hl__title">${ruby(tr(h.title, lang))}</p>` : ''}
+      <ul class="hl__list">${items.map(x => `<li><b>${ruby(tr(x.big, lang))}</b>${has(tr(x.small, lang)) ? `<span>${ruby(tr(x.small, lang))}</span>` : ''}</li>`).join('')}</ul>
+    </div>`;
+}
+
 function pageCompany(c, lang) {
   const v = view(c, lang), t = v.t, tm = v.tm, comp = v.comp, loc = v.loc;
   const rel = langDir(lang) + v.href;
@@ -774,6 +786,7 @@ ${c.sample ? `<div class="samplebar"><div class="wrap">${ruby(t.job.sampleNote)}
       ${v.catsLabel.map(x => `<span class="tag tag--cat">${ruby(x)}</span>`).join('')}
     </p>
     ${v.salary ? `<p class="jhead__pay">${ruby(v.salary)}</p>` : ''}
+    ${highlights(c, lang)}
     ${c.selecting ? `<p class="note">${ruby(t.job.selectingNote)}</p>` : ''}
     <div class="jhead__act">${applyBtn}${contactButtons(t)}</div>
     ${freeBox(t)}

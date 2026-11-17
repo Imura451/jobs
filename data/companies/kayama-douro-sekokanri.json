@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。同日 求人票（施工管理エンジニア用・2026年6月26日）を反映。採用予定は「男1名」だが性別を限った募集は原則できないため「1人」と表示。月給は基本給168,000＋職能手当157,000＝325,000で表示し、総支給390,000（残業代6〜7万含む）は手当欄に。手取り31〜33万は住居費・水道光熱費を引く前（求人票の控除から計算すると327,500）。寮は求人票の住居費2万＋水道光熱費5千（特定技能ページの1万円込みとは違う）。日本語は「N3」と「以上」に○→N3以上と読んだ。運転免許は必須ではなく、あると採用されやすい・普通免許でも可（2026-11-17 井村さん）。日本語はN3以上で確定（同日）。休日は祝日に○、週休二日制は○なし。住所の区は求人票では西区（2024年の区再編で変わっている可能性があるので区は出さない）。社長メッセージの「怒れること」は「怒られること」と読んだ。会社に認められた人への住居の特例（井村さん談）と運転免許取得支援も残す",
+  "_メモ": "2026-11-17 作成。同日 求人票（施工管理エンジニア用・2026年6月26日）を反映。採用予定は「男1名」だが性別を限った募集は原則できないため「1人」と表示。月給は基本給168,000＋職能手当157,000＝325,000で表示し、総支給390,000（残業代6〜7万含む）は手当欄に。手取り31〜33万は住居費・水道光熱費を引く前（求人票の控除から計算すると327,500）。寮は月1万円・水道光熱費込み（2026-11-17 井村さん確定。求人票の住居費2万＋水道光熱費5千ではなく、こちら）。日本語は「N3」と「以上」に○→N3以上と読んだ。運転免許は必須ではなく、あると採用されやすい・普通免許でも可（2026-11-17 井村さん）。日本語はN3以上で確定（同日）。休日は祝日に○、週休二日制は○なし。住所の区は求人票では西区（2024年の区再編で変わっている可能性があるので区は出さない）。社長メッセージの「怒れること」は「怒られること」と読んだ。会社に認められた人への住居の特例（井村さん談）と運転免許取得支援も残す。2026-11-17 退職金・一戸建て賃借・生活備品無料・出産お祝い金を highlights（上の赤枠）と features で目立つように（井村さん）",
   "id": "kayama-douro-sekokanri",
   "published": true,
   "status": "募集中",
@@ -45,6 +45,64 @@
   "visas": [
     "技人国"
   ],
+  "highlights": {
+    "title": {
+      "ja": "この 求人{きゅうじん}の いいところ",
+      "en": "Highlights of this job"
+    },
+    "items": [
+      {
+        "big": {
+          "ja": "退職金{たいしょくきん}制度{せいど}あり",
+          "en": "Retirement allowance"
+        },
+        "small": {
+          "ja": "30年{ねん}で 5,000,000円{えん}／35年{ねん}で 10,000,000円{えん}",
+          "en": "5,000,000 yen after 30 years / 10,000,000 yen after 35 years"
+        }
+      },
+      {
+        "big": {
+          "ja": "一戸建{いっこだ}ての 家{いえ}を 貸{か}してもらえます",
+          "en": "A detached house can be rented to you"
+        },
+        "small": {
+          "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}への 福利厚生{ふくりこうせい}です",
+          "en": "A benefit for civil construction managers"
+        }
+      },
+      {
+        "big": {
+          "ja": "生活{せいかつ}に 使{つか}う ものは 無料{むりょう}",
+          "en": "Daily necessities are free"
+        },
+        "small": {
+          "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ",
+          "en": "Futon, fridge, washing machine, rice cooker and gas stove"
+        }
+      },
+      {
+        "big": {
+          "ja": "出産{しゅっさん}お祝{いわ}い金{きん}が 出{で}ます",
+          "en": "Childbirth celebration money"
+        },
+        "small": {
+          "ja": "子{こ}どもが 生{う}まれたときに もらえます",
+          "en": "Paid when your child is born"
+        }
+      },
+      {
+        "big": {
+          "ja": "寮{りょう}は 月{つき} 10,000円{えん}",
+          "en": "Dormitory: 10,000 yen a month"
+        },
+        "small": {
+          "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}も 込{こ}み。個室{こしつ}です",
+          "en": "Water, electricity and gas included. Private room"
+        }
+      }
+    ]
+  },
   "accept": {},
   "fromStatus": [],
   "noExamNote": {
@@ -151,8 +209,8 @@
         "en": "Company support"
       },
       "title": {
-        "ja": "退職金{たいしょくきん}制度{せいど}が あります",
-        "en": "Retirement allowance"
+        "ja": "退職金{たいしょくきん}制度{せいど}あり：30年{ねん}で 500万円{まんえん}、35年{ねん}で 1,000万円{まんえん}",
+        "en": "Retirement allowance: 5 million yen after 30 years, 10 million yen after 35 years"
       },
       "text": {
         "ja": "長{なが}く 働{はたら}くと、やめる ときに 退職金{たいしょくきん}が 出{で}ます。",
@@ -171,6 +229,34 @@
       "note": {
         "ja": "求人票{きゅうじんひょう}（2026年{ねん}6月{がつ}26日{にち}）の 内容{ないよう}です。",
         "en": "From the job posting (June 26, 2026)."
+      }
+    },
+    {
+      "eyebrow": {
+        "ja": "その 他{ほか}の 福利厚生{ふくりこうせい}",
+        "en": "Other benefits"
+      },
+      "title": {
+        "ja": "家{いえ}も、生活{せいかつ}も、家族{かぞく}も 応援{おうえん}します",
+        "en": "Benefits: support for your home, life and family"
+      },
+      "points": [
+        {
+          "ja": "一戸建{いっこだ}ての 家{いえ}を 貸{か}してもらえます",
+          "en": "A detached house can be rented to you"
+        },
+        {
+          "ja": "生活{せいかつ}に 使{つか}う ものは 無料{むりょう}（布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ）",
+          "en": "Daily necessities are free (futon, fridge, washing machine, rice cooker, gas stove)"
+        },
+        {
+          "ja": "出産{しゅっさん}お祝{いわ}い金{きん}が 出{で}ます",
+          "en": "Childbirth celebration money"
+        }
+      ],
+      "note": {
+        "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}への 福利厚生{ふくりこうせい}です（求人票{きゅうじんひょう}より）。",
+        "en": "Benefits for civil construction managers (from the job posting)."
       }
     },
     {
@@ -211,24 +297,18 @@
       "money": [
         {
           "label": {
-            "ja": "住居費{じゅうきょひ}（1か月{げつ}）",
-            "en": "Housing (per month)"
+            "ja": "家賃{やちん}（1か月{げつ}）",
+            "en": "Rent (per month)"
           },
           "value": {
-            "ja": "20,000円{えん}",
-            "en": "20,000 yen"
+            "ja": "10,000円{えん}",
+            "en": "10,000 yen"
+          },
+          "note": {
+            "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます",
+            "en": "Includes water, electricity and gas"
           },
           "strong": true
-        },
-        {
-          "label": {
-            "ja": "水道光熱費{すいどうこうねつひ}（1か月{げつ}）",
-            "en": "Utilities (per month)"
-          },
-          "value": {
-            "ja": "5,000円{えん}",
-            "en": "5,000 yen"
-          }
         },
         {
           "label": {
@@ -272,8 +352,8 @@
         }
       ],
       "note": {
-        "ja": "金額{きんがく}は、求人票{きゅうじんひょう}（2026年{ねん}6月{がつ}26日{にち}）の 内容{ないよう}です。",
-        "en": "Amounts are from the job posting (June 26, 2026)."
+        "ja": "",
+        "en": ""
       }
     },
     {
@@ -324,8 +404,8 @@
       "en": "Base pay: 168,000 yen\nSkill allowance: 157,000 yen\nOvertime pay (for hours worked), holiday work allowance, commuting allowance\nExample of total pay: 390,000 yen (including 60,000 to 70,000 yen of overtime pay)"
     },
     "takeHome": {
-      "ja": "310,000〜330,000円{えん}くらい\n総支給{そうしきゅう} 390,000円{えん}から、健康保険{けんこうほけん} 17,000円{えん}・厚生年金{こうせいねんきん} 27,500円{えん}・雇用保険{こようほけん} 3,000円{えん}・所得税{しょとくぜい} 15,000円{えん}を 引{ひ}いた 目安{めやす}です（求人票{きゅうじんひょう}より）。住居費{じゅうきょひ}と 水道光熱費{すいどうこうねつひ}は、ここから 払{はら}います。",
-      "en": "About 310,000 to 330,000 yen\nEstimate after subtracting health insurance 17,000 yen, pension 27,500 yen, employment insurance 3,000 yen and income tax 15,000 yen from 390,000 yen (from the job posting). You pay housing and utilities from this."
+      "ja": "310,000〜330,000円{えん}くらい\n総支給{そうしきゅう} 390,000円{えん}から、健康保険{けんこうほけん} 17,000円{えん}・厚生年金{こうせいねんきん} 27,500円{えん}・雇用保険{こようほけん} 3,000円{えん}・所得税{しょとくぜい} 15,000円{えん}を 引{ひ}いた 目安{めやす}です（求人票{きゅうじんひょう}より）。寮{りょう}の 家賃{やちん}（月{つき} 10,000円{えん}・水道光熱費{すいどうこうねつひ}込{こ}み）は、ここから 払{はら}います。",
+      "en": "About 310,000 to 330,000 yen\nEstimate after subtracting health insurance 17,000 yen, pension 27,500 yen, employment insurance 3,000 yen and income tax 15,000 yen from 390,000 yen (from the job posting). You pay the dormitory rent (10,000 yen a month, utilities included) from this."
     },
     "bonus": {
       "ja": "昇給{しょうきゅう}：あり／ボーナス：なし",
@@ -366,12 +446,12 @@
         "en": "Company dormitory (Kayama Dormitory, private room). Single people can live here after talking with the company"
       },
       "rent": {
-        "ja": "月{つき} 20,000円{えん}",
-        "en": "20,000 yen a month"
+        "ja": "月{つき} 10,000円{えん}",
+        "en": "10,000 yen a month"
       },
       "utilities": {
-        "ja": "月{つき} 5,000円{えん}（Wi-Fiは 会社{かいしゃ}が 払{はら}います）",
-        "en": "5,000 yen a month (Wi-Fi is paid by the company)"
+        "ja": "家賃{やちん}に 含{ふく}まれます（Wi-Fiも 会社{かいしゃ}が 払{はら}います）",
+        "en": "Included in the rent (Wi-Fi is also paid by the company)"
       },
       "furniture": {
         "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ（無料{むりょう}）",
@@ -392,8 +472,8 @@
       "en": "Graduated from a university or junior college\nQualification: civil engineering\nDriver's license: people with a license are more likely to be hired (a regular license is fine)\nConstruction management experience: not required\nAny age\nGood communication; able to do online (video) calls\nImportant: a smile"
     },
     "benefits": {
-      "ja": "退職金{たいしょくきん}：30年{ねん}で 5,000,000円{えん}、35年{ねん}で 10,000,000円{えん}\n運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます\n一戸建{いっこだ}ての 家{いえ}を 借{か}りて 住{す}める 制度{せいど}・生活{せいかつ}に 使{つか}う ものの 無料{むりょう}提供{ていきょう}\n出産{しゅっさん}お祝{いわ}い金{きん}\n制服{せいふく}・作業着{さぎょうぎ}あり",
-      "en": "Retirement allowance: 5,000,000 yen after 30 years, 10,000,000 yen after 35 years\nDriver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost\nDetached house rental, free daily necessities\nChildbirth celebration money\nUniform and work clothes provided"
+      "ja": "退職金{たいしょくきん}制度{せいど}：あり（30年{ねん}で 5,000,000円{えん}、35年{ねん}で 10,000,000円{えん}）\n一戸建{いっこだ}ての 家{いえ}を 貸{か}してもらえます（土木施工管理{どぼくせこうかんり}の 人{ひと}）\n生活{せいかつ}に 使{つか}う もの（布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ）は 無料{むりょう}\n出産{しゅっさん}お祝{いわ}い金{きん}\n運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます\n制服{せいふく}・作業着{さぎょうぎ}あり",
+      "en": "Retirement allowance: yes (5,000,000 yen after 30 years, 10,000,000 yen after 35 years)\nA detached house can be rented to you (civil construction managers)\nDaily necessities (futon, fridge, washing machine, rice cooker, gas stove) are free\nChildbirth celebration money\nDriver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost\nUniform and work clothes provided"
     },
     "transfer": {
       "ja": "ありません",

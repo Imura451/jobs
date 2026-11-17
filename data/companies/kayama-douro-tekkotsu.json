@@ -1,0 +1,502 @@
+{
+  "_メモ": "2026-11-17 作成。香山道路の鉄骨組立大工（鉄骨住宅組立工事部）・特定技能1号の求人票（2026年7月23日）から。2号は募集しない（井村さん）。採用予定「男2人」は性別を限らないよう「2人」と表示。賃金は日給に○だが日額の記載なし→基本給186,953円（月）と職能手当5万〜15万で表示。総支給296,900〜346,900・手取り22万〜29万は求人票どおり。寮は求人票では住居費1万＋水道光熱費実費だが、井村さんの指示（香山寮は月1万円・水道光熱費込み）に合わせた→要確認。学歴「高等専門学校」に○・運転免許は項目名に○で、意図が分からないため載せていない→要確認。日本語はN3に○。退職金は30年500万のみ記載（35年の記載なし）。一戸建て・出産祝いはこの求人票には無いので載せない",
+  "id": "kayama-douro-tekkotsu",
+  "published": true,
+  "status": "募集中",
+  "postedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "deadline": "",
+  "company": {
+    "name": {
+      "ja": "香山道路株式会社{かやまどうろかぶしきがいしゃ}",
+      "en": "Kayama Douro Co., Ltd."
+    },
+    "business": {
+      "ja": "「道{みち}・まち・未来{みらい}を 創{つく}る 会社{かいしゃ}」です。静岡県{しずおかけん} 浜松市{はままつし}で、土木{どぼく}工事{こうじ}・外構{がいこう}工事{こうじ}・舗装{ほそう}工事{こうじ}を しています。\n会社{かいしゃ}には、3つの 部{ぶ}が あります。\n・土木施工工事部{どぼくせこうこうじぶ}\n・鉄骨住宅組立工事部{てっこつじゅうたくくみたてこうじぶ}\n・型枠住宅基礎工事部{かたわくじゅうたくきそこうじぶ}\nアスファルトフィニッシャー・ローラー・バックホー（油圧{ゆあつ}ショベル）などの 重機{じゅうき}を、会社{かいしゃ}で 持{も}っています。",
+      "en": "\"A company that creates roads, towns and the future.\" Based in Hamamatsu, Shizuoka, it does civil engineering, exterior construction and paving work.\nThe company has three departments:\n- Civil engineering construction\n- Steel-frame house assembly\n- Formwork and house foundations\nThe company owns heavy machines such as asphalt finishers, rollers and backhoes (hydraulic excavators)."
+    },
+    "website": "https://www.kayamadouro.com/",
+    "photos": [],
+    "employees": 20
+  },
+  "location": {
+    "prefecture": "静岡県",
+    "city": {
+      "ja": "浜松市{はままつし}",
+      "en": "Hamamatsu City"
+    },
+    "station": {
+      "ja": "会社{かいしゃ}は 浜松市{はままつし} 湖東町{ことうちょう}に あります。",
+      "en": "The company is in Koto-cho, Hamamatsu."
+    },
+    "mapQuery": "静岡県浜松市 湖東町"
+  },
+  "job": {
+    "field": "建設",
+    "title": {
+      "ja": "鉄骨組立大工{てっこつくみたてだいく}（特定技能{とくていぎのう}1号{ごう}）",
+      "en": "Steel-frame assembly carpenter (Specified Skilled Worker (i))"
+    },
+    "description": {
+      "ja": "鉄骨住宅組立工事部{てっこつじゅうたくくみたてこうじぶ}の 仕事{しごと}です。鉄骨{てっこつ}で アパートや 住宅{じゅうたく}を 組{く}み立{た}てる 大工{だいく}の 仕事{しごと}を します。\n工事{こうじ}は、アパート・住宅{じゅうたく}の 工事{こうじ}と、鉄骨軽天{てっこつけいてん}工事{こうじ}（軽{かる}い 鉄骨{てっこつ}で 天井{てんじょう}や 壁{かべ}の 下地{したじ}を つくる 工事{こうじ}）です。\n\n1日{にち}の 流{なが}れ：7:00 会社{かいしゃ}に 集合{しゅうごう} → 8:00 現場{げんば}・朝礼{ちょうれい} → 作業{さぎょう} → 12:00〜13:00 昼休{ひるやす}み → 作業{さぎょう} → 17:00 会社{かいしゃ}に 帰{かえ}る\n\n会社{かいしゃ}の 中{なか}は、社長{しゃちょう} → 作業管理者{さぎょうかんりしゃ} → 一般{いっぱん}社員{しゃいん} → 特定技能{とくていぎのう}・技能実習生{ぎのうじっしゅうせい} です。\n会社{かいしゃ}の 様子{ようす}と 重機{じゅうき}は、下{した}の 動画{どうが}で 見{み}られます。",
+      "en": "Work in the steel-frame house assembly department. You will assemble apartments and houses with steel frames.\nThe work includes apartment and house construction, and light-gauge steel work (making the base for ceilings and walls with light steel).\n\nA day: 7:00 meet at the office -> 8:00 at the site, morning meeting -> work -> 12:00-13:00 lunch break -> work -> 17:00 return to the office\n\nThe team: president -> work supervisor -> regular staff -> Specified Skilled Workers and Technical Intern Trainees.\nYou can see the company and its heavy machines in the video below."
+    }
+  },
+  "visas": [
+    "特定技能1号"
+  ],
+  "highlights": {
+    "title": {
+      "ja": "この 求人{きゅうじん}の いいところ",
+      "en": "Highlights of this job"
+    },
+    "items": [
+      {
+        "big": {
+          "ja": "寮{りょう}は 月{つき} 10,000円{えん}",
+          "en": "Dormitory: 10,000 yen a month"
+        },
+        "small": {
+          "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}も 込{こ}み。1人{にん}1部屋{へや}",
+          "en": "Water, electricity and gas included. Private room"
+        }
+      },
+      {
+        "big": {
+          "ja": "生活{せいかつ}に 使{つか}う ものは 無料{むりょう}",
+          "en": "Daily necessities are free"
+        },
+        "small": {
+          "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ。Wi-Fiも 無料{むりょう}",
+          "en": "Futon, fridge, washing machine, rice cooker, gas stove. Free Wi-Fi"
+        }
+      },
+      {
+        "big": {
+          "ja": "運転免許{うんてんめんきょ}を 会社{かいしゃ}の お金{かね}で 取{と}れる 制度{せいど}",
+          "en": "Driver's license support"
+        },
+        "small": {
+          "ja": "会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}。準中型{じゅんちゅうがた}・大型{おおがた}",
+          "en": "For people who meet the company's conditions. Semi-medium-sized and large"
+        }
+      },
+      {
+        "big": {
+          "ja": "退職金{たいしょくきん}制度{せいど}あり",
+          "en": "Retirement allowance"
+        },
+        "small": {
+          "ja": "30年{ねん}で 5,000,000円{えん}",
+          "en": "5,000,000 yen after 30 years"
+        }
+      },
+      {
+        "big": {
+          "ja": "昇給{しょうきゅう}は 1年{ねん}に 1回{かい}",
+          "en": "Pay raise once a year"
+        },
+        "small": {
+          "ja": "職能手当{しょくのうてあて}は、技術{ぎじゅつ}や 運転免許{うんてんめんきょ}、経験{けいけん}で 上{あ}がります",
+          "en": "The skill allowance rises with your skills, license and experience"
+        }
+      }
+    ]
+  },
+  "accept": {},
+  "fromStatus": [],
+  "noExamNote": {
+    "ja": "",
+    "en": ""
+  },
+  "leadTime": {
+    "inJapan": {
+      "ja": "",
+      "en": ""
+    },
+    "overseas": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "interview": {
+    "methods": [],
+    "travelCost": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "related": [
+    {
+      "id": "kayama-douro-sekokanri",
+      "eyebrow": {
+        "ja": "就労{しゅうろう}ビザも 募集中{ぼしゅうちゅう}",
+        "en": "Also hiring (engineers)"
+      },
+      "title": {
+        "ja": "土木施工管理{どぼくせこうかんり}の 人{ひと}も 募集{ぼしゅう}しています",
+        "en": "We are also hiring civil construction managers"
+      },
+      "text": {
+        "ja": "技術{ぎじゅつ}・人文知識{じんぶんちしき}・国際業務{こくさいぎょうむ}の ビザで 働{はたら}く 人{ひと}は、こちらを 見{み}てください。",
+        "en": "If you work with the Engineer / Specialist in Humanities / International Services visa, see this job."
+      },
+      "button": {
+        "ja": "土木施工管理{どぼくせこうかんり}の 求人{きゅうじん}を 見{み}る",
+        "en": "See the construction management job"
+      }
+    }
+  ],
+  "banner": {
+    "file": "banner.jpg",
+    "alt": {
+      "ja": "香山道路株式会社 道・まち・未来を創る会社 求人企業紹介 静岡県浜松市 一緒に働く仲間を募集しています",
+      "en": "Kayama Douro Co., Ltd. (Hamamatsu, Shizuoka): a company that creates roads, towns and the future. We are hiring"
+    }
+  },
+  "video": "HkQHF1MMias",
+  "videoTitle": {
+    "ja": "会社紹介{かいしゃしょうかい}の 動画{どうが}（重機{じゅうき}の 紹介{しょうかい}・社長{しゃちょう}インタビュー）",
+    "en": "Company video (heavy machines and interview with the president)"
+  },
+  "ceoMessage": {
+    "text": {
+      "ja": "【こんな 人{ひと}に 来{き}てほしい】\n明{あか}るい 人{ひと}、笑顔{えがお}が すてきな 人{ひと}、我慢{がまん}できる 人{ひと}、他人{たにん}の せいに しない 人{ひと}、自分{じぶん}の 人生{じんせい}を 真剣{しんけん}に 考{かんが}える 人{ひと}\n\n【こんな 仕事{しごと}を してもらいます】\n現場{げんば}の 仕事{しごと}を しっかり してもらいます。\n品質{ひんしつ}を よく する 仕事{しごと}を してもらいます。\n\n【こんな 人{ひと}を 期待{きたい}しています】\n転職{てんしょく}せず、帰国{きこく}せず。あなたの がんばりが 会社{かいしゃ}を よく します。\n会社{かいしゃ}は、あなたが 充実{じゅうじつ}して がんばれる 環境{かんきょう}を 用意{ようい}します。\nお互{たが}いに 高{たか}め合{あ}って、人生{じんせい}を よく しましょう。\nたくさんの 応募{おうぼ}を 待{ま}っています。",
+      "en": "[The people we want]\nPeople who are cheerful, have a nice smile, are patient, do not blame others, and think seriously about their own life\n\n[Your work]\nYou will do site work properly.\nYou will work to improve quality.\n\n[What we expect]\nStay with us without changing jobs or going home. Your hard work makes the company better.\nThe company will give you an environment where you can feel fulfilled and work hard.\nLet's grow together and make our lives better.\nWe look forward to many applications."
+    }
+  },
+  "imuraComment": {
+    "ja": "",
+    "en": ""
+  },
+  "payExamples": {
+    "title": {
+      "ja": "実際{じっさい}の 給料明細{きゅうりょうめいさい}の 例{れい}",
+      "en": "A real payslip example"
+    },
+    "lead": {
+      "ja": "香山道路{かやまどうろ}で 特定技能{とくていぎのう}1号{ごう}として 働{はたら}いている 人{ひと}の、2026年{ねん}11月分{がつぶん}の 給料明細{きゅうりょうめいさい}です。社長{しゃちょう}の 許可{きょか}を もらって、数字{すうじ}だけを のせています（名前{なまえ}は のせていません）。",
+      "en": "A real payslip (November 2026) of a person working at Kayama Douro with the Specified Skilled Worker (i) visa. With the president's permission, we show only the numbers (no names)."
+    },
+    "items": [
+      {
+        "label": {
+          "ja": "特定技能{とくていぎのう}1号{ごう}の 人{ひと}の 例{れい}",
+          "en": "Example: Specified Skilled Worker (i)"
+        },
+        "month": {
+          "ja": "2026年{ねん}11月分{がつぶん}の 給料{きゅうりょう}",
+          "en": "Pay for November 2026"
+        },
+        "work": {
+          "ja": "23.5日{にち}・176.25時間{じかん}（そのうち 残業{ざんぎょう} 3.5時間{じかん}）",
+          "en": "23.5 days, 176.25 hours (including 3.5 hours of overtime)"
+        },
+        "pay": [
+          {
+            "label": {
+              "ja": "基本給{きほんきゅう}",
+              "en": "Base pay"
+            },
+            "amount": 186953
+          },
+          {
+            "label": {
+              "ja": "残業手当{ざんぎょうてあて}",
+              "en": "Overtime pay"
+            },
+            "amount": 7588
+          },
+          {
+            "label": {
+              "ja": "職能手当{しょくのうてあて}",
+              "en": "Skill allowance"
+            },
+            "amount": 118547
+          }
+        ],
+        "deduct": [
+          {
+            "label": {
+              "ja": "健康保険{けんこうほけん}",
+              "en": "Health insurance"
+            },
+            "amount": 14760
+          },
+          {
+            "label": {
+              "ja": "厚生年金{こうせいねんきん}",
+              "en": "Pension"
+            },
+            "amount": 27450
+          },
+          {
+            "label": {
+              "ja": "雇用保険{こようほけん}",
+              "en": "Employment insurance"
+            },
+            "amount": 1879
+          },
+          {
+            "label": {
+              "ja": "所得税{しょとくぜい}",
+              "en": "Income tax"
+            },
+            "amount": 6750
+          },
+          {
+            "label": {
+              "ja": "住民税{じゅうみんぜい}",
+              "en": "Resident tax"
+            },
+            "amount": 3500
+          }
+        ],
+        "gross": 313088,
+        "deductTotal": 54339,
+        "net": 258749,
+        "after": {
+          "label": {
+            "ja": "寮{りょう}の 家賃{やちん}（10,000円{えん}）を 払{はら}うと、残{のこ}りは",
+            "en": "After paying the dormitory rent (10,000 yen):"
+          },
+          "amount": 248749
+        }
+      }
+    ],
+    "note": {
+      "ja": "給料{きゅうりょう}は、働{はたら}いた 時間{じかん}や 残業{ざんぎょう}、税金{ぜいきん}などで 毎月{まいつき} 変{か}わります。この 金額{きんがく}を 約束{やくそく}する ものでは ありません。\n寮{りょう}の 家賃{やちん}は、この 明細{めいさい}には 入{はい}っていません。",
+      "en": "Pay changes every month depending on hours worked, overtime, taxes and more. These amounts are not a promise.\nThe dormitory rent is not included in these payslips."
+    }
+  },
+  "features": [
+    {
+      "image": "license-support.jpg",
+      "alt": {
+        "ja": "香山道路株式会社 運転免許取得支援制度。会社が費用を負担します！準中型免許・大型免許の取得を応援！",
+        "en": "Kayama Douro driver's license support: the company pays the cost for medium-sized and large licenses"
+      },
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の 制度{せいど}",
+        "en": "Company support"
+      },
+      "title": {
+        "ja": "運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}",
+        "en": "Driver's license support program"
+      },
+      "text": {
+        "ja": "香山道路{かやまどうろ}では、会社{かいしゃ}の 決{き}まり（規定{きてい}・条件{じょうけん}）を 満{み}たす 人{ひと}は、会社{かいしゃ}が 費用{ひよう}を 出{だ}して、運転免許{うんてんめんきょ}を 取{と}ることが できます。",
+        "en": "At Kayama Douro, people who meet the company's rules and conditions can get a driver's license, with the company paying the cost."
+      },
+      "points": [
+        {
+          "ja": "準中型免許{じゅんちゅうがためんきょ}",
+          "en": "Semi-medium-sized vehicle license"
+        },
+        {
+          "ja": "大型免許{おおがためんきょ}",
+          "en": "Large vehicle license"
+        }
+      ],
+      "note": {
+        "ja": "会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}が 対象{たいしょう}です。くわしい 条件{じょうけん}は、相談{そうだん}のときに 確{たし}かめます。",
+        "en": "Only for people who meet the company's rules and conditions. We will check the details when you consult us."
+      }
+    },
+    {
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の 制度{せいど}",
+        "en": "Company support"
+      },
+      "title": {
+        "ja": "退職金{たいしょくきん}制度{せいど}あり：30年{ねん}で 500万円{まんえん}",
+        "en": "Retirement allowance: 5 million yen after 30 years"
+      },
+      "text": {
+        "ja": "長{なが}く 働{はたら}くと、やめる ときに 退職金{たいしょくきん}が 出{で}ます。",
+        "en": "If you work for a long time, you receive a retirement allowance when you leave."
+      },
+      "points": [
+        {
+          "ja": "30年{ねん} 働{はたら}くと 5,000,000円{えん}",
+          "en": "5,000,000 yen after 30 years"
+        }
+      ],
+      "note": {
+        "ja": "求人票{きゅうじんひょう}（2026年{ねん}7月{がつ}23日{にち}）の 内容{ないよう}です。",
+        "en": "From the job posting (July 23, 2026)."
+      }
+    },
+    {
+      "eyebrow": {
+        "ja": "会社{かいしゃ}の まわり",
+        "en": "Around the company"
+      },
+      "title": {
+        "ja": "会社{かいしゃ}の 近{ちか}くに、ベトナムの お店{みせ}が たくさん あります",
+        "en": "Many Vietnamese shops near the company"
+      },
+      "points": [
+        {
+          "ja": "ベトナムの 食材店{しょくざいてん}：10〜20店{てん}",
+          "en": "Vietnamese grocery stores: 10 to 20"
+        },
+        {
+          "ja": "ベトナム料理{りょうり}の お店{みせ}：7〜8店{てん}",
+          "en": "Vietnamese restaurants: 7 to 8"
+        }
+      ],
+      "note": {
+        "ja": "求人票{きゅうじんひょう}に 書{か}かれている 数{かず}です。",
+        "en": "Numbers from the job posting."
+      }
+    }
+  ],
+  "housingShowcase": {
+    "title": {
+      "ja": "香山寮{かやまりょう}は 1人{にん}1部屋{へや}。家賃{やちん}は 月{つき} 10,000円{えん}です",
+      "en": "Kayama Dormitory: your own room for 10,000 yen a month"
+    },
+    "lead": {
+      "ja": "会社{かいしゃ}の 寮{りょう}です。家賃{やちん}には、水道{すいどう}・電気{でんき}・ガス代{だい}も 含{ふく}まれます。寮{りょう}の 様子{ようす}は、下{した}の 動画{どうが}で 見{み}られます。",
+      "en": "This is the company dormitory. Water, electricity and gas are included in the rent. You can see the dormitory in the video below."
+    },
+    "money": [
+      {
+        "label": {
+          "ja": "家賃{やちん}（1か月{げつ}）",
+          "en": "Rent (per month)"
+        },
+        "value": {
+          "ja": "10,000円{えん}",
+          "en": "10,000 yen"
+        },
+        "note": {
+          "ja": "水道{すいどう}・電気{でんき}・ガス代{だい}を 含{ふく}みます",
+          "en": "Includes water, electricity and gas"
+        },
+        "strong": true
+      },
+      {
+        "label": {
+          "ja": "部屋{へや}",
+          "en": "Room"
+        },
+        "value": {
+          "ja": "1人{にん}1部屋{へや}",
+          "en": "Private room"
+        }
+      }
+    ],
+    "video": "YhqCtrirkG8",
+    "videoCaption": {
+      "ja": "香山寮{かやまりょう}の 紹介{しょうかい}の 動画{どうが}",
+      "en": "Video of Kayama Dormitory"
+    },
+    "photos": [],
+    "points": [
+      {
+        "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ（無料{むりょう}）",
+        "en": "Futon, fridge, washing machine, rice cooker and gas stove (free)"
+      },
+      {
+        "ja": "自転車{じてんしゃ}を 貸{か}してもらえます",
+        "en": "A bicycle is lent to you"
+      },
+      {
+        "ja": "Wi-Fiは 無料{むりょう}です",
+        "en": "Wi-Fi is free"
+      }
+    ],
+    "note": {
+      "ja": "",
+      "en": ""
+    }
+  },
+  "terms": {
+    "openings": 2,
+    "employment": {
+      "ja": "特定技能{とくていぎのう}の 社員{しゃいん}",
+      "en": "Employee with the Specified Skilled Worker visa"
+    },
+    "salaryType": "月給",
+    "salaryMin": 236953,
+    "salaryMax": 336953,
+    "allowances": {
+      "ja": "基本給{きほんきゅう}：186,953円{えん}\n職能手当{しょくのうてあて}：50,000〜150,000円{えん}（技術{ぎじゅつ}・運転免許{うんてんめんきょ}・経験{けいけん}の 年数{ねんすう}などで 決{き}まります）\n休日出勤手当{きゅうじつしゅっきんてあて}：1.5倍{ばい}\n総支給{そうしきゅう}：296,900〜346,900円{えん}",
+      "en": "Base pay: 186,953 yen\nSkill allowance: 50,000 to 150,000 yen (depends on skills, driver's license, years of experience, etc.)\nHoliday work: 1.5 times\nTotal pay: 296,900 to 346,900 yen"
+    },
+    "takeHome": {
+      "ja": "220,000〜290,000円{えん}くらい\n社会保険料{しゃかいほけんりょう}（健康保険{けんこうほけん} 約{やく}15,000円{えん}・厚生年金{こうせいねんきん} 25,000〜30,000円{えん}・雇用保険{こようほけん} 2,500円{えん}）と、所得税{しょとくぜい} 約{やく}8,000円{えん}・住民税{じゅうみんぜい} 約{やく}8,000円{えん}などを 引{ひ}いた 目安{めやす}です（求人票{きゅうじんひょう}より）。",
+      "en": "About 220,000 to 290,000 yen\nEstimate after social insurance (health about 15,000 yen, pension 25,000 to 30,000 yen, employment 2,500 yen), income tax about 8,000 yen, resident tax about 8,000 yen, etc. (from the job posting)."
+    },
+    "bonus": {
+      "ja": "昇給{しょうきゅう}：あり（1年{ねん}に 1回{かい}）",
+      "en": "Pay raise: yes (once a year)"
+    },
+    "payment": {
+      "ja": "月末{げつまつ}締{じ}め、次{つぎ}の 月{つき}の 15日{にち}に 銀行{ぎんこう}振込{ふりこみ}",
+      "en": "Closed at the end of each month, paid by bank transfer on the 15th of the next month"
+    },
+    "insurance": {
+      "ja": "健康保険{けんこうほけん}・厚生年金{こうせいねんきん}・雇用保険{こようほけん}",
+      "en": "Health insurance, pension and employment insurance"
+    },
+    "hours": {
+      "ja": "8:00〜17:00（7:00 会社{かいしゃ}に 集合{しゅうごう}）\n休憩{きゅうけい}：1時間{じかん}（12:00〜13:00）",
+      "en": "8:00 to 17:00 (meet at the office at 7:00)\nBreak: 1 hour (12:00 to 13:00)"
+    },
+    "overtime": {
+      "ja": "1日{にち} 1時間{じかん}くらい／月{つき} 10〜20時間{じかん}",
+      "en": "About 1 hour a day / 10 to 20 hours a month"
+    },
+    "holidays": {
+      "ja": "1か月{げつ}に 4〜5日{にち}",
+      "en": "4 to 5 days a month"
+    },
+    "leave": {
+      "ja": "ゴールデンウィーク 3〜5日{にち}、夏休{なつやす}み 3〜5日{にち}、冬休{ふゆやす}み（年末年始{ねんまつねんし}） 6〜7日{にち}",
+      "en": "Golden Week 3 to 5 days, summer 3 to 5 days, winter (New Year) 6 to 7 days"
+    },
+    "housing": {
+      "available": true,
+      "detail": {
+        "ja": "会社{かいしゃ}の 寮{りょう}（香山寮{かやまりょう}・1人{にん}1部屋{へや}）",
+        "en": "Company dormitory (Kayama Dormitory, private room)"
+      },
+      "rent": {
+        "ja": "月{つき} 10,000円{えん}",
+        "en": "10,000 yen a month"
+      },
+      "utilities": {
+        "ja": "家賃{やちん}に 含{ふく}まれます（Wi-Fiも 無料{むりょう}）",
+        "en": "Included in the rent (Wi-Fi is also free)"
+      },
+      "furniture": {
+        "ja": "布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ（無料{むりょう}）",
+        "en": "Futon, fridge, washing machine, rice cooker, gas stove (free)"
+      },
+      "commute": {
+        "ja": "自転車{じてんしゃ}を 貸{か}してもらえます",
+        "en": "A bicycle is lent to you"
+      }
+    },
+    "japanese": "N3",
+    "japaneseText": {
+      "ja": "日本語能力試験{にほんごのうりょくしけん} N3",
+      "en": "JLPT N3"
+    },
+    "requirements": {
+      "ja": "年齢{ねんれい}は 問{と}いません\n体重{たいじゅう}・身長{しんちょう}は 問{と}いません\nコミュニケーションが できる 人{ひと}、オンラインの ビデオ会議{かいぎ}が できる 人{ひと}",
+      "en": "Any age\nAny weight or height\nGood communication; able to join online video meetings"
+    },
+    "benefits": {
+      "ja": "退職金{たいしょくきん}制度{せいど}：30年{ねん}で 5,000,000円{えん}\n運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます\n生活{せいかつ}に 使{つか}う もの（布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ）は 無料{むりょう}\n制服{せいふく}・作業着{さぎょうぎ}あり／自転車{じてんしゃ}を 貸{か}してもらえます",
+      "en": "Retirement allowance: 5,000,000 yen after 30 years\nDriver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost\nDaily necessities (futon, fridge, washing machine, rice cooker, gas stove) are free\nUniform and work clothes / bicycle lent"
+    },
+    "transfer": {
+      "ja": "ありません",
+      "en": "None"
+    }
+  }
+}

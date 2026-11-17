@@ -145,6 +145,25 @@
         "ja": "特定技能{とくていぎのう}の 求人{きゅうじん}を 見{み}る",
         "en": "See the SSW job"
       }
+    },
+    {
+      "id": "kayama-douro-tekkotsu",
+      "eyebrow": {
+        "ja": "鉄骨組立大工{てっこつくみたてだいく}も 募集中{ぼしゅうちゅう}",
+        "en": "Also hiring (steel-frame)"
+      },
+      "title": {
+        "ja": "鉄骨組立大工{てっこつくみたてだいく}（特定技能{とくていぎのう}1号{ごう}）も 募集{ぼしゅう}しています",
+        "en": "We are also hiring steel-frame assembly carpenters (SSW (i))"
+      },
+      "text": {
+        "ja": "鉄骨{てっこつ}で アパートや 住宅{じゅうたく}を 組{く}み立{た}てる 仕事{しごと}です。",
+        "en": "Assembling apartments and houses with steel frames."
+      },
+      "button": {
+        "ja": "鉄骨組立大工{てっこつくみたてだいく}の 求人{きゅうじん}を 見{み}る",
+        "en": "See the steel-frame job"
+      }
     }
   ],
   "banner": {

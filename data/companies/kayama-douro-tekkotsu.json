@@ -1,5 +1,5 @@
 {
-  "_メモ": "2026-11-17 作成。香山道路の鉄骨組立大工（鉄骨住宅組立工事部）・特定技能1号の求人票（2026年7月23日）から。2号は募集しない（井村さん）。採用予定「男2人」は性別を限らないよう「2人」と表示。賃金は日給に○だが日額の記載なし→基本給186,953円（月）と職能手当5万〜15万で表示。総支給296,900〜346,900・手取り22万〜29万は求人票どおり。寮は求人票では住居費1万＋水道光熱費実費だが、井村さんの指示（香山寮は月1万円・水道光熱費込み）に合わせた→要確認。学歴「高等専門学校」に○・運転免許は項目名に○で、意図が分からないため載せていない→要確認。日本語はN3に○。退職金は30年500万のみ記載（35年の記載なし）。一戸建て・出産祝いはこの求人票には無いので載せない",
+  "_メモ": "2026-11-17 作成。香山道路の鉄骨組立大工（鉄骨住宅組立工事部）・特定技能1号の求人票（2026年7月23日）から。2号は募集しない（井村さん）。採用予定「男2人」は性別を限らないよう「2人」と表示。賃金は日給に○だが日額の記載なし→基本給186,953円（月）と職能手当5万〜15万で表示。総支給296,900〜346,900・手取り22万〜29万は求人票どおり。寮は求人票では住居費1万＋水道光熱費実費だが、井村さんの指示（香山寮は月1万円・水道光熱費込み）に合わせた→要確認。学歴「高等専門学校」に○・運転免許は項目名に○で、意図が分からないため載せていない→要確認。日本語はN3に○→N4以上に変更、退職金に35年1000万を追加（2026-11-17 井村さん）。一戸建て・出産祝いはこの求人票には無いので載せない",
   "id": "kayama-douro-tekkotsu",
   "published": true,
   "status": "募集中",
@@ -87,8 +87,8 @@
           "en": "Retirement allowance"
         },
         "small": {
-          "ja": "30年{ねん}で 5,000,000円{えん}",
-          "en": "5,000,000 yen after 30 years"
+          "ja": "30年{ねん}で 5,000,000円{えん}／35年{ねん}で 10,000,000円{えん}",
+          "en": "5,000,000 yen after 30 years / 10,000,000 yen after 35 years"
         }
       },
       {
@@ -309,8 +309,8 @@
         "en": "Company support"
       },
       "title": {
-        "ja": "退職金{たいしょくきん}制度{せいど}あり：30年{ねん}で 500万円{まんえん}",
-        "en": "Retirement allowance: 5 million yen after 30 years"
+        "ja": "退職金{たいしょくきん}制度{せいど}あり：30年{ねん}で 500万円{まんえん}、35年{ねん}で 1,000万円{まんえん}",
+        "en": "Retirement allowance: 5 million yen after 30 years, 10 million yen after 35 years"
       },
       "text": {
         "ja": "長{なが}く 働{はたら}くと、やめる ときに 退職金{たいしょくきん}が 出{で}ます。",
@@ -320,11 +320,15 @@
         {
           "ja": "30年{ねん} 働{はたら}くと 5,000,000円{えん}",
           "en": "5,000,000 yen after 30 years"
+        },
+        {
+          "ja": "35年{ねん} 働{はたら}くと 10,000,000円{えん}",
+          "en": "10,000,000 yen after 35 years"
         }
       ],
       "note": {
-        "ja": "求人票{きゅうじんひょう}（2026年{ねん}7月{がつ}23日{にち}）の 内容{ないよう}です。",
-        "en": "From the job posting (July 23, 2026)."
+        "ja": "",
+        "en": ""
       }
     },
     {
@@ -481,18 +485,18 @@
         "en": "A bicycle is lent to you"
       }
     },
-    "japanese": "N3",
+    "japanese": "N4",
     "japaneseText": {
-      "ja": "日本語能力試験{にほんごのうりょくしけん} N3",
-      "en": "JLPT N3"
+      "ja": "日本語能力試験{にほんごのうりょくしけん} N4 以上{いじょう}",
+      "en": "JLPT N4 or higher"
     },
     "requirements": {
       "ja": "年齢{ねんれい}は 問{と}いません\n体重{たいじゅう}・身長{しんちょう}は 問{と}いません\nコミュニケーションが できる 人{ひと}、オンラインの ビデオ会議{かいぎ}が できる 人{ひと}",
       "en": "Any age\nAny weight or height\nGood communication; able to join online video meetings"
     },
     "benefits": {
-      "ja": "退職金{たいしょくきん}制度{せいど}：30年{ねん}で 5,000,000円{えん}\n運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます\n生活{せいかつ}に 使{つか}う もの（布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ）は 無料{むりょう}\n制服{せいふく}・作業着{さぎょうぎ}あり／自転車{じてんしゃ}を 貸{か}してもらえます",
-      "en": "Retirement allowance: 5,000,000 yen after 30 years\nDriver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost\nDaily necessities (futon, fridge, washing machine, rice cooker, gas stove) are free\nUniform and work clothes / bicycle lent"
+      "ja": "退職金{たいしょくきん}制度{せいど}：30年{ねん}で 5,000,000円{えん}、35年{ねん}で 10,000,000円{えん}\n運転免許{うんてんめんきょ}取得{しゅとく}支援{しえん}制度{せいど}：会社{かいしゃ}の 規定{きてい}・条件{じょうけん}を 満{み}たす 人{ひと}は、会社{かいしゃ}の 負担{ふたん}で 準中型免許{じゅんちゅうがためんきょ}・大型免許{おおがためんきょ}を 取{と}れます\n生活{せいかつ}に 使{つか}う もの（布団{ふとん}・冷蔵庫{れいぞうこ}・洗濯機{せんたくき}・炊飯器{すいはんき}・ガスレンジ）は 無料{むりょう}\n制服{せいふく}・作業着{さぎょうぎ}あり／自転車{じてんしゃ}を 貸{か}してもらえます",
+      "en": "Retirement allowance: 5,000,000 yen after 30 years, 10,000,000 yen after 35 years\nDriver's license support: people who meet the company's conditions can get a semi-medium-sized or large license at the company's cost\nDaily necessities (futon, fridge, washing machine, rice cooker, gas stove) are free\nUniform and work clothes / bicycle lent"
     },
     "transfer": {
       "ja": "ありません",
